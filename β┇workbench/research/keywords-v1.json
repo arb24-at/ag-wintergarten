@@ -1,0 +1,572 @@
+[
+  {
+    "keyword": "wintergarten kaufen",
+    "avg_monthly_searches": 5000,
+    "competition": "High",
+    "intent": "Transactional",
+    "cluster": "Core service",
+    "suggested_page": "/wintergarten-kaufen-bauen/",
+    "page_type": "Service page",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wintergarten bauen lassen",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Transactional",
+    "cluster": "Core service",
+    "suggested_page": "/wintergarten-kaufen-bauen/",
+    "page_type": "Service page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten angebote",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Transactional",
+    "cluster": "Core service",
+    "suggested_page": "/wintergarten-kaufen-bauen/",
+    "page_type": "Service page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten kaufen mit montage",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Transactional",
+    "cluster": "Core service",
+    "suggested_page": "/wintergarten-kaufen-bauen/",
+    "page_type": "Service page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten firma",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Transactional",
+    "cluster": "Core service",
+    "suggested_page": "/wintergarten-kaufen-bauen/",
+    "page_type": "Service page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten anbieter",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Transactional",
+    "cluster": "Core service",
+    "suggested_page": "/wintergarten-kaufen-bauen/",
+    "page_type": "Service page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergartenbau",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Transactional",
+    "cluster": "Core service",
+    "suggested_page": "/wintergarten-kaufen-bauen/",
+    "page_type": "Service page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten berlin",
+    "avg_monthly_searches": 500,
+    "competition": "Medium",
+    "intent": "Local transactional",
+    "cluster": "Berlin local",
+    "suggested_page": "/wintergarten-berlin/",
+    "page_type": "Local service page",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wintergartenbau berlin",
+    "avg_monthly_searches": 50,
+    "competition": "Medium",
+    "intent": "Local transactional",
+    "cluster": "Berlin local",
+    "suggested_page": "/wintergarten-berlin/",
+    "page_type": "Local service page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergartenbauer berlin",
+    "avg_monthly_searches": 50,
+    "competition": "Medium",
+    "intent": "Local transactional",
+    "cluster": "Berlin local",
+    "suggested_page": "/wintergarten-berlin/",
+    "page_type": "Local service page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten kaufen berlin",
+    "avg_monthly_searches": 50,
+    "competition": "High",
+    "intent": "Local transactional",
+    "cluster": "Berlin local",
+    "suggested_page": "/wintergarten-berlin/",
+    "page_type": "Local service page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten kosten",
+    "avg_monthly_searches": 5000,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Costs & pricing",
+    "suggested_page": "/wintergarten-kosten-preise/",
+    "page_type": "Pricing page",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wintergarten preise",
+    "avg_monthly_searches": 5000,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Costs & pricing",
+    "suggested_page": "/wintergarten-kosten-preise/",
+    "page_type": "Pricing page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten kosten pro qm",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Costs & pricing",
+    "suggested_page": "/wintergarten-kosten-preise/",
+    "page_type": "Pricing page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten preis pro m2",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Costs & pricing",
+    "suggested_page": "/wintergarten-kosten-preise/",
+    "page_type": "Pricing page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten anbau kosten",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Costs & pricing",
+    "suggested_page": "/wintergarten-kosten-preise/",
+    "page_type": "Pricing page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten anbau",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Transactional",
+    "cluster": "Anbau",
+    "suggested_page": "/wintergarten-anbau/",
+    "page_type": "Service page",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wintergarten anbauen",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Transactional",
+    "cluster": "Anbau",
+    "suggested_page": "/wintergarten-anbau/",
+    "page_type": "Service page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten an haus anbauen",
+    "avg_monthly_searches": 50,
+    "competition": "High",
+    "intent": "Transactional",
+    "cluster": "Anbau",
+    "suggested_page": "/wintergarten-anbau/",
+    "page_type": "Service page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten selber bauen",
+    "avg_monthly_searches": 5000,
+    "competition": "High",
+    "intent": "DIY informational",
+    "cluster": "DIY / planning",
+    "suggested_page": "/wintergarten-selber-bauen/",
+    "page_type": "Guide / blog",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wintergarten bausatz",
+    "avg_monthly_searches": 5000,
+    "competition": "High",
+    "intent": "DIY / product research",
+    "cluster": "DIY / planning",
+    "suggested_page": "/wintergarten-bausatz/",
+    "page_type": "Guide / comparison",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wintergarten bausatz mit montage",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "DIY / planning",
+    "suggested_page": "/wintergarten-bausatz/",
+    "page_type": "Guide / comparison",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten bausatz kosten",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "DIY / planning",
+    "suggested_page": "/wintergarten-bausatz/",
+    "page_type": "Guide / comparison",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wohnwintergarten",
+    "avg_monthly_searches": 5000,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Wintergarten types",
+    "suggested_page": "/wohnwintergarten/",
+    "page_type": "Type page",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wohnwintergarten kosten",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Wintergarten types",
+    "suggested_page": "/wohnwintergarten/",
+    "page_type": "Type page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "warmwintergarten",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Wintergarten types",
+    "suggested_page": "/wohnwintergarten/",
+    "page_type": "Type page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "kaltwintergarten",
+    "avg_monthly_searches": 5000,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Wintergarten types",
+    "suggested_page": "/kaltwintergarten/",
+    "page_type": "Type page",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "kaltwintergarten kosten",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Wintergarten types",
+    "suggested_page": "/kaltwintergarten/",
+    "page_type": "Type page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "kaltwintergarten kaufen",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Transactional",
+    "cluster": "Wintergarten types",
+    "suggested_page": "/kaltwintergarten/",
+    "page_type": "Type page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "kaltwintergarten mit montage",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Transactional",
+    "cluster": "Wintergarten types",
+    "suggested_page": "/kaltwintergarten/",
+    "page_type": "Type page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "sommergarten",
+    "avg_monthly_searches": 5000,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Wintergarten types",
+    "suggested_page": "/sommergarten/",
+    "page_type": "Type page",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "sommergarten kosten",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Wintergarten types",
+    "suggested_page": "/sommergarten/",
+    "page_type": "Type page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten aus aluminium",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Materials",
+    "suggested_page": "/aluminium-wintergarten/",
+    "page_type": "Material page",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "aluminium wintergarten",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Materials",
+    "suggested_page": "/aluminium-wintergarten/",
+    "page_type": "Material page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten holz",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Materials",
+    "suggested_page": "/holz-wintergarten/",
+    "page_type": "Material page",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "holz wintergarten",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Materials",
+    "suggested_page": "/holz-wintergarten/",
+    "page_type": "Material page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten glas",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Materials",
+    "suggested_page": "/glas-wintergarten/",
+    "page_type": "Material page",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "glas wintergarten",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Materials",
+    "suggested_page": "/glas-wintergarten/",
+    "page_type": "Material page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten sanieren",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Transactional",
+    "cluster": "Repair & renovation",
+    "suggested_page": "/wintergarten-sanierung/",
+    "page_type": "Service page",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wintergarten renovieren",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Transactional",
+    "cluster": "Repair & renovation",
+    "suggested_page": "/wintergarten-sanierung/",
+    "page_type": "Service page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten reparatur",
+    "avg_monthly_searches": 500,
+    "competition": "Medium",
+    "intent": "Transactional",
+    "cluster": "Repair & renovation",
+    "suggested_page": "/wintergarten-reparatur-berlin/",
+    "page_type": "Service page",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wintergarten reparatur berlin",
+    "avg_monthly_searches": 50,
+    "competition": "Medium",
+    "intent": "Local transactional",
+    "cluster": "Repair & renovation",
+    "suggested_page": "/wintergarten-reparatur-berlin/",
+    "page_type": "Local service page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten undicht",
+    "avg_monthly_searches": 500,
+    "competition": "Medium",
+    "intent": "Problem solving",
+    "cluster": "Repair & renovation",
+    "suggested_page": "/wintergarten-undicht/",
+    "page_type": "Problem/service page",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wintergarten dach undicht",
+    "avg_monthly_searches": 500,
+    "competition": "Medium",
+    "intent": "Problem solving",
+    "cluster": "Repair & renovation",
+    "suggested_page": "/wintergarten-undicht/",
+    "page_type": "Problem/service page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten abdichten",
+    "avg_monthly_searches": 500,
+    "competition": "Medium",
+    "intent": "Problem solving",
+    "cluster": "Repair & renovation",
+    "suggested_page": "/wintergarten-undicht/",
+    "page_type": "Problem/service page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten isolieren",
+    "avg_monthly_searches": 500,
+    "competition": "Medium",
+    "intent": "Problem solving",
+    "cluster": "Insulation & energy",
+    "suggested_page": "/wintergarten-isolieren/",
+    "page_type": "Problem/service page",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wintergarten heizen",
+    "avg_monthly_searches": 500,
+    "competition": "Medium",
+    "intent": "Informational",
+    "cluster": "Insulation & energy",
+    "suggested_page": "/wintergarten-heizen/",
+    "page_type": "Guide / blog",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wintergarten beschattung",
+    "avg_monthly_searches": 5000,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Accessories",
+    "suggested_page": "/wintergarten-beschattung/",
+    "page_type": "Service/supporting page",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wintergarten sonnenschutz",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Accessories",
+    "suggested_page": "/wintergarten-beschattung/",
+    "page_type": "Service/supporting page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten markise",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Accessories",
+    "suggested_page": "/wintergarten-beschattung/",
+    "page_type": "Service/supporting page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten klimaanlage",
+    "avg_monthly_searches": 500,
+    "competition": "Medium",
+    "intent": "Informational",
+    "cluster": "Accessories",
+    "suggested_page": "/wintergarten-klimatisierung/",
+    "page_type": "Guide / blog",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wintergarten beleuchtung",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Commercial investigation",
+    "cluster": "Accessories",
+    "suggested_page": "/wintergarten-beleuchtung/",
+    "page_type": "Guide / blog",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wintergarten baugenehmigung",
+    "avg_monthly_searches": 5000,
+    "competition": "Low",
+    "intent": "Informational",
+    "cluster": "Baugenehmigung & planning",
+    "suggested_page": "/wintergarten-baugenehmigung/",
+    "page_type": "Guide / blog",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "baugenehmigung wintergarten",
+    "avg_monthly_searches": 500,
+    "competition": "Low",
+    "intent": "Informational",
+    "cluster": "Baugenehmigung & planning",
+    "suggested_page": "/wintergarten-baugenehmigung/",
+    "page_type": "Guide / blog",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten ohne baugenehmigung",
+    "avg_monthly_searches": 500,
+    "competition": "Low",
+    "intent": "Informational",
+    "cluster": "Baugenehmigung & planning",
+    "suggested_page": "/wintergarten-baugenehmigung/",
+    "page_type": "Guide / blog",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten planen",
+    "avg_monthly_searches": 500,
+    "competition": "Medium",
+    "intent": "Informational",
+    "cluster": "Baugenehmigung & planning",
+    "suggested_page": "/wintergarten-planen/",
+    "page_type": "Guide / blog",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wintergarten baugenehmigung kosten",
+    "avg_monthly_searches": 50,
+    "competition": "Low",
+    "intent": "Informational",
+    "cluster": "Baugenehmigung & planning",
+    "suggested_page": "/wintergarten-baugenehmigung/",
+    "page_type": "Guide / blog",
+    "primary_keyword": false
+  }
+]

@@ -1,0 +1,22 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('sitePages', ({ data }) => data.draft !== true && data.url !== '/');
+
+  return pages.map((page) => ({
+    params: {
+      slug: page.data.url.replace(/^\/|\/$/g, ''),
+    },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props;
+const { Content } = await render(page);
+---
+
+<BaseLayout title={page.data.title} description={page.data.description} pageType={page.data.page_type}>
+  <Content />
+</BaseLayout>

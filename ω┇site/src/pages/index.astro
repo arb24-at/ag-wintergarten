@@ -1,0 +1,17 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const pages = await getCollection('sitePages');
+const page = pages.find((entry) => entry.id.replace(/\.md$/, '') === 'startseite');
+
+if (!page || page.data.draft) {
+  throw new Error('The canonical homepage `startseite.md` is missing or still marked as draft.');
+}
+
+const { Content } = await render(page);
+---
+
+<BaseLayout title={page.data.title} description={page.data.description} pageType={page.data.page_type}>
+  <Content />
+</BaseLayout>

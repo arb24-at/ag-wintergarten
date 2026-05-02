@@ -1,0 +1,341 @@
+---
+import { withBase } from '../lib/urls';
+
+interface Props {
+  title: string;
+  description: string;
+  pageType?: string;
+}
+
+const { title, description, pageType = 'content-page' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <style is:global>
+      :root {
+        color-scheme: light;
+        --bg: #f6f4ef;
+        --surface: #fffdfa;
+        --surface-muted: #ebe7dc;
+        --ink: #17211b;
+        --muted: #5f685f;
+        --line: #d6d0c2;
+        --accent: #2f6b4f;
+        --accent-strong: #1f4f39;
+        --accent-soft: #dce9df;
+        --warning-soft: #f4dfb8;
+        --max: 1120px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", sans-serif;
+        line-height: 1.6;
+      }
+
+      a {
+        color: var(--accent-strong);
+        text-decoration-thickness: 0.08em;
+        text-underline-offset: 0.18em;
+      }
+
+      a:hover {
+        color: var(--accent);
+      }
+
+      .site-header {
+        border-bottom: 1px solid var(--line);
+        background: rgba(255, 253, 250, 0.88);
+        backdrop-filter: blur(14px);
+        position: sticky;
+        top: 0;
+        z-index: 5;
+      }
+
+      .site-header__inner,
+      .site-footer__inner,
+      .page-shell {
+        width: min(100% - 32px, var(--max));
+        margin: 0 auto;
+      }
+
+      .site-header__inner {
+        min-height: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+      }
+
+      .brand {
+        display: grid;
+        gap: 2px;
+        text-decoration: none;
+        color: var(--ink);
+      }
+
+      .brand strong {
+        font-size: 1rem;
+        line-height: 1.2;
+      }
+
+      .brand span {
+        color: var(--muted);
+        font-size: 0.85rem;
+      }
+
+      .nav {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+      }
+
+      .nav a,
+      .button-link {
+        min-height: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        padding: 8px 12px;
+        text-decoration: none;
+        font-weight: 650;
+        font-size: 0.92rem;
+      }
+
+      .nav a {
+        color: var(--muted);
+      }
+
+      .nav a:hover {
+        background: var(--surface-muted);
+        color: var(--ink);
+      }
+
+      .button-link {
+        background: var(--accent);
+        color: white;
+      }
+
+      .button-link:hover {
+        background: var(--accent-strong);
+        color: white;
+      }
+
+      main {
+        padding: 44px 0 56px;
+      }
+
+      .page-shell {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 300px;
+        gap: 40px;
+        align-items: start;
+      }
+
+      .page-content {
+        min-width: 0;
+      }
+
+      .page-content > h1:first-child {
+        max-width: 920px;
+        margin: 0 0 18px;
+        font-size: clamp(2.25rem, 6vw, 4.6rem);
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+
+      .page-content > h1:first-child + p {
+        max-width: 780px;
+        color: var(--muted);
+        font-size: 1.18rem;
+        line-height: 1.65;
+      }
+
+      .page-content h2 {
+        margin: 48px 0 12px;
+        font-size: clamp(1.55rem, 3vw, 2.2rem);
+        line-height: 1.18;
+        letter-spacing: 0;
+      }
+
+      .page-content h3 {
+        margin: 28px 0 8px;
+        font-size: 1.18rem;
+        line-height: 1.3;
+      }
+
+      .page-content p,
+      .page-content li {
+        font-size: 1.02rem;
+      }
+
+      .page-content p {
+        margin: 0 0 16px;
+      }
+
+      .page-content ul,
+      .page-content ol {
+        margin: 12px 0 22px;
+        padding-left: 22px;
+      }
+
+      .page-content li + li {
+        margin-top: 7px;
+      }
+
+      .page-content h2 + ul {
+        display: grid;
+        gap: 10px;
+        padding-left: 0;
+        list-style: none;
+      }
+
+      .page-content h2 + ul li {
+        border-left: 4px solid var(--accent);
+        background: var(--surface);
+        padding: 10px 12px;
+      }
+
+      .contact-panel {
+        position: sticky;
+        top: 96px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+        padding: 20px;
+      }
+
+      .contact-panel h2 {
+        margin: 0 0 8px;
+        font-size: 1.2rem;
+      }
+
+      .contact-panel p {
+        margin: 0 0 16px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .contact-panel__actions {
+        display: grid;
+        gap: 10px;
+      }
+
+      .site-footer {
+        border-top: 1px solid var(--line);
+        background: var(--surface-muted);
+        padding: 28px 0;
+      }
+
+      .site-footer__inner {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        flex-wrap: wrap;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      .site-footer nav {
+        display: flex;
+        gap: 14px;
+        flex-wrap: wrap;
+      }
+
+      @media (max-width: 860px) {
+        .site-header {
+          position: static;
+        }
+
+        .site-header__inner {
+          align-items: flex-start;
+          flex-direction: column;
+          justify-content: center;
+          padding: 16px 0;
+        }
+
+        .nav {
+          justify-content: flex-start;
+        }
+
+        main {
+          padding-top: 28px;
+        }
+
+        .page-shell {
+          grid-template-columns: 1fr;
+          gap: 28px;
+        }
+
+        .contact-panel {
+          position: static;
+        }
+      }
+    </style>
+  </head>
+  <body data-page-type={pageType}>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href={withBase('/')}>
+          <strong>AG Wintergarten</strong>
+          <span>Reparatur, Abdichtung und Sanierung</span>
+        </a>
+        <nav class="nav" aria-label="Hauptnavigation">
+          <a href={withBase('/')}>Startseite</a>
+          <a href={withBase('/wintergarten-reparatur-berlin/')}>Reparatur</a>
+          <a class="button-link" href="#anfrage">Anfrage</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="page-shell">
+        <article class="page-content">
+          <slot />
+        </article>
+        <aside class="contact-panel" id="anfrage" aria-label="Anfrage">
+          <h2>Anfrage vorbereiten</h2>
+          <p>
+            Hilfreich sind eine kurze Schadensbeschreibung, Standortangabe und
+            Fotos der betroffenen Stelle.
+          </p>
+          <div class="contact-panel__actions">
+            <span class="button-link">Telefon</span>
+            <span class="button-link">Kontaktformular</span>
+            <span class="button-link">WhatsApp</span>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <p>
+          Berlin, Brandenburg und nahegelegene Städte innerhalb von ungefähr
+          einer Stunde Fahrzeit.
+        </p>
+        <nav aria-label="Footer Navigation">
+          <a href={withBase('/')}>Startseite</a>
+          <a href={withBase('/wintergarten-reparatur-berlin/')}>Reparatur</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
