@@ -1,7 +1,7 @@
 ---
-version: 1.11
+version: 1.14
 created: 2026-05-01
-updated: 2026-05-02
+updated: 2026-05-07
 ---
 
 # Project Guide
@@ -27,7 +27,7 @@ The current content direction is cautious by design. Confirmed scope includes in
     keywords-v2.json
     keywords-v3.json
 ω┇site/
-  astro.config.mjs
+  astro.config.ts
   package.json
   src/content.config.ts
   src/content/pages/
@@ -66,6 +66,8 @@ Do not use MDX as the default authoring format. Use MDX only later if a page gen
 ## Authoring Rules
 
 Website content may use YAML frontmatter, headings, paragraphs, lists, emphasis, blockquotes, code, standard Markdown links, standard Markdown images, and standard Obsidian callouts.
+
+Markdown images are allowed for public page rhythm when the image itself is approved or explicitly neutral. Keep image placement semantic; Astro owns final image styling, sizing, grids, and mobile behaviour.
 
 Do not use these in public website content:
 
@@ -150,6 +152,7 @@ Current first-build status:
 - Content collection schema exists.
 - `startseite.md` renders as `/`.
 - `wintergarten-reparatur-berlin.md` renders as `/wintergarten-reparatur-berlin/`.
+- `wintergarten-undicht.md` renders as `/wintergarten-undicht/`.
 - Other page drafts remain non-rendered while `draft: true`.
 - Astro files are confined to `ω┇site/`; repository-level files such as `.gitignore` and `.github/workflows/` stay at the root.
 

@@ -6,6 +6,9 @@ const sitePages = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
+    hero_title: z.string().optional(),
+    hero_image: z.string().optional(),
+    hero_image_alt: z.string().optional(),
     slug: z.string(),
     url: z.string(),
     type: z.string(),

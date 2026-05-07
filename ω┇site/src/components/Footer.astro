@@ -1,0 +1,32 @@
+---
+import type { SitePage } from '../lib/site-pages';
+import { getPageLabel } from '../lib/site-pages';
+import { contactChannels } from '../lib/contact';
+import { withBase } from '../lib/urls';
+
+interface Props {
+  pages: SitePage[];
+}
+
+const { pages } = Astro.props;
+---
+
+<footer class="site-footer">
+  <div class="site-footer__grid container">
+    <section>
+      <h2>AG Wintergarten</h2>
+      <p>
+        Reparatur, Abdichtung, Schadensprüfung und Sanierung bestehender Wintergärten
+        in Berlin, Brandenburg und nahegelegenen Städten innerhalb von ungefähr einer Stunde Fahrzeit.
+      </p>
+    </section>
+    <nav class="footer-nav" aria-label="Footer Navigation">
+      <h3>Seiten</h3>
+      {pages.map((page) => <a href={withBase(page.data.url)}>{getPageLabel(page)}</a>)}
+    </nav>
+    <section class="footer-contact" aria-label="Kontaktwege">
+      <h3>Kontaktwege</h3>
+      {contactChannels.map((channel) => <span>{channel.label}</span>)}
+    </section>
+  </div>
+</footer>

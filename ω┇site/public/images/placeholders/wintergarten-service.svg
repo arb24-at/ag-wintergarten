@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">Stilisierte Serviceansicht eines Wintergartens</title>
+  <desc id="desc">Stilisierte Serviceansicht mit Wintergarten, Glasdach, Profilen und Wohnhaus.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#edf5ff"/>
+      <stop offset="1" stop-color="#c5d8ee"/>
+    </linearGradient>
+    <linearGradient id="pane" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#8fb3d6" stop-opacity="0.78"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="860" fill="url(#bg)"/>
+  <path d="M0 622h1400v238H0z" fill="#d9d4c7"/>
+  <path d="M0 704c170-42 336-44 506-6 204 45 414 38 604-20 118-36 214-39 290-8v190H0z" fill="#90a97b" opacity="0.42"/>
+  <g transform="translate(116 110)" stroke="#1f2f3f" stroke-width="14">
+    <path d="M44 308 352 84h586l196 224z" fill="#d0c8ba"/>
+    <path d="M174 320 392 156h472l132 164z" fill="url(#pane)"/>
+    <path d="M174 320h822M288 236h624M392 156v164M510 156v164M628 156v164M746 156v164M864 156v164"/>
+    <path d="M174 320h822v328H174z" fill="#f8f5ed"/>
+    <path d="M254 320v328M420 320v328M586 320v328M752 320v328M918 320v328"/>
+    <path d="M174 474h822" opacity="0.9"/>
+  </g>
+  <g transform="translate(940 210)" fill="#f6f0e4" stroke="#1f2f3f" stroke-width="12">
+    <path d="M0 118 140 22l188 96z"/>
+    <path d="M28 118h270v314H28z"/>
+    <path d="M78 190h84v92H78zM194 190h62v180h-62z" fill="#c7dbee"/>
+  </g>
+  <rect width="1400" height="860" fill="#003A8C" opacity="0.035"/>
+</svg>

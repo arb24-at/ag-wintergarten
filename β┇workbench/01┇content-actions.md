@@ -1,5 +1,5 @@
 ---
-version: 1.11
+version: 1.12
 created: 2026-05-01
 updated: 2026-05-02
 ---
@@ -52,6 +52,7 @@ Publish checklist:
 - [x] Create canonical `startseite.md` and stop developing multiple homepage-like drafts in parallel.
 - [x] Render locally as `/` in Astro.
 - [x] Keep internal links limited to rendered pages for the first build.
+- [x] Link to the rendered `/wintergarten-undicht/` page.
 - [ ] Confirm public contact details and CTA order.
 - [ ] Check SEO title and description.
 - [x] Add only internal links whose target pages exist.
@@ -109,7 +110,7 @@ Risks:
 
 ### Wintergarten Undicht — `/wintergarten-undicht/`
 
-Status: drafted; P1; leak scope confirmed; needs process details and SEO review.
+Status: rewritten as active problem/service page and rendering locally; P1; leak scope confirmed; needs CTA details, asset decisions, and SEO review.
 
 Purpose: target urgent problem-solving intent around leaking winter gardens and move users towards inspection or repair enquiries without overdiagnosing.
 
@@ -124,6 +125,9 @@ Publish checklist:
 - [x] Confirm leak inspection and sealing scope.
 - [x] Confirm roof, wall connection, drainage, glazing, Stegplatten, and seal wording.
 - [x] Confirm no price, inspection-fee, or travel-cost wording.
+- [x] Rewrite as focused leak and water-ingress problem page.
+- [x] Render locally as `/wintergarten-undicht/` in Astro.
+- [x] Add internal links from homepage and layout navigation.
 - [ ] Confirm CTA order and public contact details.
 - [ ] Check SEO title and description.
 - [ ] Keep distinct from `/wintergarten-reparatur-berlin/` and future `/wintergarten-dichtungen-erneuern/`.

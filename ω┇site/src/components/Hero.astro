@@ -1,0 +1,32 @@
+---
+import type { SitePage } from '../lib/site-pages';
+import { withBase } from '../lib/urls';
+
+interface Props {
+  page: SitePage;
+}
+
+const { page } = Astro.props;
+const isHome = page.data.url === '/';
+const heroTitle = page.data.hero_title ?? page.data.title;
+const heroImage = page.data.hero_image ?? '/images/placeholders/wintergarten-hero.svg';
+const heroAlt = page.data.hero_image_alt ?? 'Stilisierte Darstellung eines Wintergartens';
+const eyebrow = isHome ? 'Wintergarten Service' : page.data.primary_keyword;
+---
+
+<section class:list={['page-hero', !isHome && 'page-hero--service']}>
+  <div class="page-hero__image container" aria-hidden={heroAlt ? undefined : 'true'}>
+    <img src={withBase(heroImage)} alt={heroAlt} loading="eager" decoding="async" />
+  </div>
+  <div class="page-hero__inner container">
+    <div class="page-hero__card">
+      <p class="page-hero__eyebrow">{eyebrow}</p>
+      <h1>{heroTitle}</h1>
+      <p class="page-hero__summary">{page.data.description}</p>
+      <div class="page-hero__actions">
+        <a class="hero__cta" href="#anfrage">Anfrage vorbereiten</a>
+        <span class="page-hero__note">Telefon, Kontaktformular oder WhatsApp</span>
+      </div>
+    </div>
+  </div>
+</section>

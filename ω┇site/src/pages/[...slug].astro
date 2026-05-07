@@ -1,22 +1,24 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { getRenderedPages } from '../lib/site-pages';
 
 export async function getStaticPaths() {
-  const pages = await getCollection('sitePages', ({ data }) => data.draft !== true && data.url !== '/');
+  const pages = getRenderedPages(await getCollection('sitePages'));
+  const routePages = pages.filter((page) => page.data.url !== '/');
 
-  return pages.map((page) => ({
+  return routePages.map((page) => ({
     params: {
       slug: page.data.url.replace(/^\/|\/$/g, ''),
     },
-    props: { page },
+    props: { page, pages },
   }));
 }
 
-const { page } = Astro.props;
+const { page, pages } = Astro.props;
 const { Content } = await render(page);
 ---
 
-<BaseLayout title={page.data.title} description={page.data.description} pageType={page.data.page_type}>
+<BaseLayout page={page} pages={pages}>
   <Content />
 </BaseLayout>

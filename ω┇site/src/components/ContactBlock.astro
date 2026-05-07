@@ -1,0 +1,36 @@
+---
+import { contactChannels } from '../lib/contact';
+
+interface Props {
+  heading?: string;
+  compact?: boolean;
+  variant?: 'plain';
+}
+
+const { heading = 'Kontaktwege', variant } = Astro.props;
+---
+
+<section class:list={['contact-block', variant === 'plain' && 'contact-block--plain']} aria-label={heading}>
+  <h2>{heading}</h2>
+  <p>
+    Öffentliche Kontaktdaten sind noch nicht hinterlegt. Die bestätigten Kontaktwege werden deshalb
+    vorerst nur informativ angezeigt.
+  </p>
+  <div class="contact-channels">
+    {
+      contactChannels.map((channel) =>
+        channel.href ? (
+          <a class="contact-channel" href={channel.href}>
+            <strong>{channel.label}</strong>
+            <span>{channel.note}</span>
+          </a>
+        ) : (
+          <span class="contact-channel" aria-disabled="true">
+            <strong>{channel.label}</strong>
+            <span>{channel.note}</span>
+          </span>
+        )
+      )
+    }
+  </div>
+</section>

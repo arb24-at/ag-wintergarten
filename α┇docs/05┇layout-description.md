@@ -1,5 +1,5 @@
 ---
-version: 1.02
+version: 1.03
 created: 2026-05-01
 updated: 2026-05-02
 ---
@@ -49,7 +49,7 @@ The contact/form block should be a reusable section fed by confirmed phone, cont
 
 FAQs can remain plain Markdown headings and paragraphs in content files. Astro may wrap FAQ sections consistently later, but the Markdown should not encode accordion or card behaviour.
 
-Internal links should point only to existing public pages unless a planned-link convention is explicitly approved. For the current first build, the homepage should link only to `/wintergarten-reparatur-berlin/` until more pages are rendered.
+Internal links should point only to existing public pages unless a planned-link convention is explicitly approved. The current first build may link to `/wintergarten-reparatur-berlin/` and `/wintergarten-undicht/` because both pages render.
 
 ## Reusable Sections For Now
 

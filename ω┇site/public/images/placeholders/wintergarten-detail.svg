@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Stilisierte Detailansicht von Glasprofilen</title>
+  <desc id="desc">Stilisierte Detailansicht von Glasfeldern, Profilen und Anschlusslinien.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f4f8fd"/>
+      <stop offset="1" stop-color="#d8e5f4"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#a8c7e4" stop-opacity="0.78"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <path d="M0 560h1200v200H0z" fill="#d6d1c4"/>
+  <g transform="translate(112 92)">
+    <rect x="0" y="0" width="976" height="520" rx="8" fill="url(#glass)" stroke="#1f2f3f" stroke-width="18"/>
+    <path d="M0 174h976M0 348h976M244 0v520M488 0v520M732 0v520" stroke="#1f2f3f" stroke-width="14" opacity="0.86"/>
+    <path d="M74 84h300M74 258h300M74 432h300" stroke="#003A8C" stroke-width="20" opacity="0.32"/>
+    <path d="M600 84h300M600 258h300M600 432h300" stroke="#5d7698" stroke-width="20" opacity="0.42"/>
+  </g>
+  <path d="M66 656h1068" stroke="#ffffff" stroke-width="16" opacity="0.55"/>
+  <rect width="1200" height="760" fill="#003A8C" opacity="0.025"/>
+</svg>

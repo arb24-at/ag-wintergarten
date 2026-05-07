@@ -1,0 +1,32 @@
+---
+import type { SitePage } from '../lib/site-pages';
+import { getPageCardSummary, getPageCardTitle } from '../lib/site-pages';
+import { withBase } from '../lib/urls';
+
+interface Props {
+  pages: SitePage[];
+  currentUrl: string;
+}
+
+const { pages } = Astro.props;
+---
+
+<section class="routing-module" aria-labelledby="routing-heading">
+  <div class="module-heading">
+    <h2 id="routing-heading">Schnell zur richtigen Seite</h2>
+    <p>Wählen Sie den Einstieg, der am besten zum sichtbaren Schaden oder zur geplanten Prüfung passt.</p>
+  </div>
+  <div class="routing-grid">
+    {
+      pages.map((page) => (
+        <a class="routing-card" href={withBase(page.data.url)}>
+          <div>
+            <h3>{getPageCardTitle(page)}</h3>
+            <p>{getPageCardSummary(page)}</p>
+          </div>
+          <span>Seite öffnen</span>
+        </a>
+      ))
+    }
+  </div>
+</section>

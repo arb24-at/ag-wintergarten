@@ -1,6 +1,9 @@
 ---
 title: "Wintergarten Reparatur und Sanierung in Berlin"
 description: "Reparatur, Abdichtung, Schadensprüfung und Sanierung bestehender Wintergärten in Berlin, Brandenburg und nahegelegenen Städten."
+hero_title: "Wintergarten Reparatur und Sanierung in Berlin und Brandenburg"
+hero_image: "/images/placeholders/wintergarten-hero.svg"
+hero_image_alt: "Stilisierte Ansicht eines Wintergartens an einem Wohnhaus"
 slug: "startseite"
 url: "/"
 type: "content-page"
@@ -27,8 +30,8 @@ has_editorial_section: false
 has_columns: false
 client_brief: "β┇workbench/01┇content-actions.md"
 created: 2026-05-01
-updated: 2026-05-02
-version: 1.02
+updated: 2026-05-07
+version: 1.05
 ---
 
 # Wintergarten Reparatur und Sanierung in Berlin und Brandenburg
@@ -53,10 +56,8 @@ Im Mittelpunkt stehen bestehende Anlagen, bei denen ein Schaden geprüft, eine R
 
 Welche Arbeit sinnvoll ist, hängt von Konstruktion, Zustand und Schaden ab. Eine erste Beschreibung und Fotos helfen bei der Einordnung; eine genaue Beurteilung kann je nach Situation erst nach Prüfung erfolgen.
 
-## Schnell zur richtigen Seite
-
-- [Wintergarten Reparatur Berlin](/wintergarten-reparatur-berlin/) ist die richtige Seite, wenn es um allgemeine Reparatur, Instandsetzung, beschädigte Bauteile, Dichtungen, Verglasung, Anschlüsse oder Sanierung geht.
-- Das Thema undichte Wintergärten wird in der ersten Version innerhalb der Reparaturseite mitbehandelt. Eine eigene Seite dafür kann später ergänzt werden.
+![Stilisierte Serviceansicht eines Wintergartens](/images/placeholders/wintergarten-service.svg)
+![Stilisierte Detailansicht von Glasprofilen](/images/placeholders/wintergarten-detail.svg)
 
 ## Häufige Gründe für eine Anfrage
 

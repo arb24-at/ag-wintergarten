@@ -1,4 +1,12 @@
 import { defineConfig } from 'astro/config';
+import process from 'node:process';
+import sectionize from './src/lib/rehype/sectionize';
+
+type HastNode = {
+  type?: string;
+  properties?: Record<string, unknown>;
+  children?: HastNode[];
+};
 
 const repository = process.env.GITHUB_REPOSITORY;
 const [owner, repo] = repository ? repository.split('/') : [];
@@ -11,10 +19,10 @@ const base = process.env.BASE_PATH || githubBase;
 function prefixInternalLinks() {
   const cleanBase = base === '/' ? '' : base.replace(/\/$/, '');
 
-  return function transformer(tree) {
+  return function transformer(tree: HastNode) {
     if (!cleanBase) return;
 
-    function visit(node) {
+    function visit(node: HastNode) {
       if (node && node.type === 'element' && node.properties) {
         const href = node.properties.href;
 
@@ -41,6 +49,6 @@ export default defineConfig({
   site,
   base,
   markdown: {
-    rehypePlugins: [prefixInternalLinks],
+    rehypePlugins: [prefixInternalLinks, sectionize],
   },
 });

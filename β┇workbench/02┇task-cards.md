@@ -1,7 +1,7 @@
 ---
-version: 1.03
+version: 1.04
 created: 2026-05-01
-updated: 2026-05-02
+updated: 2026-05-07
 ---
 
 # Task Cards
@@ -32,6 +32,7 @@ updated: 2026-05-02
   - [x] Confirm Astro rendering strategy
   - [x] Confirm reusable component strategy at architecture level
   - [x] Confirm media storage strategy
+  - [x] Confirm Markdown image authoring rule
 - [x] Configure workspace foundation
   - [x] Obsidian project-side setup
   - [x] VS Code setup
@@ -62,10 +63,11 @@ updated: 2026-05-02
 
 ## Content Production
 
-- [ ] Update drafted pages with confirmed scope
-  - [ ] Homepage
-  - [ ] Wintergarten Reparatur Berlin
-  - [ ] Wintergarten Undicht
+- [x] Prepare live P1 pages with confirmed repair-first scope
+  - [x] Homepage
+  - [x] Wintergarten Reparatur Berlin
+  - [x] Wintergarten Undicht
+- [ ] Resolve remaining drafted pages
   - [ ] Fenster Abdichten
 - [ ] Create next priority pages
   - [ ] Wintergarten Dichtungen erneuern
@@ -86,14 +88,49 @@ updated: 2026-05-02
 - [x] Add Content Collection schema
 - [x] Render first Markdown page
 - [x] Add main layout
-- [ ] Add global components
+- [x] Add global components
+  - [x] Header
+  - [x] Footer
+  - [x] Hero
+  - [x] Routing cards
+  - [x] CTA and contact blocks
+- [x] Add draft-safe rendering and navigation
+- [x] Add Markdown section rendering
 - [x] Add basic design tokens
-- [ ] Add media/assets convention
+- [x] Add media/assets convention
+  - [x] Keep visual assets inside `ω┇site/`
+  - [x] Use polished neutral placeholders until approved photos exist
+  - [x] Use standard Markdown images for page rhythm
+  - [x] Let Astro own image styling and mobile behaviour
+- [x] Complete first image-led layout refresh
+  - [x] Use `#003A8C` as primary colour
+  - [x] Add wide hero image with overlapping blue content card
+  - [x] Remove competing hero contact panel
+  - [x] Add inline image styling for Markdown images
+  - [x] Keep recent-post/sidebar pattern out of the site
+
+## Quality Checks
+
+- [x] Build validation
+  - [x] `npm run build`
+  - [x] Confirm generated routes
+  - [x] Confirm draft pages are not linked or rendered
+  - [x] Confirm contact controls are not fake links
+- [x] Local visual review
+  - [x] Homepage desktop screenshot
+  - [x] Repair page desktop screenshot
+  - [x] Mobile overflow check
+- [ ] Browser review before first public launch
+  - [ ] Review homepage locally in browser
+  - [ ] Review repair page locally in browser
+  - [ ] Review undicht page locally in browser
 
 ## Deployment Workflow
 
-- [ ] Initialise Git and GitHub repository
-- [x] Add build validation
+- [x] Initialise Git and GitHub repository
+- [x] Connect GitHub remote
 - [x] Choose deployment target: GitHub Pages
 - [x] Add GitHub Pages workflow file
+- [ ] Push first public deployment
+- [ ] Confirm GitHub Pages settings after deployment
 - [ ] Define workflow from Obsidian edits to live site

@@ -1,0 +1,35 @@
+---
+import type { SitePage } from '../lib/site-pages';
+import { getPageLabel } from '../lib/site-pages';
+import { withBase } from '../lib/urls';
+
+interface Props {
+  pages: SitePage[];
+  currentUrl: string;
+}
+
+const { pages, currentUrl } = Astro.props;
+---
+
+<header class="site-header">
+  <div class="site-header__inner container">
+    <a class="brand" href={withBase('/')}>
+      <strong>AG Wintergarten</strong>
+      <span>Reparatur, Abdichtung und Sanierung bestehender Wintergärten</span>
+    </a>
+    <nav class="site-nav" aria-label="Hauptnavigation">
+      {
+        pages.map((page) => (
+          <a
+            class="site-nav__link"
+            href={withBase(page.data.url)}
+            aria-current={page.data.url === currentUrl ? 'page' : undefined}
+          >
+            {getPageLabel(page)}
+          </a>
+        ))
+      }
+      <a class="site-nav__cta" href="#anfrage">Anfrage</a>
+    </nav>
+  </div>
+</header>
