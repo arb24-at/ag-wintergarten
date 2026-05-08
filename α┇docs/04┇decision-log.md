@@ -1,7 +1,7 @@
 ---
-version: 1.11
+version: 1.12
 created: 2026-04-25
-updated: 2026-05-02
+updated: 2026-05-08
 ---
 
 # Decision Log
@@ -98,3 +98,12 @@ The dedicated Astro app folder is named `ω┇site/`.
 
 Consequence:
 Use `ω┇site/` for all Astro package, config, source, build, and local development work.
+
+## 2026-05-08 — Require Briefs, Evidence Packs, And Benchmark Intake For Major Pages
+
+Important page rewrites and new priority service pages require source discipline before drafting. Agents must confirm the target path, page type, keyword intent, publication status, and whether the service topic is confirmed, conditionally allowed, or blocked.
+
+When screenshots or reference pages are supplied, agents must analyse them as benchmark material before changing structure. Benchmark notes may influence section order, visual rhythm, image placement, routing behaviour, CTA placement, and page feel. They must not be treated as client facts, proof, service scope, trust language, or text to copy.
+
+Consequence:
+Major content work should proceed through benchmark intake where relevant, page brief, mini evidence pack, draft, QA gate, and supervisor report. Public Markdown stays semantic, and all uncertainty remains in the workbench until confirmed.

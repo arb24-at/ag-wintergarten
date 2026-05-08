@@ -1,7 +1,7 @@
 ---
-version: 1.12
+version: 1.14
 created: 2026-05-01
-updated: 2026-05-02
+updated: 2026-05-08
 ---
 
 # Wintergarten Content Actions
@@ -21,6 +21,28 @@ Confirmed client facts belong in `α┇docs/03┇client-info.md`. Keep unanswere
 - Confirm whether exact Berlin districts, Brandenburg towns, or nearby cities may be named publicly.
 - Confirm detailed repair scope for glass, Scheiben, Verglasung, Stegplatten, doors, windows, sliding elements, Beschläge, Schließpunkte, and foundations.
 - Confirm priority among next pages: Dichtungen, Sanierung, Fundament, Stegplatten, and Isolieren.
+- Complete the content quality intake in `β┇workbench/03┇content-intake-and-page-briefs.md` before major new page production.
+- Review supplied benchmark screenshots in `β┇workbench/04┇benchmark-intake.md` before major homepage, repair-page, or problem-page rewrites.
+
+## Content Quality Inputs
+
+These inputs should make future pages less generic and more useful to real homeowners.
+
+- [ ] Add new preferred screenshots or reference URLs to `β┇workbench/04┇benchmark-intake.md` before they influence content structure.
+- [ ] Collect actual customer wording from phone, form, and WhatsApp enquiries.
+- [ ] List the most common damage patterns for winter gardens, roofs, seals, glazing, Stegplatten, drainage, and moving elements.
+- [ ] Confirm which photos are most useful for first triage and which photos customers should avoid for safety.
+- [ ] Confirm approved hero images, support images, diagnostic detail images, and any image usage limits.
+- [ ] Confirm the practical enquiry process: first contact, photos, location, first assessment, Prüfung vor Ort, Beratung, and Angebot.
+- [ ] Confirm preferred CTA order once public contact details are available.
+- [ ] Confirm exact public phone number, contact form destination, WhatsApp number/link, and whether any contact channel should be visually primary.
+- [ ] Confirm exact service area boundaries, preferred areas, excluded areas, and whether named locations may be used.
+- [ ] Confirm excluded work, materials, systems, and damage types.
+- [ ] Confirm repair boundaries for glass, Stegplatten, Dichtungen, doors, windows, sliding elements, Beschläge, Schließpunkte, and foundations.
+- [ ] Collect approved real photos, damage examples, process photos, and before-and-after assets.
+- [ ] Confirm any proof claims before use: certifications, reviews, partnerships, years of experience, completed projects, or case studies.
+- [ ] Create or update a page brief and mini evidence pack in `β┇workbench/03┇content-intake-and-page-briefs.md` before each new page or major rewrite.
+- [ ] Before supervisor review, record what remained uncertain, inspection-dependent, or blocked by missing proof assets.
 
 ## Page Actions
 

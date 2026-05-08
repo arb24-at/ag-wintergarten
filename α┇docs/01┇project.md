@@ -1,7 +1,7 @@
 ---
-version: 1.14
+version: 1.17
 created: 2026-05-01
-updated: 2026-05-07
+updated: 2026-05-08
 ---
 
 # Project Guide
@@ -20,8 +20,13 @@ The current content direction is cautious by design. Confirmed scope includes in
   02┇content-strategy.md
   03┇client-info.md
   04┇decision-log.md
+  05┇layout-description.md
+  06┇content-quality-playbook.md
 β┇workbench/
   01┇content-actions.md
+  02┇task-cards.md
+  03┇content-intake-and-page-briefs.md
+  04┇benchmark-intake.md
   research/
     keywords-v1.json
     keywords-v2.json
@@ -123,16 +128,16 @@ Use lower-case, hyphenated file names for website content, Astro files, componen
 
 Use these future locations unless a later decision changes them:
 
-- `src/content/pages/*.md` for public Markdown page content.
-- `src/layouts/` for Astro page shells.
-- `src/components/global/` for site-wide components such as header and footer.
-- `src/components/sections/` for reusable page sections.
-- `src/components/ui/` for small reusable primitives.
-- `src/styles/` for global CSS and design tokens.
-- `src/assets/` for images Astro should process.
-- `public/` for files that must be copied untouched, such as favicons, robots files, verification files, PDFs, and downloads.
+- `ω┇site/src/content/pages/*.md` for public Markdown page content.
+- `ω┇site/src/layouts/` for Astro page shells.
+- `ω┇site/src/components/global/` for site-wide components such as header and footer.
+- `ω┇site/src/components/sections/` for reusable page sections.
+- `ω┇site/src/components/ui/` for small reusable primitives.
+- `ω┇site/src/styles/` for global CSS and design tokens.
+- `ω┇site/src/assets/` for images Astro should process.
+- `ω┇site/public/` for files that must be copied untouched, such as favicons, robots files, verification files, PDFs, and downloads.
 
-These locations are inside `ω┇site/`. Do not duplicate the same asset in both `ω┇site/src/assets/` and `ω┇site/public/`.
+Do not duplicate the same asset in both `ω┇site/src/assets/` and `ω┇site/public/`.
 
 ## Workflow Rules
 
@@ -140,9 +145,33 @@ Use `β┇workbench/01┇content-actions.md` for page status, open client questi
 
 Use `α┇docs/03┇client-info.md` for confirmed facts from the client. Open questions stay in `β┇workbench/01┇content-actions.md`; once answered, move the confirmed information into `α┇docs/03┇client-info.md` and update any affected page tasks.
 
+Use `α┇docs/06┇content-quality-playbook.md` as the required writing and QA standard for public pages. It defines the Practical Expert voice, AI-smell rules, claim hierarchy, page-job expectations, and publish-readiness checklist.
+
+Use `β┇workbench/03┇content-intake-and-page-briefs.md` for owner/client intake and page briefs. Before creating or rewriting any public page, prepare or update a page brief there. Do not treat open brief questions as confirmed facts.
+
+Use `β┇workbench/04┇benchmark-intake.md` for screenshot and competitor/reference observations. Benchmark notes may influence page structure, image rhythm, CTA placement, and UX expectations, but they are not claim sources and must not be copied into public page text.
+
 Use `β┇workbench/research/keywords-v3.json` as the active keyword dataset. Older keyword files are historical snapshots.
 
 Keep additions layer-aware. The project now has a minimal Astro scaffold for local preview and GitHub Pages deployment. Do not expand routing, schemas, layouts, components, deployment config, or media folders unless the active task explicitly asks for that layer.
+
+## Content Production Read Order
+
+Before writing or editing public page content, read these files in order:
+
+1. `α┇docs/01┇project.md`
+2. `α┇docs/02┇content-strategy.md`
+3. `α┇docs/03┇client-info.md`
+4. `α┇docs/04┇decision-log.md`
+5. `α┇docs/05┇layout-description.md`
+6. `α┇docs/06┇content-quality-playbook.md`
+7. `β┇workbench/01┇content-actions.md`
+8. `β┇workbench/03┇content-intake-and-page-briefs.md`
+9. `β┇workbench/04┇benchmark-intake.md`, if screenshots or reference pages have been supplied for the active page type.
+
+Then read the target page file in `ω┇site/src/content/pages/*.md`.
+
+Every new or rewritten page must have source discipline, a page brief, and for priority pages a mini evidence pack before public copy is changed. Confirm the target path, page type, keyword intent, draft/active status, and whether the service topic is confirmed, conditionally allowed, or blocked. If the brief exposes missing facts, keep the public wording cautious and add the missing detail to the workbench instead of inventing it.
 
 ## Astro Build Roadmap
 
@@ -172,8 +201,10 @@ Recommended sequence:
 Before starting Astro implementation, confirm:
 
 - `α┇docs/01┇project.md` and `α┇docs/02┇content-strategy.md` are current.
+- `α┇docs/06┇content-quality-playbook.md` has been read for public page content.
 - Confirmed client facts are in `α┇docs/03┇client-info.md`.
 - Open questions and content tasks are in `β┇workbench/01┇content-actions.md`.
+- A page brief exists in `β┇workbench/03┇content-intake-and-page-briefs.md` for any page being created or rewritten.
 - The active first pages are chosen.
 - Public page frontmatter is consistent with the documented schema.
 - The active keyword dataset is `β┇workbench/research/keywords-v3.json`.
