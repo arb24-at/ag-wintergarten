@@ -1,7 +1,7 @@
 ---
 title: "Wintergarten Reparatur und Sanierung in Berlin"
-description: "Reparatur, Abdichtung, Schadensprüfung und Sanierung bestehender Wintergärten in Berlin, Brandenburg und nahegelegenen Städten."
-hero_title: "Wintergarten Reparatur und Sanierung in Berlin und Brandenburg"
+description: "Reparatur, Abdichtung und Schadensprüfung für bestehende Wintergärten in Berlin und Brandenburg."
+hero_title: "Wintergarten Reparatur in Berlin und Brandenburg"
 hero_image: "/images/placeholders/wintergarten-hero.svg"
 hero_image_alt: "Stilisierte Ansicht eines Wintergartens an einem Wohnhaus"
 slug: "startseite"
@@ -9,7 +9,7 @@ url: "/"
 type: "content-page"
 page_type: "homepage"
 status: "local_preview"
-content_status: "canonical_rewrite"
+content_status: "repair_first_refinement"
 seo_status: "needs_review"
 client_review_status: "questions_open"
 priority: "P1"
@@ -24,80 +24,110 @@ business_fit: "high_if_repair_service"
 risk: "Keep repair and refurbishment positioning; avoid sales, full new-build, price, guarantee, emergency, certification, review, and case-study claims."
 layout: "home"
 draft: false
-structure_status: "canonical_homepage_rewrite"
-content_pattern: "homepage_canonical_v1"
+structure_status: "service_website_refinement"
+content_pattern: "homepage_checkerboard_v1"
 has_editorial_section: false
 has_columns: false
-client_brief: "β┇workbench/01┇content-actions.md"
+client_brief: "β┇workbench/03┇content-intake-and-page-briefs.md"
 created: 2026-05-01
-updated: 2026-05-07
-version: 1.05
+updated: 2026-05-09
+version: 1.08
 ---
 
 # Wintergarten Reparatur und Sanierung in Berlin und Brandenburg
 
-Wenn ein Wintergarten undicht wird, Dichtungen nachlassen oder Bauteile sichtbar beschädigt sind, sollte zuerst geklärt werden, wo das Problem entsteht. Gerade bei bestehenden Wintergärten reicht eine oberflächliche Abdichtung der sichtbaren Stelle oft nicht aus, weil Wasser, Zugluft oder Feuchtigkeit auch von angrenzenden Bauteilen kommen können.
+Wenn Wasser sichtbar wird, Dichtungen nachlassen oder Bauteile nicht mehr sauber schließen, braucht ein bestehender Wintergarten zuerst eine klare Einordnung. Die sichtbare Stelle zeigt oft nur den Austritt, nicht automatisch die Ursache.
 
-Diese Seite führt zu den wichtigsten Themen rund um Reparatur, Abdichtung, Schadensprüfung und Sanierung bestehender Wintergärten, Kaltwintergärten, Warmwintergärten und Terrassenüberdachungen in Berlin, Brandenburg und nahegelegenen Städten.
+AG Wintergarten ist auf bestehende Wintergärten, Kaltwintergärten, Warmwintergärten und Terrassenüberdachungen ausgerichtet, die geprüft, repariert, abgedichtet oder im Sanierungsumfang bewertet werden sollen.
 
-## Wobei wir helfen können
+## Passt Ihre Anfrage hierher?
 
-Im Mittelpunkt stehen bestehende Anlagen, bei denen ein Schaden geprüft, eine Reparatur geplant oder ein sinnvoller Sanierungsumfang abgestimmt werden soll. Je nach Schadensbild können unter anderem diese Bereiche relevant sein:
+Ein guter Einstieg ist die Frage, ob es um eine bestehende Anlage mit einem konkreten Schaden oder sichtbarem Verschleiß geht. Dann kann die Anfrage meist sinnvoll eingeordnet werden.
 
-- Undichtigkeiten und Wassereintritt.
-- Abdichtung an Dach, Wandanschluss, Profilen oder Übergängen.
-- Dichtungen und dichtungsnahe Arbeiten.
-- Glas, Scheiben und Verglasung.
-- Stegplatten und Doppelstegplatten.
+Typische passende Situationen sind:
+
+- Wasser tritt nach Regen an Dach, Profil, Wandanschluss oder Boden auf.
+- Dichtungen sind hart, rissig, verschoben oder lösen sich aus dem Profil.
+- Glas, Scheiben, Füllungen, Stegplatten oder Doppelstegplatten wirken beschädigt.
+- Rinnen, Abläufe oder Profilbereiche führen Wasser nicht nachvollziehbar ab.
+- Türen, Fenster oder Schiebeelemente schließen schwergängig oder nicht mehr dicht.
+- Eine bestehende Anlage soll vor Reparatur, Abdichtung oder Sanierung geprüft werden.
+- Ein neues Fundament ist im Zusammenhang mit einer bestehenden Anlage zu klären.
+
+Nicht im Vordergrund stehen allgemeiner Wintergartenkauf, Produktberatung für Neubauten oder kaufnahe Planung. Solche Themen sollten erst ergänzt werden, wenn der genaue Leistungsumfang bestätigt ist.
+
+## Wobei die Prüfung helfen kann
+
+Bei einem Wintergarten treffen viele Bauteile auf engem Raum zusammen. Eine Reparatur sollte deshalb nicht nur die auffällige Stelle betrachten, sondern die angrenzenden Bereiche mitdenken.
+
+Geprüft oder eingeordnet werden können unter anderem:
+
+- Abdichtung an Dach, Wandanschluss, Profilen und Übergängen.
+- Dichtungen und dichtungsnahe Arbeiten an Glas, Rahmen und beweglichen Elementen.
+- Glas, Scheiben, Verglasung, Stegplatten und Doppelstegplatten.
 - Türen, Fenster und Schiebeelemente am Wintergarten.
-- Entwässerung, Rinnen, Abläufe und Profile.
-- Sanierung bestehender Wintergärten.
-- Neue Fundamente im passenden Projektzusammenhang.
+- Entwässerung, Rinnen, Abläufe, Profilkammern und Wasserwege.
+- Sanierungsbedarf an bestehenden Wintergärten und verwandten Glasstrukturen.
+- Neue Fundamente, wenn sie zum bestehenden Projektzusammenhang gehören.
 
-Welche Arbeit sinnvoll ist, hängt von Konstruktion, Zustand und Schaden ab. Eine erste Beschreibung und Fotos helfen bei der Einordnung; eine genaue Beurteilung kann je nach Situation erst nach Prüfung erfolgen.
-
-![Stilisierte Serviceansicht eines Wintergartens](/images/placeholders/wintergarten-service.svg)
-![Stilisierte Detailansicht von Glasprofilen](/images/placeholders/wintergarten-detail.svg)
+![Stilisierte Serviceansicht eines bestehenden Wintergartens](/images/placeholders/wintergarten-service.svg)
 
 ## Häufige Gründe für eine Anfrage
 
-Viele Anfragen beginnen mit einem sichtbaren Problem: Wasser steht im Innenbereich, eine Dichtung löst sich, ein Dachbereich tropft oder ein bewegliches Element schließt nicht mehr sauber. Manchmal ist die Ursache klar erkennbar, manchmal zeigt sich nur die Folge.
+Viele Anfragen beginnen nicht mit einer fertigen Diagnose, sondern mit einer Beobachtung: Wasser steht im Innenbereich, eine Dichtung sitzt nicht mehr sauber oder ein bewegliches Element hakt.
 
-Typische Anfragegründe sind:
+Hilfreich ist, das sichtbare Problem möglichst konkret zu beschreiben:
 
-- Wasser tritt bei Regen oder bestimmter Windrichtung ein.
-- Dichtungen sind hart, rissig, verschoben oder lose.
-- Glas, Scheiben, Füllungen oder Stegplatten sind beschädigt.
-- Dach- oder Wandanschlüsse wirken undicht.
-- Rinnen, Abläufe oder Profile führen Wasser nicht richtig ab.
-- Türen, Fenster oder Schiebeelemente sind schwergängig oder schließen nicht dicht.
-- Der Wintergarten soll vor einer Sanierung geprüft werden.
+- Wasser zeigt sich nur bei Regen, Starkregen oder bestimmter Windrichtung.
+- Eine Tropfstelle liegt versetzt zum vermuteten Eintrittspunkt.
+- Feuchtigkeit erscheint an Glasrand, Wandanschluss, Dachprofil oder Boden.
+- Alte Dichtmasse, provisorische Abdichtung oder Reparaturspuren sind sichtbar.
+- Dichtungen sind spröde, lose, gequetscht oder liegen nicht mehr sauber an.
+- Rinnen, Abläufe oder Profile wirken verschmutzt, überfüllt oder unklar geführt.
+- Türen, Fenster oder Schiebeelemente bewegen sich schwer oder schließen nicht gleichmäßig.
 
-Bei Feuchtigkeit ist wichtig, nicht zu früh von einer einzigen Ursache auszugehen. Die sichtbare Stelle ist oft nur ein Hinweis darauf, welche Bereiche geprüft werden sollten.
+Solche Hinweise helfen, die Anfrage gezielter vorzubereiten und die passende Themenseite zu wählen.
 
-## So läuft eine Anfrage ab
+## Was Sie vor der Anfrage notieren sollten
 
-Für eine erste Einschätzung sind wenige, aber konkrete Angaben hilfreich.
+Eine erste Anfrage muss nicht lang sein. Entscheidend sind Angaben, die den Schaden nachvollziehbar machen und keine riskanten Fotos erfordern.
 
-### 1. Schaden beschreiben
+Bitte nennen oder senden Sie, soweit vorhanden:
 
-Beschreiben Sie, was sichtbar ist: Wasser, Feuchtigkeit, Zugluft, beschädigte Dichtung, lockeres Profil, defekte Platte oder ein anderes Problem.
+- Standort in Berlin, Brandenburg oder einer nahegelegenen Stadt.
+- Eine kurze Beschreibung des Problems.
+- Eine Gesamtansicht des Wintergartens.
+- Fotos der betroffenen Stelle von innen.
+- Sicher erreichbare Detailfotos von Anschluss, Profil, Dichtung, Glasrand oder Entwässerung.
+- Hinweis, wann das Problem auftritt: Regen, Wind, Nutzung, Temperaturwechsel oder dauerhaft.
+- Art und ungefähres Alter der Anlage, falls bekannt.
+- Frühere Abdichtungen, Reparaturversuche oder sichtbare alte Dichtmassen.
+
+![Stilisierte Detailansicht von Profilen, Dichtungen und Entwässerung](/images/placeholders/wintergarten-detail.svg)
+
+Fotos aus sicherer Position reichen für den ersten Schritt. Riskante Aufnahmen auf Dachflächen sollten vermieden werden.
+
+## Ablauf einer Anfrage
+
+### 1. Problem beschreiben
+
+Beschreiben Sie, was sichtbar ist: Wasser, Feuchtigkeit, Zugluft, beschädigte Dichtung, lockeres Profil, defekte Platte oder ein schlecht schließendes Element.
 
 ### 2. Fotos und Standort ergänzen
 
-Hilfreich sind Fotos der betroffenen Stelle, eine Gesamtansicht des Wintergartens und Bilder von Dach, Anschlüssen oder Profilen, soweit diese sicher erreichbar sind. Der Standort hilft zu prüfen, ob die Anfrage im Einsatzbereich liegt.
+Eine Gesamtansicht, Detailfotos aus sicherer Position und der Standort helfen, den Einsatzbereich und die betroffenen Bauteile einzuordnen.
 
-### 3. Prüfung abstimmen
+### 3. Schadensprüfung abstimmen
 
-Je nach Schadensbild kann eine Schadensprüfung oder Prüfung vor Ort sinnvoll sein. Dabei werden die betroffenen Bauteile und angrenzenden Bereiche betrachtet.
+Je nach Befund kann eine Prüfung vor Ort sinnvoll sein. Dabei werden nicht nur die sichtbare Stelle, sondern auch angrenzende Dichtungen, Profile, Anschlüsse, Verglasung und Entwässerung betrachtet.
 
-### 4. Beratung oder Angebot erhalten
+### 4. Beratung oder Angebot besprechen
 
-Nach der Prüfung kann abgestimmt werden, welche Reparatur, Abdichtung oder Sanierung sinnvoll ist und welche Punkte vor der Ausführung noch geklärt werden müssen.
+Nach der Prüfung kann abgestimmt werden, welche Reparatur, Abdichtung oder Sanierung zum festgestellten Schaden passt.
 
 ## Einsatzbereich
 
-Anfragen sind für Berlin, Brandenburg und nahegelegene Städte innerhalb von ungefähr einer Stunde Fahrzeit vorgesehen. Bitte nennen Sie den Standort möglichst genau, damit der Einsatzbereich geprüft werden kann.
+Anfragen sind für Berlin, Brandenburg und nahegelegene Städte innerhalb von ungefähr einer Stunde Fahrzeit vorgesehen. Bitte nennen Sie den Standort möglichst genau, damit geprüft werden kann, ob die Anfrage in den Einsatzbereich fällt.
 
 ## Häufige Fragen
 
@@ -105,24 +135,22 @@ Anfragen sind für Berlin, Brandenburg und nahegelegene Städte innerhalb von un
 
 Der aktuelle Schwerpunkt liegt auf bestehenden Wintergärten und verwandten Glasstrukturen, die geprüft, repariert, abgedichtet oder saniert werden sollen.
 
-### Was sollte ich bei einer undichten Stelle zuerst tun?
+### Welche Seite passt bei Wassereintritt?
 
-Dokumentieren Sie, wo Wasser sichtbar wird, bei welchem Wetter es auftritt und welche Bauteile betroffen sein könnten. Fotos von innen und außen helfen bei der ersten Einordnung.
+Wenn Wasser nach Regen sichtbar wird, das Dach tropft oder die Eintrittsstelle unklar ist, passt die Seite [Wintergarten undicht](/wintergarten-undicht/). Sie hilft, Beobachtungen und mögliche Ursachen geordnet vorzubereiten.
+
+### Welche Seite passt bei mehreren beschädigten Bauteilen?
+
+Wenn es breiter um Dichtungen, Verglasung, Stegplatten, Anschlüsse, Türen, Fenster, Entwässerung oder Sanierung geht, ist [Wintergarten Reparatur Berlin](/wintergarten-reparatur-berlin/) der bessere Einstieg.
 
 ### Können Dichtungen am Wintergarten erneuert werden?
 
-Dichtungen können geprüft und je nach Zustand bearbeitet oder erneuert werden. Ob das ausreicht, hängt von Profilen, Verglasung, Anschlussbereichen und dem gesamten Schadensbild ab.
-
-### Gehören Glas, Stegplatten und Entwässerung dazu?
-
-Glas, Scheiben, Verglasung, Stegplatten, Doppelstegplatten, Rinnen, Abläufe und Profile gehören zum bestätigten Themenbereich. Was konkret möglich ist, muss am jeweiligen Aufbau geprüft werden.
+Dichtungen können geprüft und je nach Zustand bearbeitet oder erneuert werden. Ob das ausreicht, hängt auch von Profilen, Verglasung, Anschlüssen und beweglichen Elementen ab.
 
 ### Welche Kontaktwege sind vorgesehen?
 
-Vorgesehen sind Telefon, Kontaktformular und WhatsApp.
+Vorgesehen sind Telefon, Kontaktformular und WhatsApp. Öffentliche Kontaktdetails und eine bevorzugte Reihenfolge sind noch nicht hinterlegt.
 
 ## Anfrage stellen
 
-Wenn Ihr Wintergarten undicht ist, Bauteile beschädigt sind oder eine Sanierung geprüft werden soll, senden Sie eine kurze Beschreibung des Problems. Fotos, Standortangabe und Hinweise zum Wetterverhalten erleichtern die erste Einschätzung.
-
-Nutzen Sie dafür Telefon, Kontaktformular oder WhatsApp.
+Wenn Ihr Wintergarten undicht ist, Bauteile beschädigt sind oder eine Sanierung geprüft werden soll, nutzen Sie den Anfragebereich unten. Standort, Gesamtansicht, sichere Detailfotos und Hinweise zum Wetter- oder Nutzungsverhalten erleichtern die erste Einordnung.

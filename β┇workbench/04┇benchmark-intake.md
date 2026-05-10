@@ -1,7 +1,7 @@
 ---
-version: 1.00
+version: 1.02
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-09
 ---
 
 # Benchmark Intake
@@ -230,3 +230,54 @@ Things to avoid:
 - generic SEO sections,
 - copied competitor wording,
 - exact local claims that are not confirmed.
+
+## 2026-05-09 Refinement Pass Notes
+
+The latest supplied screenshots reinforce the same structural direction but make the next implementation priorities sharper.
+
+Usable structure:
+
+- Keep the image-led hero, but reduce the first-screen height so the next section is visible sooner.
+- Use primary and secondary CTA controls in the hero rather than a single button plus passive note.
+- Use alternating image/text bands as stronger mid-page anchors instead of repeating card grids.
+- Use a large, dark, deliberate bottom enquiry area with actual form fields.
+- Keep FAQ and process sections visually distinct from diagnostic and fit-check sections.
+
+Usable CTA pattern:
+
+- CTAs should point to a real section or rendered page.
+- With public phone and WhatsApp details still missing, anchor CTAs should lead to the enquiry/contact area.
+- A future-ready enquiry form can support the workflow by collecting name, contact method, location, problem description, and weather or previous-repair notes without inventing a live backend.
+
+Things to avoid:
+
+- Product-price sections from the Lamellendach reference.
+- Blog/sidebar behaviour from the article reference.
+- Competitor wording, exact claims, product names, proof language, and new-build positioning.
+
+AG Wintergarten-compatible takeaway:
+
+For this refinement pass, make the current design feel more like a service website by tightening the hero, giving every visible CTA a useful destination, turning the bottom CTA into a real enquiry-preparation section, and varying section rhythm more deliberately.
+
+## 2026-05-09 Old-School Repair Reference
+
+Source reviewed: local saved HTML and owner screenshot for a conservatory roof repair quote page.
+
+Usable structure:
+
+- compact white navigation above a photo-led hero
+- strong central container rather than oversized full-width sections
+- old-school headline treatment with a rule line under section titles
+- alternating small image/text rows with 4/8 and 8/4 proportions
+- occasional full-width CTA strips between informational sections
+- dense FAQ rows and a grounded dark footer
+
+Usable layout rhythm:
+
+- smaller vertical margins make the content feel connected instead of like separate cards
+- images sit directly beside paragraphs, not as decorative hero-only assets
+- the page can be long while still feeling assembled from website blocks
+
+AG Wintergarten-compatible takeaway:
+
+Apply the tighter rail, image/text row rhythm, blue headline rules, and CTA-strip behaviour with the AG blue palette. Do not copy the reference's price claims, quote network claims, reviews, ratings, urgency prompts, discounts, exact wording, or broad roof-service scope.

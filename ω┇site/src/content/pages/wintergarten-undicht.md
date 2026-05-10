@@ -1,7 +1,7 @@
 ---
 title: "Wintergarten undicht"
-description: "Wintergarten undicht? Praktische Hinweise zu Wassereintritt, Dach, Anschlüssen, Dichtungen, Entwässerung und Anfrage in Berlin und Brandenburg."
-hero_title: "Wintergarten undicht: Wassereintritt richtig einordnen"
+description: "Wintergarten undicht? Wassereintritt, Dach, Anschlüsse, Dichtungen und Entwässerung geordnet vorbereiten."
+hero_title: "Wintergarten undicht? Wassereintritt richtig einordnen"
 hero_image: "/images/placeholders/wintergarten-service.svg"
 hero_image_alt: "Stilisierte Serviceansicht eines Wintergartens"
 slug: "wintergarten-undicht"
@@ -9,7 +9,7 @@ url: "/wintergarten-undicht/"
 type: "content-page"
 page_type: "problem/service page"
 status: "local_preview"
-content_status: "canonical_rewrite"
+content_status: "repair_first_refinement"
 seo_status: "needs_review"
 client_review_status: "questions_open"
 priority: "P1"
@@ -24,124 +24,140 @@ business_fit: "high_if_repair_service"
 risk: "Keep leak and water ingress focus; avoid price, emergency, guarantee, certification, review, case-study, and overdiagnosis claims."
 layout: "service"
 draft: false
-structure_status: "problem_service_rewrite"
-content_pattern: "problem_service_page_canonical_v2"
+structure_status: "service_website_refinement"
+content_pattern: "problem_service_checkerboard_v1"
 has_editorial_section: false
 has_columns: false
 client_brief: "β┇workbench/03┇content-intake-and-page-briefs.md"
-created: "2026-04-25"
-updated: "2026-05-08"
-version: 1.09
+created: 2026-04-25
+updated: 2026-05-09
+version: 1.13
 ---
 
-# Wintergarten undicht: Wassereintritt richtig einordnen
+# Wintergarten undicht? Wassereintritt richtig einordnen
 
-Wenn nach Regen Wasser im Wintergarten sichtbar wird, ist die wichtigste Frage nicht nur: "Wo muss abgedichtet werden?", sondern: Wo kommt das Wasser tatsächlich hinein? Die sichtbare Tropfstelle liegt nicht immer direkt unter der Ursache. Wasser kann über Dachflächen, Profile, Dichtungen, Glasränder, Stegplatten, Wandanschlüsse oder Entwässerungswege laufen und erst an einer anderen Stelle austreten.
+Wenn nach Regen Wasser im Wintergarten sichtbar wird, sollte nicht zuerst nur die sichtbare Stelle abgedichtet werden. Sinnvoller ist es, den möglichen Eintrittsweg einzugrenzen: über Dach, Anschluss, Profil, Dichtung, Verglasung, Stegplatten oder Entwässerung.
 
-Der Schwerpunkt liegt auf bestehenden Wintergärten, Kaltwintergärten, Warmwintergärten und Terrassenüberdachungen, bei denen Wasser, wiederkehrende Feuchtigkeit oder ein undicht wirkendes Dach geprüft werden soll. Ziel ist eine saubere Schadensprüfung, damit Abdichtung oder Reparatur zum Aufbau und zur Ursache passen.
+Die nasse Stelle innen liegt oft nicht direkt unter der Ursache. Wasser kann über Profile, Übergänge und Anschlussbereiche weiterlaufen und erst später austreten. Deshalb hilft eine geordnete Schadensbeschreibung mehr als eine schnelle Vermutung.
 
 ## Passt diese Seite zu Ihrem Problem?
 
-Eine Leckage-Prüfung passt besonders dann, wenn Wasser oder Feuchtigkeit im Zusammenhang mit Regen, Wind oder Dachflächen auffällt.
+Diese Seite passt besonders dann, wenn Feuchtigkeit oder Tropfen mit Regen, Wind oder dem Dachbereich zusammenhängen.
 
-Typische Situationen sind:
+Typische Hinweise sind:
 
-- Nach Regen steht Wasser auf dem Boden oder auf einem Profil.
+- Wasser ist nach Regen im Wintergarten sichtbar.
 - Das Wintergartendach tropft an einer bestimmten Stelle.
-- Feuchtigkeit zeigt sich am Wandanschluss, an Glasrändern oder im Bereich der Dachprofile.
+- Feuchtigkeit zeigt sich an Profilen, Glasrändern oder am Wandanschluss.
 - Wasser tritt nur bei stärkerem Regen oder bestimmter Windrichtung auf.
-- Dichtungen wirken hart, rissig, verschoben oder nicht mehr sauber anliegend.
-- Rinnen, Abläufe oder Profile wirken verschmutzt, überfordert oder unklar geführt.
-- Eine frühere Abdichtung hilft nicht mehr zuverlässig.
+- Dichtungen wirken hart, verschoben oder sichtbar gealtert.
+- Rinnen, Abläufe oder Profilöffnungen wirken verschmutzt oder überfordert.
+- Eine frühere Abdichtung hält nicht mehr zuverlässig.
 
-Wenn neben dem Wassereintritt auch beschädigte Bauteile, schwergängige Türen, defekte Scheiben, Stegplatten oder allgemeiner Sanierungsbedarf im Vordergrund stehen, kann zusätzlich die Seite [Wintergarten Reparatur Berlin](/wintergarten-reparatur-berlin/) passen.
+Wenn zusätzlich beschädigte Bauteile, Stegplatten, Verglasung, Türen oder allgemeiner Sanierungsbedarf im Vordergrund stehen, kann auch [Wintergarten Reparatur Berlin](/wintergarten-reparatur-berlin/) die passende Seite sein.
 
 ## Was Sie zuerst beobachten sollten
 
-Für eine erste Einschätzung ist das Verhalten des Wassers oft hilfreicher als eine Vermutung zur Ursache. Notieren Sie möglichst konkret, wann und wo Feuchtigkeit sichtbar wird.
+Für die erste Einordnung helfen konkrete Beobachtungen mehr als allgemeine Beschreibungen.
 
-Hilfreich sind diese Beobachtungen:
+Hilfreich ist vor allem:
 
 - Tritt Wasser nur nach Regen auf oder auch ohne Regen?
-- Passiert es eher bei Wind von einer bestimmten Seite?
-- Wird die Stelle direkt nass oder erst nach längerer Zeit?
+- Ist Wind aus einer bestimmten Richtung beteiligt?
+- Wird die Stelle sofort nass oder erst später?
 - Tropft es von oben, läuft es am Profil entlang oder sammelt es sich am Boden?
-- Gibt es Spuren an Dichtungen, Leisten, Glasrändern oder Wandanschlüssen?
-- Sind Rinnen, Abläufe oder Entwässerungsöffnungen sichtbar verschmutzt?
-- Wurde an der Stelle bereits provisorisch abgedichtet oder repariert?
+- Gibt es sichtbare Spuren an Dichtungen, Glasrändern, Platten oder Anschlüssen?
+- Wurde an der Stelle schon einmal mit Dichtmasse oder Silikon nachgebessert?
 
-Diese Angaben ersetzen keine Prüfung vor Ort, sie machen die Anfrage aber deutlich aussagekräftiger.
+Diese Angaben ersetzen keine Prüfung vor Ort, machen eine Anfrage aber deutlich genauer.
 
 ## Wo Wasser häufig eintreten kann
 
-Ein Wintergarten hat viele Übergänge. Undichtigkeiten entstehen oft dort, wo Bauteile zusammenkommen oder Wasser geführt werden soll.
+Bei einem Wintergarten kommen viele Übergänge zusammen. Gerade dort entstehen häufig Leckagen oder unklare Feuchtigkeitsbilder.
 
-Häufige Prüfbereiche sind:
+Wichtige Prüfbereiche sind:
 
-- Dachanschlüsse und Wandanschlüsse am Haus.
-- Übergänge zwischen Glas, Scheiben, Stegplatten und Profilen.
-- Dichtungen an Dach, Glas, Türen, Fenstern und Schiebeelementen.
-- Abschlussprofile, Abdeckleisten und Übergangsprofile.
-- Rinnen, Abläufe, Entwässerungswege und Profilkammern.
-- Frühere Abdichtungen, Reparaturspuren oder provisorische Dichtmassen.
-
-Eine sichtbare feuchte Stelle kann deshalb mehrere mögliche Ursachen haben. Vor einer neuen Abdichtung sollte geklärt werden, ob Wasser über Dichtung, Profil, Anschluss, Verglasung oder Entwässerung eintritt.
+- Dachanschluss und Wandanschluss zum Haus
+- Übergänge zwischen Glas, Scheiben, Stegplatten und Profilen
+- Dichtungen an Dach, Türen, Fenstern und Schiebeelementen
+- Abschlussprofile, Abdeckleisten und Übergangsprofile
+- Rinnen, Abläufe, Entwässerungswege und Profilkammern
+- frühere Abdichtungen oder provisorische Reparaturstellen
 
 ![Stilisierte Detailansicht von Glasprofilen und Anschlusslinien](/images/placeholders/wintergarten-detail.svg)
 
+Eine sichtbare nasse Stelle kann also mehrere mögliche Ursachen haben. Vor einer neuen Abdichtung sollte geklärt werden, ob Wasser über Dichtung, Profil, Anschluss, Verglasung oder Entwässerung eintritt.
+
 ## Wenn das Wintergartendach undicht wirkt
 
-Bei einem undichten Wintergartendach wandert Wasser häufig entlang von Platten, Glasflächen, Profilen oder Abdeckungen. Innen kann es dann versetzt zur eigentlichen Eintrittsstelle tropfen.
+Bei einem undichten Wintergartendach wandert Wasser oft entlang von Platten, Glasflächen, Profilen oder Abdeckungen. Innen tropft es dann an einer anderen Stelle, als man es außen vermuten würde.
 
-Mögliche Auslöser sind beschädigte oder gealterte Dichtungen, undichte Glas- oder Plattenübergänge, Risse an Stegplatten, gelöste Profile, Probleme an Abschlussleisten oder ein gestörter Wasserablauf. Auch der Anschluss zum Haus kann beteiligt sein, selbst wenn das Wasser weiter innen sichtbar wird.
+Mögliche Ursachen sind zum Beispiel:
 
-Für die Anfrage helfen eine Innenaufnahme der Tropfstelle, eine Gesamtansicht des Wintergartens und ein sicher erreichbarer Blick auf Dachkante, Anschlussbereich oder Profilverlauf. Bitte keine riskanten Aufnahmen auf Dachflächen machen.
+- gealterte oder beschädigte Dichtungen
+- undichte Übergänge an Glas oder Stegplatten
+- gelöste Abschlussleisten oder Profile
+- Probleme an Dachkante oder Hausanschluss
+- gestörter Wasserablauf über Rinnen oder Abläufe
+
+![Stilisierte Serviceansicht eines Wintergartendachs und seiner Anschlussbereiche](/images/placeholders/wintergarten-service.svg)
+
+Hilfreich für die Anfrage sind eine Innenaufnahme der Tropfstelle, eine Gesamtansicht des Wintergartens und ein sicher erreichbarer Blick auf Dachkante, Anschlussbereich oder Profilverlauf. Riskante Dachfotos sind nicht nötig.
 
 ## Regenwasser oder Kondenswasser?
 
-Nicht jede Feuchtigkeit ist automatisch eindringendes Regenwasser. Kondenswasser kann an kalten Glas- oder Profilflächen entstehen und ähnlich aussehen wie eine Undichtigkeit.
+Nicht jede Feuchtigkeit ist automatisch eindringendes Regenwasser. Kondenswasser kann an kalten Glas- oder Profilflächen entstehen und ähnlich aussehen.
 
-Hinweise auf eindringendes Regenwasser sind Feuchtigkeit nach Regen, Tropfen bei Wind, nasse Stellen an Anschlussbereichen oder wiederkehrende Wasserläufe entlang von Profilen. Kondenswasser hängt stärker mit Temperatur, Nutzung und Luftfeuchtigkeit zusammen und zeigt sich oft flächiger an kalten Oberflächen.
+Eher für Regenwasser sprechen:
 
-Die Unterscheidung ist wichtig, weil beide Ursachen andere Schritte erfordern. Beschreiben Sie deshalb möglichst genau, ob die Feuchtigkeit mit Wetter, Nutzung, Tageszeit oder Temperaturwechseln zusammenhängt.
+- Feuchtigkeit nach Regen
+- Tropfen bei Wind
+- wiederkehrende nasse Stellen an Anschlussbereichen
+- Wasserläufe entlang von Profilen
+
+Eher für Kondenswasser sprechen:
+
+- flächigere Feuchtigkeit an kalten Oberflächen
+- stärkere Abhängigkeit von Temperatur und Nutzung
+- keine klare Verbindung zu Regen oder Wind
+
+Die Unterscheidung ist wichtig, weil daraus unterschiedliche nächste Schritte folgen.
 
 ## Was vor einer Abdichtung geklärt werden sollte
 
-Eine Abdichtung sollte nicht nur die sichtbare nasse Stelle verdecken. Wenn der Eintrittsweg unklar bleibt, kann Wasser weiter in der Konstruktion laufen oder später an anderer Stelle sichtbar werden.
+Eine Abdichtung sollte nicht nur die sichtbare nasse Stelle verdecken. Wenn der eigentliche Eintrittsweg unklar bleibt, kann Wasser weiter in der Konstruktion laufen oder an anderer Stelle wieder auftauchen.
 
-Vor einer Empfehlung sollten vor allem diese Punkte geprüft werden:
+Vor einer Empfehlung sollte möglichst klarer werden:
 
 - Wo ist der erste sichtbare Nasspunkt?
-- Welche Bauteile liegen oberhalb oder seitlich davon?
+- Welche Bauteile liegen darüber oder seitlich davon?
 - Sind Dichtungen, Profile, Glasränder oder Platten sichtbar beschädigt?
-- Kann Wasser über Rinnen, Abläufe und Profile kontrolliert ablaufen?
-- Gibt es alte Dichtmassen, Reparaturspuren oder verdeckte Übergänge?
+- Kann Wasser über Rinnen, Abläufe und Profile sauber ablaufen?
+- Gibt es alte Dichtmassen, Reparaturspuren oder problematische Übergänge?
 - Passt das Feuchtigkeitsbild eher zu Regenwasser, Kondenswasser oder beidem?
 
-Nach der Schadensprüfung kann besprochen werden, ob eine Abdichtung genügt oder ob Dichtungen, Anschlüsse, Verglasung, Stegplatten, Entwässerung oder angrenzende Bauteile mit betrachtet werden müssen.
+Danach kann besprochen werden, ob eher Abdichtung, Dichtungsarbeit, Reparatur einzelner Bauteile oder eine weitergehende Instandsetzung sinnvoll ist.
 
-## Was für eine Anfrage hilfreich ist
+## Nützliche Angaben für die Anfrage
 
-Eine gute Anfrage muss nicht lang sein. Wichtig ist, dass die sichtbaren Hinweise nachvollziehbar sind.
+Eine gute Anfrage muss nicht lang sein. Wichtig ist, dass das Feuchtigkeitsbild nachvollziehbar wird.
 
-Senden oder nennen Sie, soweit vorhanden:
+Hilfreich sind:
 
-- Standort in Berlin, Brandenburg oder einer nahegelegenen Stadt.
-- Kurze Beschreibung, wo Wasser sichtbar wird.
-- Zeitpunkt und Wetterverhalten: Regen, starker Regen, Windrichtung, Dauer.
-- Fotos der nassen Stelle von innen.
-- Eine Gesamtansicht des Wintergartens.
-- Sicher erreichbare Fotos von Anschlussbereich, Dachkante, Profil, Dichtung oder Entwässerung.
-- Hinweis auf frühere Abdichtungen oder Reparaturversuche.
-- Ungefähres Alter und Art des Wintergartens, wenn bekannt.
+- Standort in Berlin, Brandenburg oder einer nahegelegenen Stadt
+- kurze Beschreibung, wo Wasser sichtbar wird
+- Hinweis, ob Regen, stärkerer Regen oder Wind eine Rolle spielen
+- Fotos der nassen Stelle von innen
+- eine Gesamtansicht des Wintergartens
+- sichere Detailbilder von Dachkante, Anschlussbereich, Profil, Dichtung oder Entwässerung
+- Hinweis auf frühere Abdichtungen oder Reparaturversuche
+- ungefähres Alter und Art des Wintergartens, soweit bekannt
 
-Innenaufnahmen, Gesamtansichten und Detailfotos aus sicherer Position reichen für die erste Einordnung meist eher als riskante Dachfotos.
+Innenaufnahmen, Gesamtansicht und sichere Detailfotos sind meist hilfreicher als riskante Aufnahmen auf dem Dach.
 
-## Ablauf bei einer Leckage-Anfrage
+## So läuft eine Leckage-Anfrage ab
 
-Der Ablauf soll helfen, den Wassereintritt nachvollziehbar einzugrenzen und die nächsten Schritte abzustimmen.
-
-### 1. Problem beschreiben
+### 1. Problem kurz beschreiben
 
 Beschreiben Sie, wo Feuchtigkeit sichtbar wird, seit wann das Problem besteht und bei welchem Wetter es auftritt.
 
@@ -165,13 +181,9 @@ Bitte nennen Sie den Standort möglichst genau, damit geprüft werden kann, ob d
 
 ## Häufige Fragen
 
-### Was tun, wenn Wasser in den Wintergarten eindringt?
-
-Dokumentieren Sie, wo Wasser sichtbar wird, wann es auftritt und ob Regen oder Wind eine Rolle spielen. Fotos von innen, eine Gesamtansicht und sichere Detailbilder von Anschluss, Profil oder Dichtung helfen bei der ersten Einordnung.
-
 ### Kann ein undichter Wintergarten einfach abgedichtet werden?
 
-Manchmal ist eine gezielte Abdichtung passend. Vorher sollte aber geklärt werden, ob Wasser über Dichtung, Profil, Glasrand, Dachanschluss, Wandanschluss oder Entwässerung eintritt. Sonst wird möglicherweise nur die sichtbare Stelle verdeckt.
+Manchmal ist eine gezielte Abdichtung passend. Vorher sollte aber geklärt werden, ob Wasser über Dichtung, Profil, Glasrand, Dachanschluss, Wandanschluss oder Entwässerung eintritt.
 
 ### Warum tropft das Wintergartendach innen, obwohl außen nichts auffällt?
 
@@ -183,7 +195,7 @@ Nein. Kondenswasser kann ebenfalls Feuchtigkeitsspuren verursachen. Wichtig ist,
 
 ### Welche Fotos sind sinnvoll?
 
-Sinnvoll sind Fotos der sichtbaren Feuchtigkeit von innen, eine Gesamtansicht des Wintergartens und sichere Detailbilder von Anschlussbereich, Dachkante, Profil, Dichtung oder Entwässerung. Riskante Aufnahmen auf Dachflächen sollten vermieden werden.
+Sinnvoll sind Fotos der sichtbaren Feuchtigkeit von innen, eine Gesamtansicht des Wintergartens und sichere Detailbilder von Anschlussbereich, Dachkante, Profil, Dichtung oder Entwässerung.
 
 ### Gehören Dichtungen, Stegplatten und Entwässerung dazu?
 
@@ -191,10 +203,16 @@ Dichtungen, Stegplatten, Doppelstegplatten, Profile, Rinnen, Abläufe und Entwä
 
 ### Welche Kontaktwege sind vorgesehen?
 
-Vorgesehen sind Telefon, Kontaktformular und WhatsApp.
+Vorgesehen sind Telefon, Kontaktformular und WhatsApp. Öffentliche Kontaktdetails und eine bevorzugte Reihenfolge sind noch nicht hinterlegt.
 
-## Anfrage stellen
+## Anfrage vorbereiten
 
-Wenn Ihr Wintergarten undicht ist, beschreiben Sie kurz, wo Wasser sichtbar wird und bei welchem Wetter es auftritt. Ergänzen Sie Fotos, wenn diese sicher möglich sind, sowie den Standort und Hinweise auf frühere Abdichtungen oder Reparaturen.
+Wenn Ihr Wintergarten undicht ist, nutzen Sie den Anfragebereich unten. Hilfreich sind:
 
-Für die Anfrage sind Telefon, Kontaktformular und WhatsApp vorgesehen.
+- sichtbarer Nasspunkt
+- Wetterverhalten
+- Fotos aus sicherer Position
+- Standort
+- Hinweise auf frühere Abdichtungen oder Reparaturen
+
+So lässt sich die Anfrage deutlich besser einordnen.

@@ -1,5 +1,5 @@
 ---
-version: 1.01
+version: 1.02
 created: 2026-05-08
 updated: 2026-05-08
 ---
@@ -138,11 +138,139 @@ QA notes:
 
 ## Active Page Briefs
 
+### Page: Homepage / Startseite
+
+URL: `/`
+
+Status: active, refreshed for repair-first routing and layout rhythm; needs public contact details, asset approval, and SEO review.
+
+Draft file: `ω┇site/src/content/pages/startseite.md`
+
+Page goal: orient private homeowners, qualify repair/refurbishment fit, route to the strongest active pages, and open the enquiry path.
+
+Page job in one sentence: help a visitor decide whether AG Wintergarten handles their existing winter garden issue and which next page or enquiry route fits.
+
+Page type: homepage / routing page.
+
+Search intent: local service discovery and repair/refurbishment orientation.
+
+Target reader state: has a leaking, ageing, damaged, or refurbishment-ready winter garden and is not sure whether the case belongs to repair, leak diagnosis, Dichtungen, glazing, drainage, moving elements, or Sanierung.
+
+Primary keyword: `wintergarten reparatur berlin`
+
+Secondary keywords: `wintergarten undicht`, `wintergarten abdichten`, `wintergarten berlin`
+
+Keyword ownership: homepage may introduce the repair cluster and route to active pages; detailed repair intent belongs on `/wintergarten-reparatur-berlin/`, leak diagnosis belongs on `/wintergarten-undicht/`.
+
+Homeowner scenario: existing Wintergarten, Kaltwintergarten, Warmwintergarten, or Terrassenüberdachung shows water, damaged seals, damaged panels, unclear drainage, hard-to-close elements, or broader ageing.
+
+What the reader probably wants to know first: whether this business handles existing winter garden problems rather than new-build sales.
+
+What the page should help them do next: choose repair page, leak page, or prepare a practical enquiry with location, photos, and observations.
+
+What the page must not drift into: full repair article, company biography, price page, emergency service, product catalogue, or new-build/sales positioning.
+
+Confirmed services this page may mention: repair/refurbishment positioning, leak inspection, sealing, Dichtungen, glass, Verglasung, roof and wall connections, Stegplatten, Entwässerung, doors, windows, sliding elements, new foundations.
+
+Excluded or risky claims: no prices, guarantees, emergency response, same-day wording, exact districts/towns, years of experience, reviews, certifications, manufacturer names, case studies, or before-and-after proof.
+
+Likely symptoms: water after rain, hard or shifted seals, damaged glass or panels, unclear drainage, loose profiles, poor closing behaviour, ageing structure, broader Sanierung need.
+
+Likely causes: seal ageing, profile or connection problems, glazing edges, Stegplatten, drainage paths, moving elements, adjacent construction condition.
+
+What the customer should observe: visible problem, weather or usage context, first wet point, affected part, safe photo angles, previous repair attempts, location.
+
+Photos/details that help: overall view, interior damage point, safe close-ups of seal/profile/glass/drainage/connection, location, structure type if known.
+
+What can be checked: whether the issue appears to belong to leak diagnosis, broad repair, seal work, glazing/panel work, drainage, moving elements, Sanierung, or foundation context.
+
+What remains dependent on inspection: exact cause, repair scope, whether one measure is enough, component availability, access and project fit.
+
+Benchmark influence: use strong hero, routing cards, practical section rhythm, image-supported middle section, FAQ, and bottom enquiry block; do not use competitor claims, prices, proof, product logic, or new-build positioning.
+
+Mini evidence pack: observations include water after rain, drips, wet profiles, damaged seals, damaged panels, poor closing, blocked drainage, visible ageing, and prior repairs. Affected zones include Dachanschluss, Wandanschluss, Dichtung, Profil, Verglasung, Stegplatten, Entwässerung, Türen, Fenster, Schiebeelemente, and Fundament context. Useful terms include `Schadensprüfung`, `Prüfung vor Ort`, `Abdichtung`, `Sanierung`, `Angebot`, and `Beratung`.
+
+False assumptions to avoid: homepage should not imply every winter garden service is offered, should not promise a diagnosis from photos, and should not make contact channels clickable before details are approved.
+
+CTA path: describe the issue, include safe photos and location, mention weather or usage context, then use phone, contact form, or WhatsApp once details are supplied.
+
+Internal links: `/wintergarten-reparatur-berlin/`, `/wintergarten-undicht/`.
+
+Proof gaps: real approved photos, contact details, CTA order, exact service area names, proof assets, detailed process and scope boundaries.
+
+Owner questions: already tracked in `β┇workbench/01┇content-actions.md`.
+
+QA notes: refreshed homepage should stay short, directional, and routing-led.
+
+### Page: Wintergarten Reparatur Berlin
+
+URL: `/wintergarten-reparatur-berlin/`
+
+Status: active, refreshed as flagship repair service page; needs detailed scope confirmation, asset approval, public contact details, and SEO review.
+
+Draft file: `ω┇site/src/content/pages/wintergarten-reparatur-berlin.md`
+
+Page goal: convert broad repair, refurbishment, component-damage, sealing, glazing, drainage, moving-element, and Sanierung enquiries without duplicating the leak page.
+
+Page job in one sentence: show when an existing winter garden repair enquiry fits and what information helps before Schadensprüfung or Prüfung vor Ort.
+
+Page type: local service page.
+
+Search intent: transactional / local transactional.
+
+Target reader state: owns an existing winter garden with visible damage, ageing, poor closing, suspected leaks, damaged panels, unclear drainage, or broader repair needs.
+
+Primary keyword: `wintergarten reparatur`
+
+Secondary keywords: `wintergarten reparatur berlin`
+
+Keyword ownership: broad repair and refurbishment intent belongs here; focused water-ingress diagnosis remains on `/wintergarten-undicht/`.
+
+Homeowner scenario: the winter garden should remain in use, but one or more parts no longer work reliably or require repair/sanierung assessment.
+
+What the reader probably wants to know first: whether the damage type and location fit the repair service.
+
+What the page should help them do next: prepare photos and observations, understand likely work areas, and ask through the confirmed contact channels.
+
+What the page must not drift into: a leak-only page, homepage routing page, new-build sales page, price page, or proof-heavy company profile.
+
+Confirmed services this page may mention: Dichtungen, Abdichtung, glass, Scheiben, Verglasung, roof and wall connections, Stegplatten, Doppelstegplatten, Entwässerung, Rinnen, Abläufe, profiles, doors, windows, sliding elements, Sanierung, new foundations.
+
+Excluded or risky claims: no fixed prices, repair guarantees, emergency response, response times, exact districts/towns, case studies, reviews, certifications, manufacturer partnerships, or years of experience.
+
+Likely symptoms: damaged seals, wet areas, loose profiles, damaged glazing, cracked or damaged panels, waterstau, poor closing, draught, old repair traces, multi-part ageing.
+
+Likely causes: seal/profile ageing, connection failure, glazing edge issues, drainage problems, Stegplatten damage, moving-element fit, broader structure condition.
+
+What the customer should observe: affected part, visible behaviour, timing, weather/nutzung context, previous repairs, approximate age, safe access, location.
+
+Photos/details that help: overview, affected part, profile/seal/glass/panel/connection/drainage close-up, interior view, safe exterior view, structure type.
+
+What can be checked: likely affected components, whether repair/service fit is plausible, whether a wider Sanierung view may be needed, and what should be inspected.
+
+What remains dependent on inspection: exact cause, whether replacement/repair/adjustment is possible, whether a single measure is enough, and project/access constraints.
+
+Benchmark influence: use service-led hero, fit section, component/work-area grids, image-supported clarification, enquiry prep, process, FAQ, and closing CTA; avoid product/new-build sales rhythm.
+
+Mini evidence pack: observations include water, hard seals, broken panels, damaged glazing, loose profiles, drainage issues, movement/closing problems, and visible Sanierungsbedarf. Affected zones include Dachanschluss, Wandanschluss, Dichtung, Profil, Verglasung, Stegplatten, Entwässerung, Türen, Fenster, Schiebeelemente, and Fundament. Safe terminology includes `Reparatur`, `Instandsetzung`, `Abdichtung`, `Schadensprüfung`, `Prüfung vor Ort`, `Sanierung`, `Angebot`, and `Beratung`.
+
+False assumptions to avoid: repair is not always a single sealant job, visible water is not always the entry point, and broad service scope must not imply every exact material/system is confirmed.
+
+CTA path: describe the damage, send overview and safe detail photos, include location and previous repairs, then use phone, contact form, or WhatsApp.
+
+Internal links: homepage and `/wintergarten-undicht/`.
+
+Proof gaps: approved photos, exact public contact details, preferred CTA order, detailed repair/replacement boundaries, exact service area names.
+
+Owner questions: already tracked in `β┇workbench/01┇content-actions.md`.
+
+QA notes: refreshed copy should feel commercially useful and broad, with water ingress treated as one repair trigger rather than the whole page job.
+
 ### Page: Wintergarten undicht
 
 URL: `/wintergarten-undicht/`
 
-Status: active, needs SEO review and client proof inputs.
+Status: active, refreshed as diagnostic problem page; needs SEO review, CTA details, asset decisions, and client proof inputs.
 
 Draft file: `ω┇site/src/content/pages/wintergarten-undicht.md`
 
@@ -200,7 +328,7 @@ Proof gaps: real leak photos, typical approved damage examples, process details,
 
 Owner questions: what photos are most useful for leak enquiries, how condensation should be explained from business experience, and whether any leak cases should be declined.
 
-QA notes: current public page is cautious and service-led; future rewrite should add more real customer language once collected.
+QA notes: refreshed public page should stay more diagnostic than the repair page, with concrete observation prompts, condensation distinction, safe photo guidance, and no emergency or guaranteed-diagnosis wording. Future rewrite should add more real customer language once collected.
 
 ### Page: Wintergarten Dichtungen erneuern
 

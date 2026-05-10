@@ -2,15 +2,94 @@
 import ContactBlock from './ContactBlock.astro';
 ---
 
-<section class="cta-block" id="anfrage" aria-labelledby="cta-heading">
+<section class="cta-block" id="kontakt" aria-labelledby="cta-heading">
+  <span class="anchor-target" id="anfrage"></span>
   <div class="cta-block__grid">
     <div>
-      <h2 id="cta-heading">Anfrage mit Fotos und Schadensbeschreibung senden</h2>
+      <p class="cta-block__eyebrow">Serviceanfrage vorbereiten</p>
+      <h2 id="cta-heading">Schaden beschreiben, Standort nennen, Fotos bereitlegen</h2>
       <p>
-        Für eine erste Einordnung helfen Standort, Gesamtansicht und Fotos der betroffenen Stelle.
-        Die weitere Abstimmung richtet sich nach Schadensbild, Konstruktion und Zugänglichkeit.
+        Das Formular ist als Anfragebereich vorbereitet. Bis die öffentlichen Kontaktdaten
+        hinterlegt sind, können die Angaben gesammelt und anschließend über Telefon,
+        Kontaktformular oder WhatsApp verwendet werden.
       </p>
+      <ul class="cta-block__checklist">
+        <li>Problem kurz beschreiben</li>
+        <li>Standort in Berlin oder Brandenburg ergänzen</li>
+        <li>Wetterverhalten, Wiederholung oder frühere Reparaturen notieren</li>
+      </ul>
     </div>
-    <ContactBlock heading="Vorgesehene Kontaktwege" variant="plain" />
+    <form class="enquiry-form" data-enquiry-form aria-describedby="form-note">
+      <div class="form-grid">
+        <label>
+          <span>Name</span>
+          <input name="name" autocomplete="name" placeholder="Ihr Name" />
+        </label>
+        <label>
+          <span>Kontaktweg</span>
+          <select name="contact">
+            <option value="">Bitte wählen</option>
+            <option>Telefon</option>
+            <option>Kontaktformular</option>
+            <option>WhatsApp</option>
+          </select>
+        </label>
+      </div>
+      <label>
+        <span>Standort</span>
+        <input name="location" autocomplete="address-level2" placeholder="Berlin, Brandenburg oder nahegelegene Stadt" />
+      </label>
+      <label>
+        <span>Problem am Wintergarten</span>
+        <textarea name="problem" rows="4" placeholder="Was ist sichtbar? Wo tritt Wasser, Zugluft, Schaden oder Verschleiß auf?"></textarea>
+      </label>
+      <label>
+        <span>Wetter, Wiederholung oder frühere Reparaturen</span>
+        <textarea name="notes" rows="3" placeholder="Zum Beispiel: nur bei Regen, bei Windrichtung, wiederkehrend, alte Dichtmasse vorhanden."></textarea>
+      </label>
+      <div class="form-actions">
+        <button class="button-link" type="submit">Angaben zusammenstellen</button>
+        <a class="button-link button-link--ghost" href="#kontaktwege">Kontaktwege ansehen</a>
+      </div>
+      <p class="form-note" id="form-note">Der Button erstellt eine lokale Zusammenfassung im Browser. Es werden keine Daten versendet.</p>
+      <output class="form-output" data-enquiry-output aria-live="polite"></output>
+    </form>
   </div>
+  <ContactBlock heading="Vorgesehene Kontaktwege" variant="plain" />
 </section>
+
+<script>
+  const form = document.querySelector('[data-enquiry-form]');
+  const output = document.querySelector('[data-enquiry-output]');
+
+  form?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+
+    const data = new FormData(form);
+    const lines = [
+      `Name: ${data.get('name') || '-'}`,
+      `Kontaktweg: ${data.get('contact') || '-'}`,
+      `Standort: ${data.get('location') || '-'}`,
+      '',
+      `Problem: ${data.get('problem') || '-'}`,
+      '',
+      `Wetter / Wiederholung / frühere Reparaturen: ${data.get('notes') || '-'}`,
+    ];
+    const summary = lines.join('\n');
+
+    if (output) {
+      output.textContent = `Zusammenfassung erstellt:\n${summary}`;
+    }
+
+    if (navigator.clipboard?.writeText) {
+      try {
+        await navigator.clipboard.writeText(summary);
+        if (output) {
+          output.textContent = `Zusammenfassung erstellt und kopiert:\n${summary}`;
+        }
+      } catch {
+        // The visible summary is enough when clipboard access is blocked.
+      }
+    }
+  });
+</script>

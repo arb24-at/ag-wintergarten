@@ -10,7 +10,7 @@ interface Props {
 const { heading = 'Kontaktwege', variant } = Astro.props;
 ---
 
-<section class:list={['contact-block', variant === 'plain' && 'contact-block--plain']} aria-label={heading}>
+<section class:list={['contact-block', variant === 'plain' && 'contact-block--plain']} id="kontaktwege" aria-label={heading}>
   <h2>{heading}</h2>
   <p>
     Öffentliche Kontaktdaten sind noch nicht hinterlegt. Die bestätigten Kontaktwege werden deshalb

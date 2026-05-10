@@ -11,7 +11,18 @@ const isHome = page.data.url === '/';
 const heroTitle = page.data.hero_title ?? page.data.title;
 const heroImage = page.data.hero_image ?? '/images/placeholders/wintergarten-hero.svg';
 const heroAlt = page.data.hero_image_alt ?? 'Stilisierte Darstellung eines Wintergartens';
-const eyebrow = isHome ? 'Wintergarten Service' : page.data.primary_keyword;
+const isProblemPage = page.data.page_type.includes('problem');
+const eyebrow = isHome ? 'Reparatur und Sanierung' : isProblemPage ? 'Wassereintritt prüfen' : 'Wintergarten Reparatur';
+const quickFacts = isHome
+  ? ['Bestehende Wintergärten', 'Reparatur statt Produktkatalog', 'Berlin und Brandenburg']
+  : isProblemPage
+    ? ['Eintrittsweg klären', 'Dach, Anschluss, Dichtung', 'Fotos sicher vorbereiten']
+    : ['Dichtungen und Verglasung', 'Profile und Entwässerung', 'Sanierung einordnen'];
+const secondaryAction = isHome
+  ? { href: '/wintergarten-undicht/', label: 'Wassereintritt einordnen' }
+  : isProblemPage
+    ? { href: '/wintergarten-reparatur-berlin/', label: 'Reparaturumfang prüfen' }
+    : { href: '/wintergarten-undicht/', label: 'Undichtigkeit prüfen' };
 ---
 
 <section class:list={['page-hero', !isHome && 'page-hero--service']}>
@@ -23,10 +34,14 @@ const eyebrow = isHome ? 'Wintergarten Service' : page.data.primary_keyword;
       <p class="page-hero__eyebrow">{eyebrow}</p>
       <h1>{heroTitle}</h1>
       <p class="page-hero__summary">{page.data.description}</p>
+      <ul class="page-hero__facts" aria-label="Seitenschwerpunkte">
+        {quickFacts.map((fact) => <li>{fact}</li>)}
+      </ul>
       <div class="page-hero__actions">
-        <a class="hero__cta" href="#anfrage">Anfrage vorbereiten</a>
-        <span class="page-hero__note">Telefon, Kontaktformular oder WhatsApp</span>
+        <a class="hero__cta" href="#kontakt">Zum Anfragebereich</a>
+        <a class="hero__cta hero__cta--secondary" href={withBase(secondaryAction.href)}>{secondaryAction.label}</a>
       </div>
+      <p class="page-hero__note">Details unten sammeln, Kontaktdaten nach Freigabe ergänzen.</p>
     </div>
   </div>
 </section>

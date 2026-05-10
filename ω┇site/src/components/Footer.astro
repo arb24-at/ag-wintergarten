@@ -16,8 +16,8 @@ const { pages } = Astro.props;
     <section>
       <h2>AG Wintergarten</h2>
       <p>
-        Reparatur, Abdichtung, Schadensprüfung und Sanierung bestehender Wintergärten
-        in Berlin, Brandenburg und nahegelegenen Städten innerhalb von ungefähr einer Stunde Fahrzeit.
+        Reparatur, Abdichtung, Schadensprüfung und Sanierung bestehender Wintergärten,
+        Kaltwintergärten, Warmwintergärten und Terrassenüberdachungen in Berlin und Brandenburg.
       </p>
     </section>
     <nav class="footer-nav" aria-label="Footer Navigation">
@@ -26,7 +26,7 @@ const { pages } = Astro.props;
     </nav>
     <section class="footer-contact" aria-label="Kontaktwege">
       <h3>Kontaktwege</h3>
-      {contactChannels.map((channel) => <span>{channel.label}</span>)}
+      {contactChannels.map((channel) => <span>{channel.label} · {channel.note}</span>)}
     </section>
   </div>
 </footer>

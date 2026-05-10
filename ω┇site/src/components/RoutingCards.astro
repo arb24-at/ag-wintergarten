@@ -9,22 +9,29 @@ interface Props {
 }
 
 const { pages } = Astro.props;
+const cardTags: Record<string, string[]> = {
+  '/wintergarten-reparatur-berlin/': ['Dichtungen', 'Glas und Platten', 'Profile'],
+  '/wintergarten-undicht/': ['Regenwasser', 'Dachanschluss', 'Ursache klären'],
+};
 ---
 
 <section class="routing-module" aria-labelledby="routing-heading">
   <div class="module-heading">
-    <h2 id="routing-heading">Schnell zur richtigen Seite</h2>
-    <p>Wählen Sie den Einstieg, der am besten zum sichtbaren Schaden oder zur geplanten Prüfung passt.</p>
+    <h2 id="routing-heading">Welches Problem passt zu Ihrer Anfrage?</h2>
+    <p>Wählen Sie den Einstieg, der am besten zum sichtbaren Schaden passt. So bleibt die Anfrage klar, auch wenn die genaue Ursache noch offen ist.</p>
   </div>
   <div class="routing-grid">
     {
       pages.map((page) => (
         <a class="routing-card" href={withBase(page.data.url)}>
-          <div>
+          <div class="routing-card__body">
             <h3>{getPageCardTitle(page)}</h3>
             <p>{getPageCardSummary(page)}</p>
+            <ul class="routing-card__tags" aria-label="Typische Themen">
+              {(cardTags[page.data.url] ?? []).map((tag) => <li>{tag}</li>)}
+            </ul>
           </div>
-          <span>Seite öffnen</span>
+          <span class="routing-card__link">Passenden Einstieg öffnen</span>
         </a>
       ))
     }

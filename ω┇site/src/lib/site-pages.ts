@@ -11,15 +11,15 @@ const pageLabels: Record<string, string> = {
 };
 
 const cardTitles: Record<string, string> = {
-  '/wintergarten-reparatur-berlin/': 'Wintergarten Reparatur Berlin',
-  '/wintergarten-undicht/': 'Wintergarten undicht',
+  '/wintergarten-reparatur-berlin/': 'Reparatur, Bauteile und Sanierung',
+  '/wintergarten-undicht/': 'Wassereintritt und undichtes Dach',
 };
 
 const cardSummaries: Record<string, string> = {
   '/wintergarten-reparatur-berlin/':
-    'Für Reparatur, Instandsetzung, Dichtungen, Verglasung, Anschlüsse und Sanierung bestehender Anlagen.',
+    'Für bestehende Anlagen mit beschädigten Dichtungen, Verglasung, Stegplatten, Anschlüssen, Entwässerung oder Sanierungsbedarf.',
   '/wintergarten-undicht/':
-    'Für Wassereintritt, Dachlecks, Abdichtung und Ursachenprüfung bei undichten Wintergärten.',
+    'Für Wasser nach Regen, tropfende Dachbereiche, unklare Eintrittsstellen, Abdichtung und Ursachenprüfung.',
 };
 
 function byPageOrder(a: SitePage, b: SitePage) {
