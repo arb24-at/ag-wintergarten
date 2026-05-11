@@ -1,7 +1,7 @@
 ---
-version: 1.12
+version: 1.13
 created: 2026-04-25
-updated: 2026-05-08
+updated: 2026-05-10
 ---
 
 # Decision Log
@@ -107,3 +107,10 @@ When screenshots or reference pages are supplied, agents must analyse them as be
 
 Consequence:
 Major content work should proceed through benchmark intake where relevant, page brief, mini evidence pack, draft, QA gate, and supervisor report. Public Markdown stays semantic, and all uncertainty remains in the workbench until confirmed.
+
+## 2026-05-10 — Use Recipe-Based, Section-Aware Content Production
+
+Public pages are now planned through approved page recipes and a whitelist of functional website sections before copy is drafted. The project is moving away from article-first writing with later layout adaptation.
+
+Consequence:
+Agents must identify page type, choose the approved recipe, select approved sections, choose allowed variants, and update the page brief before major public page edits. Public Markdown remains semantic; Astro maps the known section structure into website blocks. New production section types must be documented in the guidance system before they are used on live pages or in renderer mappings.

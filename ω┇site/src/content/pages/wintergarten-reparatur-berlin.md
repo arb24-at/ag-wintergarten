@@ -9,7 +9,7 @@ url: "/wintergarten-reparatur-berlin/"
 type: "content-page"
 page_type: "local service page"
 status: "local_preview"
-content_status: "repair_first_refinement"
+content_status: "block_recipe_transition"
 seo_status: "needs_review"
 client_review_status: "questions_open"
 priority: "P1"
@@ -22,14 +22,14 @@ business_fit: "high_if_repair_service"
 risk: "Keep repair/refurbishment scope; avoid duplicate homepage routing, pure leak-page overlap, sales, full new-build, price, guarantee, emergency, certification, review, and case-study claims."
 layout: "service"
 draft: false
-structure_status: "service_website_refinement"
-content_pattern: "local_service_checkerboard_v1"
+structure_status: "block_recipe_v1"
+content_pattern: "local_service_recipe_v1"
 has_editorial_section: false
 has_columns: false
 client_brief: "β┇workbench/03┇content-intake-and-page-briefs.md"
 created: 2026-04-25
-updated: 2026-05-09
-version: 1.16
+updated: 2026-05-10
+version: 1.17
 ---
 
 # Wintergarten Reparatur Berlin
@@ -177,6 +177,6 @@ Anfragen aus Brandenburg und nahegelegenen Städten innerhalb von ungefähr eine
 
 ## Anfrage stellen
 
-Wenn Ihr Wintergarten beschädigt ist, Dichtungen nachlassen, Bauteile nicht mehr sauber schließen oder eine Sanierung geprüft werden soll, nutzen Sie den Anfragebereich unten.
+Wenn Ihr Wintergarten beschädigt ist, Dichtungen nachlassen, Bauteile nicht mehr sauber schließen oder eine Sanierung geprüft werden soll, nutzen Sie den Kontaktbereich unten.
 
 Standort, Gesamtansicht, sichere Detailfotos und Hinweise zu Regen, Wind, Nutzung oder früheren Reparaturen helfen bei der ersten Einordnung.

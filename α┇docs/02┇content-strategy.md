@@ -1,7 +1,7 @@
 ---
-version: 1.11
+version: 1.12
 created: 2026-05-01
-updated: 2026-05-08
+updated: 2026-05-10
 ---
 
 # Content Strategy
@@ -109,6 +109,181 @@ A supporting page should answer:
 - What are the scope boundaries?
 
 A supporting page should be narrower, tighter, and more technically bounded than the core repair page.
+
+## Recipe-Based Page Production
+
+Public pages should now be generated from approved page recipes and approved section types. This keeps the writing process tied to the intended website layout from the beginning, while keeping public Markdown semantic and readable.
+
+Required production order:
+
+1. identify the page type
+2. choose the approved recipe
+3. select the approved sections needed for the page job
+4. choose allowed section variants
+5. write content for those sections
+6. review for rhythm, repetition, CTA clarity, claim safety, and page differentiation
+7. update the page brief before changing public copy
+
+Do not write a long article first and ask Astro to make it feel like a website later. The section plan should exist before drafting.
+
+## Approved Page Recipes
+
+Recipes define the preferred sequence and visual weight for page types. They are allowed to vary, but only inside the approved section library in `α┇docs/05┇layout-description.md`.
+
+### Homepage recipe
+
+Page job:
+- orient
+- qualify
+- route
+- open the enquiry path
+
+Preferred sequence:
+
+1. Hero
+2. Routing cards
+3. Fit-check block
+4. Split text/image explainer for what can be checked
+5. Diagnostic card grid for common enquiry reasons
+6. Enquiry-prep section
+7. Process steps
+8. Service-area block
+9. FAQ block
+10. Enquiry / form block
+
+Required sections:
+- Hero
+- Routing cards
+- Fit-check block
+- at least one diagnostic or split explainer section
+- Process
+- Enquiry / form block
+
+Optional sections:
+- Service-area block
+- FAQ
+- Related pages once more public pages exist
+
+Strongest visual weight:
+- Hero
+- Routing cards
+- one middle image/text band
+- closing enquiry block
+
+### Local service page recipe
+
+Page job:
+- show service fit
+- show repair scope
+- help the reader prepare a practical enquiry
+
+Preferred sequence:
+
+1. Service hero
+2. Fit-check block
+3. Service-scope block
+4. Split text/image work-area block
+5. Enquiry-prep cards
+6. Inspection-boundary compact explainer
+7. Process steps
+8. Service-area block
+9. FAQ block
+10. Enquiry / form block
+
+Required sections:
+- Hero
+- Fit-check block
+- Service-scope block
+- Enquiry-prep section
+- Process
+- Enquiry / form block
+
+Optional sections:
+- Split text/image explainer
+- Service-area block
+- FAQ
+- Related pages
+
+Strongest visual weight:
+- Hero
+- repair-scope or work-area band
+- closing enquiry block
+
+### Problem page recipe
+
+Page job:
+- reduce confusion
+- help the reader observe the issue safely
+- move towards a useful enquiry without overdiagnosis
+
+Preferred sequence:
+
+1. Problem hero
+2. Diagnostic fit-check
+3. First-observation cards
+4. Causes / affected-zones split section
+5. Problem-logic split or compact explainer
+6. Clarification explainer for false assumptions
+7. Enquiry-prep section
+8. Process steps
+9. FAQ block
+10. Enquiry / form block
+
+Required sections:
+- Hero
+- Diagnostic fit-check
+- First-observation or affected-zones section
+- Clarification explainer
+- Enquiry-prep section
+- Enquiry / form block
+
+Optional sections:
+- Process
+- Service-area block
+- Related service link
+- FAQ
+
+Strongest visual weight:
+- Hero
+- affected-zones band
+- clarification band
+- enquiry-prep and closing form
+
+### Contact / enquiry page recipe
+
+Page job:
+- collect a useful service enquiry
+- explain what details help
+- show confirmed contact options without inventing public details
+
+Preferred sequence:
+
+1. Concise hero or intro
+2. Enquiry / form block
+3. What-to-include guidance
+4. Contact-channel status
+5. Process expectations
+6. Service-area block
+7. FAQ
+8. Routing back to relevant service or problem pages
+
+Required sections:
+- Hero or clear intro
+- Enquiry / form block
+- What-to-include guidance
+- Contact-channel status
+
+Optional sections:
+- Process
+- Service-area block
+- FAQ
+- Routing cards
+
+Strongest visual weight:
+- enquiry / form block
+- practical enquiry-prep guidance
+
+No separate contact route is required for the current transition. The recipe is documented so future contact-page work follows the same system.
 
 ## Content Patterns And Quality Expectations
 
@@ -226,6 +401,10 @@ The brief should define:
 - page path
 - page type
 - page job
+- approved page recipe
+- selected approved sections
+- intended section variants
+- strongest visual sections
 - search intent
 - reader state
 - keyword ownership

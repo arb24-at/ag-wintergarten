@@ -1,7 +1,7 @@
 ---
-version: 1.17
+version: 1.18
 created: 2026-05-01
-updated: 2026-05-08
+updated: 2026-05-10
 ---
 
 # Project Guide
@@ -67,6 +67,8 @@ Obsidian = writing and approximate preview
 ```
 
 Do not use MDX as the default authoring format. Use MDX only later if a page genuinely needs inline imported components or interactive composition.
+
+Public pages are no longer produced as free-form articles that are styled afterwards. Before drafting or rewriting a page, choose the page type, use the approved page recipe, select approved functional sections, choose allowed variants, and then write the section content. The recipe and section choice belong in `β┇workbench/03┇content-intake-and-page-briefs.md`; the public Markdown remains semantic.
 
 ## Authoring Rules
 
@@ -151,6 +153,8 @@ Use `β┇workbench/03┇content-intake-and-page-briefs.md` for owner/client int
 
 Use `β┇workbench/04┇benchmark-intake.md` for screenshot and competitor/reference observations. Benchmark notes may influence page structure, image rhythm, CTA placement, and UX expectations, but they are not claim sources and must not be copied into public page text.
 
+Use the recipe and section system across `α┇docs/02┇content-strategy.md`, `α┇docs/05┇layout-description.md`, and `α┇docs/06┇content-quality-playbook.md` before public page writing. New production section types must be documented and approved in those guidance files before appearing in live pages or renderer mappings.
+
 Use `β┇workbench/research/keywords-v3.json` as the active keyword dataset. Older keyword files are historical snapshots.
 
 Keep additions layer-aware. The project now has a minimal Astro scaffold for local preview and GitHub Pages deployment. Do not expand routing, schemas, layouts, components, deployment config, or media folders unless the active task explicitly asks for that layer.
@@ -172,6 +176,16 @@ Before writing or editing public page content, read these files in order:
 Then read the target page file in `ω┇site/src/content/pages/*.md`.
 
 Every new or rewritten page must have source discipline, a page brief, and for priority pages a mini evidence pack before public copy is changed. Confirm the target path, page type, keyword intent, draft/active status, and whether the service topic is confirmed, conditionally allowed, or blocked. If the brief exposes missing facts, keep the public wording cautious and add the missing detail to the workbench instead of inventing it.
+
+For public page production, follow this sequence:
+
+1. identify the page type
+2. choose the approved page recipe
+3. select approved sections
+4. choose allowed section variants
+5. write content for those sections
+6. review for repetition, rhythm, page-job fit, claim safety, and CTA clarity
+7. update public Markdown only after the brief and section plan are coherent
 
 ## Astro Build Roadmap
 

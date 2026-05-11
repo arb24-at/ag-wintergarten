@@ -1,7 +1,7 @@
 ---
-version: 1.02
+version: 1.03
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-10
 ---
 
 # Content Intake And Page Briefs
@@ -86,6 +86,14 @@ Page job in one sentence:
 
 Page type:
 
+Approved page recipe:
+
+Selected approved sections:
+
+Intended section variants:
+
+Strongest visual sections:
+
 Search intent:
 
 Target reader state:
@@ -152,6 +160,14 @@ Page job in one sentence: help a visitor decide whether AG Wintergarten handles 
 
 Page type: homepage / routing page.
 
+Approved page recipe: homepage recipe from `α┇docs/02┇content-strategy.md`.
+
+Selected approved sections: Hero, Routing cards, Fit-check block, Split text/image explainer, Diagnostic card grid, Enquiry-prep section, Process steps, Service-area block, FAQ block, Enquiry / form block.
+
+Intended section variants: compact hero; homepage routing cards after hero; fit-check as diagnostic cards; `Wobei die Prüfung helfen kann` as image-left split explainer; enquiry reasons as diagnostic grid; enquiry preparation as image-right split section; process as dark blue step band; service area as compact explainer; closing enquiry form as dark blue contact block.
+
+Strongest visual sections: Hero, routing cards, `Wobei die Prüfung helfen kann`, and closing enquiry form.
+
 Search intent: local service discovery and repair/refurbishment orientation.
 
 Target reader state: has a leaking, ageing, damaged, or refurbishment-ready winter garden and is not sure whether the case belongs to repair, leak diagnosis, Dichtungen, glazing, drainage, moving elements, or Sanierung.
@@ -216,6 +232,14 @@ Page job in one sentence: show when an existing winter garden repair enquiry fit
 
 Page type: local service page.
 
+Approved page recipe: local service page recipe from `α┇docs/02┇content-strategy.md`.
+
+Selected approved sections: Hero, Fit-check block, Service-scope block, Split text/image work-area block, Enquiry-prep cards, Inspection-boundary compact explainer, Process steps, Service-area block, FAQ block, Enquiry / form block.
+
+Intended section variants: compact service hero; fit-check as diagnostic cards; typical repair cases as image-left service-scope band; components/work areas as image-right split block; enquiry preparation as diagnostic cards; inspection boundary as compact explainer; process as dark blue step band; service area as compact explainer; closing enquiry form as dark blue contact block.
+
+Strongest visual sections: Hero, `Typische Reparaturfälle`, `Bauteile und Arbeitsbereiche`, and closing enquiry form.
+
 Search intent: transactional / local transactional.
 
 Target reader state: owns an existing winter garden with visible damage, ageing, poor closing, suspected leaks, damaged panels, unclear drainage, or broader repair needs.
@@ -279,6 +303,14 @@ Page goal: convert water-ingress and leak enquiries without overdiagnosing.
 Page job in one sentence: help a homeowner with visible water or moisture narrow what to observe and send a useful leak enquiry.
 
 Page type: problem/service page.
+
+Approved page recipe: problem page recipe from `α┇docs/02┇content-strategy.md`.
+
+Selected approved sections: Hero, Diagnostic fit-check, First-observation cards, Causes / affected-zones split block, Problem-logic split block, Clarification compact explainer, Enquiry-prep section, Process steps, Service-area block, FAQ block, Enquiry / form block.
+
+Intended section variants: compact problem hero; fit-check as diagnostic cards; first observations as diagnostic grid; affected zones as image-left split section; roof leak logic as image-right split section; rainwater/condensation distinction as compact explainer; enquiry prep as diagnostic cards; process as dark blue step band; service area as compact explainer; closing enquiry form as dark blue contact block.
+
+Strongest visual sections: Hero, `Wo Wasser häufig eintreten kann`, `Wenn das Wintergartendach undicht wirkt`, `Regenwasser oder Kondenswasser?`, and closing enquiry form.
 
 Search intent: urgent problem solving and local service enquiry.
 

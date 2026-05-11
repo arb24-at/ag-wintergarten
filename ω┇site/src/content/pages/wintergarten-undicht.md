@@ -9,7 +9,7 @@ url: "/wintergarten-undicht/"
 type: "content-page"
 page_type: "problem/service page"
 status: "local_preview"
-content_status: "repair_first_refinement"
+content_status: "block_recipe_transition"
 seo_status: "needs_review"
 client_review_status: "questions_open"
 priority: "P1"
@@ -24,19 +24,19 @@ business_fit: "high_if_repair_service"
 risk: "Keep leak and water ingress focus; avoid price, emergency, guarantee, certification, review, case-study, and overdiagnosis claims."
 layout: "service"
 draft: false
-structure_status: "service_website_refinement"
-content_pattern: "problem_service_checkerboard_v1"
+structure_status: "block_recipe_v1"
+content_pattern: "problem_page_recipe_v1"
 has_editorial_section: false
 has_columns: false
 client_brief: "β┇workbench/03┇content-intake-and-page-briefs.md"
 created: 2026-04-25
-updated: 2026-05-09
-version: 1.13
+updated: 2026-05-10
+version: 1.14
 ---
 
 # Wintergarten undicht? Wassereintritt richtig einordnen
 
-Wenn nach Regen Wasser im Wintergarten sichtbar wird, sollte nicht zuerst nur die sichtbare Stelle abgedichtet werden. Sinnvoller ist es, den möglichen Eintrittsweg einzugrenzen: über Dach, Anschluss, Profil, Dichtung, Verglasung, Stegplatten oder Entwässerung.
+Wenn nach Regen Wasser im Wintergarten sichtbar wird, sollte nicht zuerst nur die sichtbare Stelle abgedichtet werden. Sinnvoller ist es, den möglichen Eintrittsweg einzugrenzen: Dach, Anschluss, Profil, Dichtung, Verglasung, Stegplatten oder Entwässerung.
 
 Die nasse Stelle innen liegt oft nicht direkt unter der Ursache. Wasser kann über Profile, Übergänge und Anschlussbereiche weiterlaufen und erst später austreten. Deshalb hilft eine geordnete Schadensbeschreibung mehr als eine schnelle Vermutung.
 
@@ -207,7 +207,7 @@ Vorgesehen sind Telefon, Kontaktformular und WhatsApp. Öffentliche Kontaktdetai
 
 ## Anfrage vorbereiten
 
-Wenn Ihr Wintergarten undicht ist, nutzen Sie den Anfragebereich unten. Hilfreich sind:
+Wenn Ihr Wintergarten undicht ist, nutzen Sie den Kontaktbereich unten. Hilfreich sind:
 
 - sichtbarer Nasspunkt
 - Wetterverhalten

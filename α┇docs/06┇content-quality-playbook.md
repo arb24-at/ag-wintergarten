@@ -1,7 +1,7 @@
 ---
-version: 1.02
+version: 1.03
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-10
 ---
 
 # Content Quality Playbook
@@ -57,7 +57,23 @@ Every major rewrite or new page needs a page brief in `β┇workbench/03┇conte
 
 The brief must explain how the page differs from existing pages. If the difference is weak, do not draft yet.
 
-### Phase 3: Evidence Pack
+### Phase 3: Recipe And Section Plan
+
+Before drafting, choose the approved page recipe from `α┇docs/02┇content-strategy.md` and the approved section types from `α┇docs/05┇layout-description.md`.
+
+The brief must define:
+
+- page recipe
+- selected sections
+- allowed variants
+- strongest visual sections
+- intended CTA path
+- sections that should stay compact
+- sections that must not repeat another page
+
+Do not create production-only section ideas during drafting. If a new section type seems necessary, document and approve it in the guidance system before using it on a live page.
+
+### Phase 4: Evidence Pack
 
 Priority pages need a mini evidence pack before drafting. Include:
 
@@ -72,7 +88,7 @@ Priority pages need a mini evidence pack before drafting. Include:
 
 The evidence pack is not proof. It is practical diagnostic preparation. Do not create case studies, reviews, photos, or years-of-experience claims from it.
 
-### Phase 4: Draft
+### Phase 5: Draft
 
 Write from the homeowner's actual state. Lead with the problem or fit question:
 
@@ -82,7 +98,9 @@ Write from the homeowner's actual state. Lead with the problem or fit question:
 
 Keep the draft service-led, specific, and inspection-aware. Do not optimise for sounding polished at the expense of usefulness.
 
-### Phase 5: QA Gate And Report
+Draft section by section. Do not draft a full article and then divide it later. Each section should have a defined function before copy is written.
+
+### Phase 6: QA Gate And Report
 
 Before calling a page ready, run the QA checklist in this playbook. After each significant rewrite or new page draft, report:
 
@@ -197,6 +215,10 @@ The brief must define:
 - page path
 - page type
 - page goal
+- approved page recipe
+- selected approved sections
+- intended section variants
+- strongest visual sections
 - search intent
 - target reader state
 - keyword ownership
@@ -249,6 +271,8 @@ Weak section patterns:
 
 Public Markdown must stay semantic, but it should still be written in blocks that support real website sections.
 
+Write content through the approved recipe and section system. Each H2 section should correspond to an approved functional website section unless the page brief explains why a compact support section is needed.
+
 Write content so it can support:
 
 - hero areas
@@ -271,19 +295,42 @@ The writer should assume the layout layer may emphasise some sections more stron
 - FAQ sections should add decisions or clarifications, not repetition
 - image-supported sections should explain or clarify something, not merely decorate
 
+## Controlled Creative Freedom
+
+The section system is a constraint, not a dead template. Use it to prevent article drift while still allowing page-specific rhythm.
+
+Allowed freedom:
+
+- vary the lead sentence and paragraph length by page intent
+- choose image-left or image-right variants where approved
+- make one middle section stronger when it carries the practical value
+- use lists, cards, or compact prose according to the approved section type
+- reorder optional sections if it improves the page job
+
+Not allowed:
+
+- inventing a new production section because a draft feels awkward
+- using identical section sequences on every page without a reason
+- repeating the same diagnostic grid pattern several times
+- using a CTA that has no real destination
+- turning service pages back into generic articles
+
+If a page feels repetitive, first adjust section emphasis, section length, or allowed variation before adding a new section type.
+
 ## Suggested Section Order
 
 Suggested section order for homepage:
 
 1. Hero
-2. Fit or what the site helps with
-3. Routing section
-4. Typical problems or reasons for enquiry
-5. What is useful before a recommendation
-6. How an enquiry works
-7. Service area
-8. FAQ
-9. Closing CTA
+2. Routing section
+3. Fit or what the site helps with
+4. Split explainer for what can be checked
+5. Typical problems or reasons for enquiry
+6. What is useful before a recommendation
+7. How an enquiry works
+8. Service area
+9. FAQ
+10. Closing CTA
 
 Suggested section order for repair page:
 
@@ -301,13 +348,15 @@ Suggested section order for repair page:
 Suggested section order for leak page:
 
 1. Hero
-2. What owners usually notice first
-3. What may be causing it
-4. What to observe or document
-5. What cannot be judged yet
-6. How to send a useful enquiry
-7. FAQ
-8. CTA
+2. Diagnostic fit check
+3. What owners usually notice first
+4. What may be causing it
+5. Clarification or false-assumption explainer
+6. What to observe or document
+7. How to send a useful enquiry
+8. Process or service area where useful
+9. FAQ
+10. CTA
 
 Do not force identical section sequences onto every page. Use the order that best supports the page job.
 

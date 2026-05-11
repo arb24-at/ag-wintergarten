@@ -33,6 +33,7 @@ const routingPages = isHome ? getRoutingPages(pages, page.data.url) : [];
         --surface-warm: #eaf3fb;
         --surface-sage: #eef6fd;
         --surface-cool: #d9e9f7;
+        --surface-strip: #edf6ff;
         --ink: #111827;
         --ink-soft: #263548;
         --muted: #5e6b7c;
@@ -506,7 +507,7 @@ const routingPages = isHome ? getRoutingPages(pages, page.data.url) : [];
         align-items: start;
         border-top: 0;
         background: #ffffff;
-        padding: 12px 0;
+        padding: 14px 0;
       }
 
       .content-section > * {
@@ -526,6 +527,20 @@ const routingPages = isHome ? getRoutingPages(pages, page.data.url) : [];
       .content-section--compact-explainer,
       .content-section--request {
         background: #ffffff;
+      }
+
+      .content-section--type-fit-check {
+        background: #fbfdff;
+      }
+
+      .content-section--type-service-scope,
+      .content-section--type-causes-affected-zones,
+      .content-section--type-split-text-image-explainer {
+        background: #ffffff;
+      }
+
+      .content-section--type-enquiry-prep {
+        background: var(--surface-strip);
       }
 
       .content-section h2 {
@@ -608,6 +623,12 @@ const routingPages = isHome ? getRoutingPages(pages, page.data.url) : [];
         box-shadow: none;
       }
 
+      .content-section--type-fit-check.content-section--diagnostic-grid li,
+      .content-section--type-enquiry-prep.content-section--diagnostic-grid li {
+        border-left-color: var(--accent);
+        background: #ffffff;
+      }
+
       .content-section--diagnostic-grid li:nth-child(3n + 2) {
         border-left-color: var(--accent);
       }
@@ -624,7 +645,7 @@ const routingPages = isHome ? getRoutingPages(pages, page.data.url) : [];
           minmax(var(--pad), 1fr);
         column-gap: 20px;
         align-items: start;
-        border-top: 1px solid var(--line);
+        border-top: 4px solid var(--accent);
         background: #ffffff;
         padding: 18px 0;
       }
@@ -635,7 +656,7 @@ const routingPages = isHome ? getRoutingPages(pages, page.data.url) : [];
           minmax(0, 606px)
           minmax(0, 320px)
           minmax(var(--pad), 1fr);
-        background: #ffffff;
+        background: var(--surface-strip);
       }
 
       .content-section--checkerboard > * {
@@ -717,6 +738,11 @@ const routingPages = isHome ? getRoutingPages(pages, page.data.url) : [];
         column-gap: 20px;
         border-top: 1px solid var(--line);
         background: var(--surface-quiet);
+      }
+
+      .content-section--type-service-area.content-section--compact-explainer {
+        border-top: 4px solid var(--accent-light);
+        background: #f8fbff;
       }
 
       .content-section--compact-explainer > h2 {
@@ -865,7 +891,7 @@ const routingPages = isHome ? getRoutingPages(pages, page.data.url) : [];
       .content-section--request {
         position: relative;
         text-align: left;
-        border-top: 0;
+        border-top: 4px solid var(--accent);
         background: var(--accent-pale);
         padding: 18px 0;
       }
@@ -887,11 +913,11 @@ const routingPages = isHome ? getRoutingPages(pages, page.data.url) : [];
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        border: 1px dashed var(--accent-light);
+        border: 1px solid var(--accent);
         border-radius: 0;
-        background: var(--accent-pale);
+        background: var(--accent);
         padding: 7px 12px;
-        color: var(--accent-strong);
+        color: white;
         font-size: 0.82rem;
         font-weight: 800;
         text-decoration: none;
@@ -899,7 +925,7 @@ const routingPages = isHome ? getRoutingPages(pages, page.data.url) : [];
 
       .section-cta:hover {
         border-style: solid;
-        background: var(--accent);
+        background: var(--accent-strong);
         color: white;
       }
 

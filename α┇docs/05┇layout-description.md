@@ -1,7 +1,7 @@
 ---
-version: 1.05
+version: 1.06
 created: 2026-05-01
-updated: 2026-05-08
+updated: 2026-05-10
 ---
 
 # Layout Description
@@ -186,6 +186,374 @@ Recommended pattern:
 
 This should feel like a real service-enquiry endpoint, not a generic call-to-action.
 
+## Approved Section Library
+
+Use these as the first approved functional website sections. A section is approved because it has a page job, not merely because it has a visual treatment.
+
+### Hero
+
+Purpose: establish page topic, local repair-first fit, and first action path.
+
+Allowed page types: all public page types.
+
+Required content:
+- page-specific H1 or hero title
+- short practical summary
+- one primary action to a real anchor or rendered page
+
+Optional content:
+- quick facts
+- secondary action
+- neutral or approved image
+
+Allowed variations:
+- compact homepage hero
+- compact service/problem hero
+- image with card overlay or adjacent content card
+
+Anti-patterns:
+- oversized decorative hero with no practical action
+- fake phone or WhatsApp controls
+- proof, price, or emergency claims without confirmation
+
+### Routing cards
+
+Purpose: help visitors choose between active pages or problem paths.
+
+Allowed page types: homepage, cluster page, contact/enquiry page, later related-page modules.
+
+Required content:
+- short heading
+- 2–4 rendered page links
+- concise card title and description
+
+Optional content:
+- tags
+- image support
+- compact related-page treatment near the bottom
+
+Allowed variations:
+- two-card homepage routing
+- compact related-page row
+- text-first routing with image support
+
+Anti-patterns:
+- links to draft or non-rendered pages
+- blog-style sidebar behaviour on core service pages
+- routing cards that duplicate the same page job
+
+### Fit-check block
+
+Purpose: let the reader quickly decide whether their case belongs on the page.
+
+Allowed page types: homepage, local service page, problem page, supporting service page.
+
+Required content:
+- clear fit question or fit heading
+- concrete symptoms or situations
+- one boundary statement where needed
+
+Optional content:
+- short negative-fit note
+- internal link to a better page
+
+Allowed variations:
+- card grid
+- compact bullet list
+- stronger lead paragraph with cards
+
+Anti-patterns:
+- generic “we help with everything” language
+- long article introduction
+- repeated caveats without specific decision value
+
+### Service-scope block
+
+Purpose: show what work areas or components may be relevant.
+
+Allowed page types: local service page, supporting service page, homepage when used briefly.
+
+Required content:
+- confirmed service areas only
+- practical component names
+- inspection-aware boundary
+
+Optional content:
+- neutral support image
+- internal link to a narrower problem page
+
+Allowed variations:
+- split text/image
+- diagnostic grid
+- compact component list
+
+Anti-patterns:
+- product catalogue
+- unconfirmed material/system claims
+- broad sales/new-build positioning
+
+### Causes / affected-zones block
+
+Purpose: help problem-page readers recognise where a symptom may originate.
+
+Allowed page types: problem page, supporting service page.
+
+Required content:
+- likely zones or causes
+- observation guidance
+- inspection boundary
+
+Optional content:
+- image or detail placeholder
+- false-assumption clarification
+
+Allowed variations:
+- checkerboard image/text band
+- diagnostic grid
+- compact explainer
+
+Anti-patterns:
+- diagnosing the exact cause from copy alone
+- making a sealant or replacement promise
+- overloading the section with every possible cause
+
+### Split text/image explainer
+
+Purpose: create a visual anchor and explain an important practical idea.
+
+Allowed page types: homepage, local service page, problem page, supporting service page.
+
+Required content:
+- one clear explanatory heading
+- short paragraphs or bounded list
+- approved or neutral image
+
+Optional content:
+- section CTA to `#kontakt`
+- internal link where it clarifies routing
+
+Allowed variations:
+- image left
+- image right
+- compact or standard
+- light or neutral background
+
+Anti-patterns:
+- decorative image with unrelated copy
+- before-and-after implication without approved proof
+- too many split sections in a row
+
+### Diagnostic card grid
+
+Purpose: make observations, symptoms, parts, or enquiry reasons scannable.
+
+Allowed page types: homepage, local service page, problem page, supporting service page.
+
+Required content:
+- one short intro
+- 4–9 concise items
+
+Optional content:
+- CTA link after the grid
+
+Allowed variations:
+- two-column mobile-friendly grid
+- three-column desktop grid
+- compact card treatment
+
+Anti-patterns:
+- multiple identical grids back to back
+- long paragraph cards
+- abstract service labels without homeowner context
+
+### Compact explainer
+
+Purpose: clarify a boundary, distinction, or inspection-dependent point without creating a heavy article section.
+
+Allowed page types: all public page types.
+
+Required content:
+- one focused idea
+- practical reason why it matters
+
+Optional content:
+- short bullet list
+- internal link
+
+Allowed variations:
+- side-heading layout
+- pale blue treatment
+- compact full-width treatment
+
+Anti-patterns:
+- generic disclaimers
+- repeating the same caution from earlier sections
+
+### Process steps block
+
+Purpose: explain how enquiry, Schadensprüfung, Beratung, or Angebot normally fits together without inventing a fixed promise.
+
+Allowed page types: homepage, service pages, problem pages, contact/enquiry page.
+
+Required content:
+- 3–5 steps
+- short step headings
+- practical step descriptions
+
+Optional content:
+- CTA link to `#kontakt`
+
+Allowed variations:
+- dark blue band
+- compact row
+- stacked mobile cards
+
+Anti-patterns:
+- guaranteed response times
+- emergency-service framing
+- pretending photos replace inspection
+
+### FAQ block
+
+Purpose: answer objections and clarify decisions near the end of the page.
+
+Allowed page types: all public page types.
+
+Required content:
+- real user questions as h3 headings
+- short answers that add decision value
+
+Optional content:
+- internal link in an answer
+
+Allowed variations:
+- static rows
+- compact grouped cards
+
+Anti-patterns:
+- animated accordion required for basic reading
+- repeating earlier copy without adding clarity
+- invented claims hidden inside answers
+
+### CTA strip
+
+Purpose: provide a short mid-page action point without replacing the final enquiry block.
+
+Allowed page types: homepage, service pages, problem pages.
+
+Required content:
+- short practical CTA line
+- functional link to `#kontakt` or a rendered page
+
+Optional content:
+- one supporting sentence
+
+Allowed variations:
+- blue strip
+- pale strip
+- compact inline button
+
+Anti-patterns:
+- fake phone or WhatsApp links
+- pressure language
+- price, discount, or response-time promises
+
+### Enquiry / form block
+
+Purpose: create the practical service-enquiry endpoint.
+
+Allowed page types: all important public pages and future contact/enquiry page.
+
+Required content:
+- name
+- contact method
+- location
+- problem description
+- weather/repetition/previous repair notes
+- clear statement if data is not submitted yet
+
+Optional content:
+- contact-channel status
+- checklist of helpful details
+
+Allowed variations:
+- dark blue closing section
+- future standalone contact page version
+
+Anti-patterns:
+- dummy-looking placeholder form
+- unconfirmed phone/WhatsApp links
+- hidden promise of response or appointment
+
+### Service-area block
+
+Purpose: state the broad confirmed area without overclaiming exact places.
+
+Allowed page types: homepage, service pages, problem pages, contact/enquiry page.
+
+Required content:
+- Berlin
+- Brandenburg
+- nearby cities within roughly one hour drive
+- request for specific location
+
+Optional content:
+- fit wording for private-first enquiries
+
+Allowed variations:
+- compact explainer
+- small closing note
+
+Anti-patterns:
+- naming districts or towns before confirmation
+- pretending every location is accepted
+
+### Related pages block
+
+Purpose: provide intentional next routes once enough public pages exist.
+
+Allowed page types: homepage, service pages, problem pages, supporting pages.
+
+Required content:
+- links only to rendered public pages
+- clear reason to open each page
+
+Optional content:
+- card tags
+- small image support
+
+Allowed variations:
+- compact card row
+- routing module
+
+Anti-patterns:
+- links to draft-only pages
+- generic blog article cards
+- unrelated SEO links
+
+## Controlled Variation Rules
+
+Variation should happen inside approved sections, not through random new page structures.
+
+Allowed variation:
+- image left or image right
+- compact or standard spacing
+- card grid, short list, or prose when the section permits it
+- light, neutral, pale blue, or dark blue treatment
+- stronger lead text on important sections and lighter intro text on support sections
+- 2–4 cards for routing, 4–9 cards for diagnostic grids, 3–5 steps for process sections
+
+Anti-repetition rules:
+- do not place more than two similar grids or white-panel sections in a row
+- every long page should have at least one stronger middle visual anchor
+- process, FAQ, and enquiry sections should look distinct from diagnostic grids
+- not every section deserves equal visual weight
+
+Governance:
+- a new section type must be documented here before it is used on production pages
+- the page brief must state the intended recipe, sections, variants, and strongest visual sections
+- renderer mappings should follow documented sections rather than inventing hidden layouts
+
 ## Header
 
 The header should quickly communicate:
@@ -320,12 +688,14 @@ Recommended structural flow:
 
 1. Hero
 2. Routing section
-3. Typical problems or main enquiry reasons
-4. Service-scope clarification
-5. One image-supported support section if useful
-6. Process
-7. FAQ
-8. Closing CTA
+3. Fit-check block
+4. Image-supported service or inspection explainer
+5. Typical problems or main enquiry reasons
+6. Enquiry-prep section
+7. Process
+8. Service area
+9. FAQ
+10. Closing CTA / enquiry form
 
 The homepage should not become a full repair article or a company biography.
 
@@ -340,15 +710,14 @@ Recommended structural flow:
 
 1. Hero
 2. Fit / when repair is relevant
-3. Typical repair cases
-4. Work areas or affected components
-5. Image-supported clarification section
-6. Enquiry details
-7. Inspection boundaries
-8. Process
-9. Local area
-10. FAQ
-11. Closing CTA
+3. Typical repair cases or service-scope block
+4. Work areas or affected components as image-supported block
+5. Enquiry details
+6. Inspection boundaries
+7. Process
+8. Local area
+9. FAQ
+10. Closing CTA / enquiry form
 
 The repair page should feel commercial and useful, not neutral or encyclopaedic.
 
@@ -365,12 +734,13 @@ Recommended structural flow:
 2. Quick fit / does this sound like your issue
 3. What the owner notices first
 4. Likely affected zones or causes
-5. Image-supported clarification section
-6. What to document
-7. What cannot be judged yet
+5. Image-supported problem-logic section
+6. Clarification section for false assumptions
+7. What to document
 8. Enquiry path
-9. FAQ
-10. Closing CTA
+9. Process or service area where useful
+10. FAQ
+11. Closing CTA / enquiry form
 
 The problem page should feel more diagnostic than the repair page.
 

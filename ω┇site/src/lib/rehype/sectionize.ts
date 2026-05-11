@@ -6,6 +6,13 @@ type HastNode = {
   children?: HastNode[];
 };
 
+type SectionDefinition = {
+  type: string;
+  variant: string;
+  layout: string;
+  actionLabel?: string;
+};
+
 function textContent(node: HastNode): string {
   if (typeof node.value === 'string') {
     return node.value;
@@ -76,25 +83,6 @@ function sectionAction(label: string): HastNode {
     },
     children: [{ type: 'text', value: label }],
   };
-}
-
-function actionLabel(page: string, key: string) {
-  const actions: Record<string, Record<string, string>> = {
-    home: {
-      'was-sie-vor-der-anfrage-notieren-sollten': 'Angaben unten sammeln',
-      'anfrage-stellen': 'Zum Kontaktbereich',
-    },
-    repair: {
-      'welche-angaben-vor-der-prufung-helfen': 'Reparaturanfrage vorbereiten',
-      'anfrage-stellen': 'Zum Kontaktbereich',
-    },
-    leak: {
-      'nutzliche-angaben-fur-die-anfrage': 'Leckageangaben vorbereiten',
-      'anfrage-vorbereiten': 'Zum Kontaktbereich',
-    },
-  };
-
-  return actions[page]?.[key];
 }
 
 function markImageParagraphs(node: HastNode) {
@@ -187,45 +175,185 @@ function pageKind(tree: HastNode) {
   return 'default';
 }
 
-const sectionLayouts: Record<string, Record<string, string>> = {
+const approvedSections: Record<string, Record<string, SectionDefinition>> = {
   home: {
-    'passt-ihre-anfrage-hierher': 'diagnostic-grid',
-    'wobei-die-prufung-helfen-kann': 'checkerboard-media-left',
-    'haufige-grunde-fur-eine-anfrage': 'diagnostic-grid',
-    'was-sie-vor-der-anfrage-notieren-sollten': 'checkerboard-media-right',
-    'ablauf-einer-anfrage': 'process',
-    einsatzbereich: 'compact-explainer',
-    'haufige-fragen': 'faq',
-    'anfrage-stellen': 'request',
+    'passt-ihre-anfrage-hierher': {
+      type: 'fit-check',
+      variant: 'diagnostic-cards',
+      layout: 'diagnostic-grid',
+    },
+    'wobei-die-prufung-helfen-kann': {
+      type: 'split-text-image-explainer',
+      variant: 'media-left',
+      layout: 'checkerboard-media-left',
+    },
+    'haufige-grunde-fur-eine-anfrage': {
+      type: 'diagnostic-card-grid',
+      variant: 'standard',
+      layout: 'diagnostic-grid',
+    },
+    'was-sie-vor-der-anfrage-notieren-sollten': {
+      type: 'enquiry-prep',
+      variant: 'media-right',
+      layout: 'checkerboard-media-right',
+      actionLabel: 'Angaben unten sammeln',
+    },
+    'ablauf-einer-anfrage': {
+      type: 'process-steps',
+      variant: 'dark-band',
+      layout: 'process',
+    },
+    einsatzbereich: {
+      type: 'service-area',
+      variant: 'compact',
+      layout: 'compact-explainer',
+    },
+    'haufige-fragen': {
+      type: 'faq',
+      variant: 'static-rows',
+      layout: 'faq',
+    },
+    'anfrage-stellen': {
+      type: 'enquiry-form-block',
+      variant: 'request',
+      layout: 'request',
+      actionLabel: 'Zum Kontaktbereich',
+    },
   },
   repair: {
-    'wann-reparatur-oder-sanierung-passt': 'diagnostic-grid',
-    'typische-reparaturfalle': 'checkerboard-media-left',
-    'bauteile-und-arbeitsbereiche': 'checkerboard-media-right',
-    'welche-angaben-vor-der-prufung-helfen': 'diagnostic-grid',
-    'was-erst-nach-der-schadensprufung-entschieden-wird': 'compact-explainer',
-    'ablauf-der-reparaturanfrage': 'process',
-    'einsatzbereich-berlin-und-brandenburg': 'compact-explainer',
-    'haufige-fragen': 'faq',
-    'anfrage-stellen': 'request',
+    'wann-reparatur-oder-sanierung-passt': {
+      type: 'fit-check',
+      variant: 'diagnostic-cards',
+      layout: 'diagnostic-grid',
+    },
+    'typische-reparaturfalle': {
+      type: 'service-scope',
+      variant: 'media-left',
+      layout: 'checkerboard-media-left',
+    },
+    'bauteile-und-arbeitsbereiche': {
+      type: 'service-scope',
+      variant: 'media-right',
+      layout: 'checkerboard-media-right',
+    },
+    'welche-angaben-vor-der-prufung-helfen': {
+      type: 'enquiry-prep',
+      variant: 'diagnostic-cards',
+      layout: 'diagnostic-grid',
+      actionLabel: 'Reparaturanfrage vorbereiten',
+    },
+    'was-erst-nach-der-schadensprufung-entschieden-wird': {
+      type: 'compact-explainer',
+      variant: 'inspection-boundary',
+      layout: 'compact-explainer',
+    },
+    'ablauf-der-reparaturanfrage': {
+      type: 'process-steps',
+      variant: 'dark-band',
+      layout: 'process',
+    },
+    'einsatzbereich-berlin-und-brandenburg': {
+      type: 'service-area',
+      variant: 'compact',
+      layout: 'compact-explainer',
+    },
+    'haufige-fragen': {
+      type: 'faq',
+      variant: 'static-rows',
+      layout: 'faq',
+    },
+    'anfrage-stellen': {
+      type: 'enquiry-form-block',
+      variant: 'request',
+      layout: 'request',
+      actionLabel: 'Zum Kontaktbereich',
+    },
   },
   leak: {
-    'passt-diese-seite-zu-ihrem-problem': 'diagnostic-grid',
-    'was-sie-zuerst-beobachten-sollten': 'diagnostic-grid',
-    'wo-wasser-haufig-eintreten-kann': 'checkerboard-media-left',
-    'wenn-das-wintergartendach-undicht-wirkt': 'checkerboard-media-right',
-    'regenwasser-oder-kondenswasser': 'compact-explainer',
-    'was-vor-einer-abdichtung-geklart-werden-sollte': 'compact-explainer',
-    'nutzliche-angaben-fur-die-anfrage': 'diagnostic-grid',
-    'so-lauft-eine-leckage-anfrage-ab': 'process',
-    'einsatzbereich-berlin-und-brandenburg': 'compact-explainer',
-    'haufige-fragen': 'faq',
-    'anfrage-vorbereiten': 'request',
+    'passt-diese-seite-zu-ihrem-problem': {
+      type: 'fit-check',
+      variant: 'diagnostic-cards',
+      layout: 'diagnostic-grid',
+    },
+    'was-sie-zuerst-beobachten-sollten': {
+      type: 'diagnostic-card-grid',
+      variant: 'first-observations',
+      layout: 'diagnostic-grid',
+    },
+    'wo-wasser-haufig-eintreten-kann': {
+      type: 'causes-affected-zones',
+      variant: 'media-left',
+      layout: 'checkerboard-media-left',
+    },
+    'wenn-das-wintergartendach-undicht-wirkt': {
+      type: 'split-text-image-explainer',
+      variant: 'media-right',
+      layout: 'checkerboard-media-right',
+    },
+    'regenwasser-oder-kondenswasser': {
+      type: 'compact-explainer',
+      variant: 'clarification',
+      layout: 'compact-explainer',
+    },
+    'was-vor-einer-abdichtung-geklart-werden-sollte': {
+      type: 'compact-explainer',
+      variant: 'inspection-boundary',
+      layout: 'compact-explainer',
+    },
+    'nutzliche-angaben-fur-die-anfrage': {
+      type: 'enquiry-prep',
+      variant: 'diagnostic-cards',
+      layout: 'diagnostic-grid',
+      actionLabel: 'Leckageangaben vorbereiten',
+    },
+    'so-lauft-eine-leckage-anfrage-ab': {
+      type: 'process-steps',
+      variant: 'dark-band',
+      layout: 'process',
+    },
+    'einsatzbereich-berlin-und-brandenburg': {
+      type: 'service-area',
+      variant: 'compact',
+      layout: 'compact-explainer',
+    },
+    'haufige-fragen': {
+      type: 'faq',
+      variant: 'static-rows',
+      layout: 'faq',
+    },
+    'anfrage-vorbereiten': {
+      type: 'enquiry-form-block',
+      variant: 'request',
+      layout: 'request',
+      actionLabel: 'Zum Kontaktbereich',
+    },
   },
 };
 
-function sectionLayout(page: string, key: string, kind: string) {
-  return sectionLayouts[page]?.[key] ?? kind;
+function fallbackSection(kind: string): SectionDefinition {
+  const typeByKind: Record<string, string> = {
+    area: 'service-area',
+    areas: 'causes-affected-zones',
+    default: 'content-section',
+    diagnostic: 'diagnostic-card-grid',
+    explain: 'compact-explainer',
+    faq: 'faq',
+    fit: 'fit-check',
+    help: 'split-text-image-explainer',
+    prep: 'enquiry-prep',
+    process: 'process-steps',
+    request: 'enquiry-form-block',
+  };
+
+  return {
+    type: typeByKind[kind] ?? 'content-section',
+    variant: 'standard',
+    layout: kind,
+  };
+}
+
+function sectionDefinition(page: string, key: string, kind: string) {
+  return approvedSections[page]?.[key] ?? fallbackSection(kind);
 }
 
 function addLayoutClasses(section: HastNode, layout: string) {
@@ -250,6 +378,18 @@ function addLayoutClasses(section: HastNode, layout: string) {
   if (layout === 'compact-explainer') {
     addClass(section, 'content-section--compact-explainer');
   }
+
+  if (layout === 'process') {
+    addClass(section, 'content-section--process');
+  }
+
+  if (layout === 'faq') {
+    addClass(section, 'content-section--faq');
+  }
+
+  if (layout === 'request') {
+    addClass(section, 'content-section--request');
+  }
 }
 
 export default function sectionize() {
@@ -269,16 +409,30 @@ export default function sectionize() {
         const title = textContent(child);
         const key = normalise(title);
         const kind = sectionKind(title);
-        const layout = sectionLayout(currentPage, key, kind);
+        const definition = sectionDefinition(currentPage, key, kind);
+        const layout = definition.layout;
+        const properties: Record<string, unknown> = {
+          className: [
+            'content-section',
+            `content-section--${kind}`,
+            `content-section--${key}`,
+            `content-section--type-${definition.type}`,
+            `content-section--variant-${definition.variant}`,
+          ],
+          'data-section-key': key,
+          'data-section-layout': layout,
+          'data-section-type': definition.type,
+          'data-section-variant': definition.variant,
+        };
+
+        if (definition.actionLabel) {
+          properties['data-section-action-label'] = definition.actionLabel;
+        }
 
         currentSection = {
           type: 'element',
           tagName: 'section',
-          properties: {
-            className: ['content-section', `content-section--${kind}`, `content-section--${key}`],
-            'data-section-key': key,
-            'data-section-layout': layout,
-          },
+          properties,
           children: [child],
         };
 
@@ -300,9 +454,8 @@ export default function sectionize() {
         continue;
       }
 
-      const key = String(section.properties?.['data-section-key'] ?? '');
       const layout = String(section.properties?.['data-section-layout'] ?? '');
-      const label = actionLabel(currentPage, key);
+      const label = String(section.properties?.['data-section-action-label'] ?? '');
 
       if (hasElement(section, 'img')) addClass(section, 'content-section--has-image');
       if (hasElement(section, 'ul') || hasElement(section, 'ol')) addClass(section, 'content-section--has-list');

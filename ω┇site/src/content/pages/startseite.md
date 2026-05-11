@@ -9,7 +9,7 @@ url: "/"
 type: "content-page"
 page_type: "homepage"
 status: "local_preview"
-content_status: "repair_first_refinement"
+content_status: "block_recipe_transition"
 seo_status: "needs_review"
 client_review_status: "questions_open"
 priority: "P1"
@@ -24,14 +24,14 @@ business_fit: "high_if_repair_service"
 risk: "Keep repair and refurbishment positioning; avoid sales, full new-build, price, guarantee, emergency, certification, review, and case-study claims."
 layout: "home"
 draft: false
-structure_status: "service_website_refinement"
-content_pattern: "homepage_checkerboard_v1"
+structure_status: "block_recipe_v1"
+content_pattern: "homepage_recipe_v1"
 has_editorial_section: false
 has_columns: false
 client_brief: "β┇workbench/03┇content-intake-and-page-briefs.md"
 created: 2026-05-01
-updated: 2026-05-09
-version: 1.08
+updated: 2026-05-10
+version: 1.09
 ---
 
 # Wintergarten Reparatur und Sanierung in Berlin und Brandenburg
@@ -58,7 +58,7 @@ Nicht im Vordergrund stehen allgemeiner Wintergartenkauf, Produktberatung für N
 
 ## Wobei die Prüfung helfen kann
 
-Bei einem Wintergarten treffen viele Bauteile auf engem Raum zusammen. Eine Reparatur sollte deshalb nicht nur die auffällige Stelle betrachten, sondern die angrenzenden Bereiche mitdenken.
+Bei einem Wintergarten treffen viele Bauteile auf engem Raum zusammen. Eine Reparatur sollte deshalb nicht nur die auffällige Stelle betrachten, sondern prüfen, welche angrenzenden Bereiche mitwirken können.
 
 Geprüft oder eingeordnet werden können unter anderem:
 
@@ -74,7 +74,7 @@ Geprüft oder eingeordnet werden können unter anderem:
 
 ## Häufige Gründe für eine Anfrage
 
-Viele Anfragen beginnen nicht mit einer fertigen Diagnose, sondern mit einer Beobachtung: Wasser steht im Innenbereich, eine Dichtung sitzt nicht mehr sauber oder ein bewegliches Element hakt.
+Viele Anfragen beginnen nicht mit einer fertigen Diagnose, sondern mit einer klaren Beobachtung: Wasser steht im Innenbereich, eine Dichtung sitzt nicht mehr sauber oder ein bewegliches Element hakt.
 
 Hilfreich ist, das sichtbare Problem möglichst konkret zu beschreiben:
 
@@ -153,4 +153,4 @@ Vorgesehen sind Telefon, Kontaktformular und WhatsApp. Öffentliche Kontaktdetai
 
 ## Anfrage stellen
 
-Wenn Ihr Wintergarten undicht ist, Bauteile beschädigt sind oder eine Sanierung geprüft werden soll, nutzen Sie den Anfragebereich unten. Standort, Gesamtansicht, sichere Detailfotos und Hinweise zum Wetter- oder Nutzungsverhalten erleichtern die erste Einordnung.
+Wenn Ihr Wintergarten undicht ist, Bauteile beschädigt sind oder eine Sanierung geprüft werden soll, nutzen Sie den Kontaktbereich unten. Standort, Gesamtansicht, sichere Detailfotos und Hinweise zum Wetter- oder Nutzungsverhalten erleichtern die erste Einordnung.
