@@ -51,6 +51,6 @@ export default defineConfig({
   site,
   base,
   markdown: {
-    rehypePlugins: [prefixInternalLinks, sectionize],
+    rehypePlugins: [sectionize, prefixInternalLinks],
   },
 });
