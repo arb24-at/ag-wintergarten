@@ -24,15 +24,17 @@ function prefixInternalLinks() {
 
     function visit(node: HastNode) {
       if (node && node.type === 'element' && node.properties) {
-        const href = node.properties.href;
+        for (const property of ['href', 'src']) {
+          const value = node.properties[property];
 
-        if (
-          typeof href === 'string' &&
-          href.startsWith('/') &&
-          !href.startsWith('//') &&
-          !href.startsWith(`${cleanBase}/`)
-        ) {
-          node.properties.href = `${cleanBase}${href}`;
+          if (
+            typeof value === 'string' &&
+            value.startsWith('/') &&
+            !value.startsWith('//') &&
+            !value.startsWith(`${cleanBase}/`)
+          ) {
+            node.properties[property] = `${cleanBase}${value}`;
+          }
         }
       }
 
