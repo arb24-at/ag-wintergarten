@@ -1,5 +1,5 @@
 ---
-version: 1.07
+version: 1.08
 created: 2026-05-01
 updated: 2026-05-27
 ---
@@ -13,6 +13,8 @@ Keep this as implementation guidance, not final visual design polish. Public Mar
 The site should feel like a practical repair-first service website for Berlin and Brandenburg, not like a generic article layout, a product catalogue, or a glossy new-build sales page.
 
 As of the classic compact redesign, the visual direction is closer to a traditional German trades website: compact two-row header, clear navigation, rectangular service cards, practical diagnostic blocks, image-supported repair sections, darker process band, and a substantial contact/footer area. Earlier benchmark and section rules remain useful context, but they should not prevent necessary visual improvements.
+
+As of the section whitelist pass, content should be drafted for approved section families rather than written as long article prose and styled afterwards. The visual rhythm should separate real CTAs, supportive links, diagnostic information, service scope, process steps, FAQs, and contact forms.
 
 ## Layout Goals
 

@@ -1,5 +1,6 @@
 ---
 import type { SitePage } from '../lib/site-pages';
+import { businessDetails } from '../lib/contact';
 import { withBase } from '../lib/urls';
 
 interface Props {
@@ -13,11 +14,23 @@ const heroImage = page.data.hero_image ?? '/images/placeholders/wintergarten-her
 const heroAlt = page.data.hero_image_alt ?? 'Stilisierte Darstellung eines Wintergartens';
 const isProblemPage = page.data.page_type.includes('problem');
 const eyebrow = isHome ? 'Reparatur und Sanierung' : isProblemPage ? 'Wassereintritt prüfen' : 'Wintergarten Reparatur';
-const quickFacts = isHome
-  ? ['Bestandsanlagen', 'Abdichtung und Reparatur', 'Berlin und Brandenburg']
+const signals = isHome
+  ? [
+      { label: 'Schwerpunkt', value: 'Leckage, Abdichtung und Reparatur' },
+      { label: 'Anlagen', value: 'Bestehende Wintergärten und Überdachungen' },
+      { label: 'Region', value: businessDetails.serviceArea },
+    ]
   : isProblemPage
-    ? ['Dach und Anschluss', 'Dichtungen und Profile', 'Sichere Fotos reichen']
-    : ['Dichtungen und Verglasung', 'Profile und Entwässerung', 'Sanierung prüfen'];
+    ? [
+        { label: 'Problem', value: 'Wasser nach Regen, Dach oder Anschluss' },
+        { label: 'Prüfung', value: 'Dichtungen, Profile und Entwässerung' },
+        { label: 'Start', value: 'Kurze Beschreibung genügt zuerst' },
+      ]
+    : [
+        { label: 'Bauteile', value: 'Dichtungen, Verglasung und Profile' },
+        { label: 'Umfang', value: 'Reparatur bis Sanierung prüfen' },
+        { label: 'Region', value: businessDetails.serviceArea },
+      ];
 const secondaryAction = isHome
   ? { href: '/wintergarten-undicht/', label: 'Wassereintritt einordnen' }
   : isProblemPage
@@ -34,14 +47,14 @@ const secondaryAction = isHome
       <p class="page-hero__eyebrow">{eyebrow}</p>
       <h1>{heroTitle}</h1>
       <p class="page-hero__summary">{page.data.description}</p>
-      <ul class="page-hero__facts" aria-label="Seitenschwerpunkte">
-        {quickFacts.map((fact) => <li>{fact}</li>)}
+      <ul class="page-hero__signals" aria-label="Seitenschwerpunkte">
+        {signals.map((signal) => <li><strong>{signal.label}</strong><span>{signal.value}</span></li>)}
       </ul>
       <div class="page-hero__actions">
         <a class="hero__cta" href="#kontakt">Zum Anfragebereich</a>
-        <a class="hero__cta hero__cta--secondary" href={withBase(secondaryAction.href)}>{secondaryAction.label}</a>
+        <a class="hero__text-link" href={withBase(secondaryAction.href)}>{secondaryAction.label}</a>
       </div>
-      <p class="page-hero__note">Standort, Schadensbild und sichere Fotos reichen für den ersten Schritt.</p>
+      <p class="page-hero__note">Sie können zuerst kurz Kontakt aufnehmen. Fotos und Details helfen, wenn sie schon vorhanden sind.</p>
     </div>
   </div>
 </section>

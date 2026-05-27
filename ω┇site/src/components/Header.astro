@@ -28,8 +28,11 @@ const emailChannel = contactChannels.find((channel) => channel.label === 'E-Mail
   <div class="site-header__bar">
     <div class="site-header__inner container">
       <a class="brand" href={withBase('/')}>
-        <strong>AG Wintergarten</strong>
-        <span>Reparatur und Abdichtung</span>
+        <img class="brand__mark" src={withBase('/images/brand/ag-wintergarten-rain-logo.svg')} alt="" width="44" height="44" />
+        <span class="brand__text">
+          <strong>AG Wintergarten</strong>
+          <span>Reparatur und Abdichtung</span>
+        </span>
       </a>
       <nav class="site-nav" aria-label="Hauptnavigation">
         {

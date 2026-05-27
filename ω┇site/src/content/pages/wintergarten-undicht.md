@@ -9,7 +9,7 @@ url: "/wintergarten-undicht/"
 type: "content-page"
 page_type: "problem/service page"
 status: "local_preview"
-content_status: "service_copy_refresh"
+content_status: "section_whitelist_v1"
 seo_status: "needs_review"
 client_review_status: "questions_open"
 priority: "P1"
@@ -24,14 +24,14 @@ business_fit: "high_if_repair_service"
 risk: "Keep leak and water ingress focus; avoid price, emergency, guarantee, certification, review, case-study, and overdiagnosis claims."
 layout: "service"
 draft: false
-structure_status: "block_recipe_v1"
-content_pattern: "problem_page_recipe_v1"
+structure_status: "section_whitelist_v1"
+content_pattern: "problem_page_whitelist_v1"
 has_editorial_section: false
 has_columns: false
 client_brief: "β┇workbench/03┇content-intake-and-page-briefs.md"
 created: 2026-04-25
 updated: 2026-05-27
-version: 1.19
+version: 1.20
 ---
 
 # Wintergarten undicht? Leckage prüfen und abdichten lassen
@@ -39,6 +39,12 @@ version: 1.19
 Wenn nach Regen Wasser in den Wintergarten läuft, ist eine schnelle Schicht Silikon selten die beste Antwort. Ein Dach kann an einer Stelle tropfen, obwohl Wasser weiter oben über Anschluss, Profil, Dichtung, Verglasung, Stegplatten oder Entwässerung in die Konstruktion gelangt.
 
 AG Wintergarten übernimmt Leckageprüfung, Abdichtung und Reparatur an bestehenden Wintergärten, Kaltwintergärten, Warmwintergärten und Terrassenüberdachungen in Berlin und Brandenburg. Nach der Schadensprüfung lässt sich abstimmen, ob eine gezielte Abdichtung reicht oder ob Dichtungen, Profile, Anschlüsse, Glasbereiche, Stegplatten oder Entwässerung mit repariert werden sollten.
+
+## Schnell Kontakt aufnehmen
+
+Wenn Wasser bereits sichtbar eintritt, muss die Ursache nicht vorab selbst bestimmt werden. Beschreiben Sie kurz, wo es nass wird und ob es mit Regen, Wind oder bestimmten Wetterlagen zusammenhängt.
+
+Sichere Fotos helfen, wenn sie vorhanden sind. Der erste Schritt bleibt trotzdem einfach: Standort nennen, Schadensbild beschreiben, Prüfung abstimmen.
 
 ## Vom Wassereintritt zur passenden Reparatur
 

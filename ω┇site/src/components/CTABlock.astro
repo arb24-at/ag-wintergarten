@@ -11,16 +11,23 @@ const emailChannel = contactChannels.find((channel) => channel.label === 'E-Mail
   <div class="cta-block__grid">
     <div>
       <p class="cta-block__eyebrow">Serviceanfrage vorbereiten</p>
-      <h2 id="cta-heading">Schaden beschreiben, Standort nennen, Fotos bereitlegen</h2>
+      <h2 id="cta-heading">Kurz Kontakt aufnehmen, Schaden gemeinsam einordnen</h2>
       <p>
-        Beschreiben Sie den sichtbaren Schaden kurz und nennen Sie den Standort im Einsatzgebiet
-        {businessDetails.serviceArea}. Die Platzhalter-Kontaktdaten werden später durch echte
-        Unternehmensdaten ersetzt.
+        Eine Anfrage muss nicht perfekt vorbereitet sein. Nennen Sie kurz den sichtbaren Schaden
+        und den Standort im Einsatzgebiet {businessDetails.serviceArea}. Wenn Fotos schon vorhanden
+        sind, helfen sie bei der ersten Einordnung.
+      </p>
+      <div class="cta-block__contact-row" aria-label="Schnelle Kontaktwege">
+        {phoneChannel?.href && <a class="button-link" href={phoneChannel.href}>Anrufen</a>}
+        {emailChannel?.href && <a class="button-link button-link--ghost" href={emailChannel.href}>E-Mail senden</a>}
+      </div>
+      <p class="cta-block__helper">
+        Platzhalterdaten: {phoneChannel?.note ?? 'Telefonplatzhalter'} · {emailChannel?.note ?? 'E-Mail-Platzhalter'}
       </p>
       <ul class="cta-block__checklist">
-        <li>{phoneChannel?.note ?? 'Telefonplatzhalter'} oder {emailChannel?.note ?? 'E-Mail-Platzhalter'} nutzen</li>
-        <li>Standort in Berlin oder Brandenburg ergänzen</li>
-        <li>Wetterverhalten, Wiederholung und frühere Reparaturen notieren</li>
+        <li>Standort nennen</li>
+        <li>sichtbaren Wassereintritt oder Schaden beschreiben</li>
+        <li>Fotos nur ergänzen, wenn sie sicher vorhanden sind</li>
       </ul>
     </div>
     <form class="enquiry-form" data-enquiry-form aria-describedby="form-note">

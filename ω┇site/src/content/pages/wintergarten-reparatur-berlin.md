@@ -9,7 +9,7 @@ url: "/wintergarten-reparatur-berlin/"
 type: "content-page"
 page_type: "local service page"
 status: "local_preview"
-content_status: "block_recipe_transition"
+content_status: "section_whitelist_v1"
 seo_status: "needs_review"
 client_review_status: "questions_open"
 priority: "P1"
@@ -22,21 +22,25 @@ business_fit: "high_if_repair_service"
 risk: "Keep repair/refurbishment scope; avoid duplicate homepage routing, pure leak-page overlap, sales, full new-build, price, guarantee, emergency, certification, review, and case-study claims."
 layout: "service"
 draft: false
-structure_status: "block_recipe_v1"
-content_pattern: "local_service_recipe_v1"
+structure_status: "section_whitelist_v1"
+content_pattern: "local_service_whitelist_v1"
 has_editorial_section: false
 has_columns: false
 client_brief: "β┇workbench/03┇content-intake-and-page-briefs.md"
 created: 2026-04-25
 updated: 2026-05-27
-version: 1.19
+version: 1.20
 ---
 
 # Wintergarten Reparatur Berlin
 
 Eine Wintergarten Reparatur ist dann sinnvoll, wenn eine bestehende Anlage erhalten bleiben soll, aber einzelne Bereiche nicht mehr zuverlässig funktionieren: Dichtungen, Verglasung, Stegplatten, Profile, Entwässerung oder bewegliche Elemente.
 
-Für private Eigentümerinnen und Eigentümer in Berlin und Brandenburg geht es zuerst um eine belastbare Schadensprüfung: Welche Bauteile sind betroffen, welche angrenzenden Bereiche müssen mit betrachtet werden und welcher Reparatur- oder Sanierungsumfang passt zum Befund?
+Für Eigentümerinnen und Eigentümer in Berlin und Brandenburg geht es zuerst um eine klare Einordnung: Welche Bauteile sind betroffen, welche angrenzenden Bereiche müssen mit betrachtet werden und welcher Reparatur- oder Sanierungsumfang passt zum Befund?
+
+## Direkt Reparaturanfrage stellen
+
+Für den ersten Kontakt reichen Standort, eine kurze Beschreibung und der Hinweis, was am Wintergarten sichtbar nicht mehr funktioniert. Bilder sind hilfreich, wenn sie aus sicherer Position möglich sind, aber die Anfrage kann auch ohne vollständige Fotodokumentation beginnen.
 
 ## Wann Reparatur oder Sanierung passt
 
@@ -94,7 +98,7 @@ Eine einzelne sichtbare Stelle reicht selten als vollständiger Befund. Wenn zum
 
 ## Welche Angaben vor der Prüfung helfen
 
-Je genauer die Anfrage ist, desto besser lässt sich der nächste sinnvolle Schritt vorbereiten. Wichtig sind Angaben, die Schaden, Konstruktion, Standort und Zugänglichkeit nachvollziehbar machen.
+Je genauer die Anfrage ist, desto leichter lässt sich der nächste sinnvolle Schritt vorbereiten. Wichtig sind Angaben, die Schaden, Konstruktion, Standort und Zugänglichkeit nachvollziehbar machen. Das muss aber nicht vollständig sein, bevor Sie Kontakt aufnehmen.
 
 Hilfreich sind:
 

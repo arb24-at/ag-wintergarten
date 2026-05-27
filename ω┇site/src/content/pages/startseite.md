@@ -9,7 +9,7 @@ url: "/"
 type: "content-page"
 page_type: "homepage"
 status: "local_preview"
-content_status: "block_recipe_transition"
+content_status: "section_whitelist_v1"
 seo_status: "needs_review"
 client_review_status: "questions_open"
 priority: "P1"
@@ -24,25 +24,31 @@ business_fit: "high_if_repair_service"
 risk: "Keep repair and refurbishment positioning; avoid sales, full new-build, price, guarantee, emergency, certification, review, and case-study claims."
 layout: "home"
 draft: false
-structure_status: "block_recipe_v1"
-content_pattern: "homepage_recipe_v1"
+structure_status: "section_whitelist_v1"
+content_pattern: "homepage_whitelist_v1"
 has_editorial_section: false
 has_columns: false
 client_brief: "β┇workbench/03┇content-intake-and-page-briefs.md"
 created: 2026-05-01
 updated: 2026-05-27
-version: 1.11
+version: 1.12
 ---
 
 # Wintergarten Reparatur und Sanierung in Berlin und Brandenburg
 
-Wenn Wasser sichtbar wird, Dichtungen nachlassen oder Bauteile nicht mehr sauber schließen, braucht ein bestehender Wintergarten zuerst eine klare Einordnung. Die sichtbare Stelle zeigt oft nur den Austritt, nicht automatisch die Ursache.
+Wenn nach Regen Wasser sichtbar wird, Dichtungen nachlassen oder Bauteile nicht mehr sauber schließen, sollte ein bestehender Wintergarten ruhig und im Zusammenhang geprüft werden. Oft zeigt die sichtbare Stelle nur, wo Wasser austritt, nicht wo es in die Konstruktion gelangt.
 
-AG Wintergarten ist auf bestehende Wintergärten, Kaltwintergärten, Warmwintergärten und Terrassenüberdachungen ausgerichtet, die geprüft, repariert, abgedichtet oder im Sanierungsumfang bewertet werden sollen.
+AG Wintergarten ist auf bestehende Wintergärten, Kaltwintergärten, Warmwintergärten und Terrassenüberdachungen in Berlin und Brandenburg ausgerichtet: Leckageprüfung, Abdichtung, Reparatur und Sanierung vorhandener Anlagen.
+
+## Schnelle Einordnung
+
+Sie müssen nicht zuerst alles selbst herausfinden. Für den Anfang reichen eine kurze Beschreibung, der Standort und der Hinweis, ob Wasser nach Regen, bei Wind oder dauerhaft sichtbar wird.
+
+Wenn Fotos vorhanden sind, helfen eine Gesamtansicht und eine sichere Innenaufnahme der betroffenen Stelle. Ohne Fotos kann die Anfrage trotzdem starten.
 
 ## Passt Ihre Anfrage hierher?
 
-Ein guter Einstieg ist die Frage, ob es um eine bestehende Anlage mit einem konkreten Schaden oder sichtbarem Verschleiß geht. Dann kann die Anfrage meist sinnvoll eingeordnet werden.
+Ein guter Einstieg ist die Frage, ob es um eine bestehende Anlage mit einem konkreten Schaden oder sichtbarem Verschleiß geht. Dann lässt sich meist schnell einordnen, ob Reparatur, Abdichtung oder Leckageprüfung im Vordergrund steht.
 
 Typische passende Situationen sind:
 
@@ -90,7 +96,7 @@ Solche Hinweise helfen, die Anfrage gezielter vorzubereiten und die passende The
 
 ## Was Sie vor der Anfrage notieren sollten
 
-Eine erste Anfrage muss nicht lang sein. Entscheidend sind Angaben, die den Schaden nachvollziehbar machen und keine riskanten Fotos erfordern.
+Eine erste Anfrage darf kurz sein. Die folgenden Angaben helfen, wenn sie schon vorliegen, sind aber keine Hürde für die Kontaktaufnahme.
 
 Bitte nennen oder senden Sie, soweit vorhanden:
 

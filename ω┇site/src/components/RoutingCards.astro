@@ -9,16 +9,23 @@ interface Props {
 }
 
 const { pages } = Astro.props;
-const cardTags: Record<string, string[]> = {
-  '/wintergarten-reparatur-berlin/': ['Dichtungen', 'Glas und Platten', 'Profile'],
-  '/wintergarten-undicht/': ['Regenwasser', 'Dachanschluss', 'Ursache klären'],
+const cardDetails: Record<string, { label: string; value: string }[]> = {
+  '/wintergarten-reparatur-berlin/': [
+    { label: 'Typische Bauteile', value: 'Dichtungen, Glas, Platten, Profile' },
+    { label: 'Ziel', value: 'Schaden erhalten, reparieren oder sanieren' },
+  ],
+  '/wintergarten-undicht/': [
+    { label: 'Typische Lage', value: 'Dach, Anschluss, Profil oder Entwässerung' },
+    { label: 'Ziel', value: 'Ursache prüfen, nicht nur Tropfstelle abdichten' },
+  ],
 };
 ---
 
 <section class="routing-module" aria-labelledby="routing-heading">
   <div class="module-heading">
-    <h2 id="routing-heading">Welches Problem passt zu Ihrer Anfrage?</h2>
-    <p>Wählen Sie den Einstieg, der am besten zum sichtbaren Schaden passt. So bleibt die Anfrage klar, auch wenn die genaue Ursache noch offen ist.</p>
+    <p class="module-heading__eyebrow">Thema wählen</p>
+    <h2 id="routing-heading">Welcher Einstieg passt?</h2>
+    <p>Wählen Sie die Seite, die dem sichtbaren Problem am nächsten kommt. Die Anfrage kann trotzdem kurz bleiben.</p>
   </div>
   <div class="routing-grid">
     {
@@ -27,11 +34,16 @@ const cardTags: Record<string, string[]> = {
           <div class="routing-card__body">
             <h3>{getPageCardTitle(page)}</h3>
             <p>{getPageCardSummary(page)}</p>
-            <ul class="routing-card__tags" aria-label="Typische Themen">
-              {(cardTags[page.data.url] ?? []).map((tag) => <li>{tag}</li>)}
-            </ul>
+            <dl class="routing-card__details">
+              {(cardDetails[page.data.url] ?? []).map((detail) => (
+                <div>
+                  <dt>{detail.label}</dt>
+                  <dd>{detail.value}</dd>
+                </div>
+              ))}
+            </dl>
           </div>
-          <span class="routing-card__link">Passenden Einstieg öffnen</span>
+          <span class="routing-card__link">Seite öffnen</span>
         </a>
       ))
     }

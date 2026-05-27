@@ -1,16 +1,11 @@
+import { fallbackSection, normaliseSectionDefinition, type SectionDefinition } from '../section-whitelist';
+
 type HastNode = {
   type?: string;
   tagName?: string;
   value?: string;
   properties?: Record<string, unknown>;
   children?: HastNode[];
-};
-
-type SectionDefinition = {
-  type: string;
-  variant: string;
-  layout: string;
-  actionLabel?: string;
 };
 
 function textContent(node: HastNode): string {
@@ -146,6 +141,7 @@ function sectionKind(title: string) {
   if (key.includes('haufige-fragen')) return 'faq';
   if (key.includes('ablauf') || key.includes('lauft') || key.includes('schritte')) return 'process';
   if (key.includes('einsatzbereich') || key.includes('umgebung')) return 'area';
+  if (key.includes('schnelle') || key.includes('direkt') || key.includes('kontakt aufnehmen')) return 'quick';
   if (key.includes('passt') || key.includes('wann')) return 'fit';
   if (key.includes('beobachten') || key.includes('grunde') || key.includes('reparaturfalle')) return 'diagnostic';
   if (key.includes('arbeitsbereiche') || key.includes('bauteile') || key.includes('eintreten')) return 'areas';
@@ -177,6 +173,12 @@ function pageKind(tree: HastNode) {
 
 const approvedSections: Record<string, Record<string, SectionDefinition>> = {
   home: {
+    'schnelle-einordnung': {
+      type: 'early-contact',
+      variant: 'quick-check',
+      layout: 'compact-explainer',
+      actionLabel: 'Anfrage starten',
+    },
     'passt-ihre-anfrage-hierher': {
       type: 'fit-check',
       variant: 'diagnostic-cards',
@@ -221,6 +223,12 @@ const approvedSections: Record<string, Record<string, SectionDefinition>> = {
     },
   },
   repair: {
+    'direkt-reparaturanfrage-stellen': {
+      type: 'early-contact',
+      variant: 'quick-check',
+      layout: 'compact-explainer',
+      actionLabel: 'Reparatur anfragen',
+    },
     'wann-reparatur-oder-sanierung-passt': {
       type: 'fit-check',
       variant: 'diagnostic-cards',
@@ -270,6 +278,12 @@ const approvedSections: Record<string, Record<string, SectionDefinition>> = {
     },
   },
   leak: {
+    'schnell-kontakt-aufnehmen': {
+      type: 'early-contact',
+      variant: 'quick-check',
+      layout: 'compact-explainer',
+      actionLabel: 'Leckage anfragen',
+    },
     'experten-hinzuziehen': {
       type: 'enquiry-prep',
       variant: 'early-cta',
@@ -346,30 +360,10 @@ const approvedSections: Record<string, Record<string, SectionDefinition>> = {
   },
 };
 
-function fallbackSection(kind: string): SectionDefinition {
-  const typeByKind: Record<string, string> = {
-    area: 'service-area',
-    areas: 'causes-affected-zones',
-    default: 'content-section',
-    diagnostic: 'diagnostic-card-grid',
-    explain: 'compact-explainer',
-    faq: 'faq',
-    fit: 'fit-check',
-    help: 'split-text-image-explainer',
-    prep: 'enquiry-prep',
-    process: 'process-steps',
-    request: 'enquiry-form-block',
-  };
-
-  return {
-    type: typeByKind[kind] ?? 'content-section',
-    variant: 'standard',
-    layout: kind,
-  };
-}
-
 function sectionDefinition(page: string, key: string, kind: string) {
-  return approvedSections[page]?.[key] ?? fallbackSection(kind);
+  const definition = approvedSections[page]?.[key] ?? fallbackSection(kind);
+
+  return normaliseSectionDefinition(definition, kind);
 }
 
 function addLayoutClasses(section: HastNode, layout: string) {

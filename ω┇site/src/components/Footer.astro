@@ -14,7 +14,10 @@ const { pages } = Astro.props;
 <footer class="site-footer">
   <div class="site-footer__grid container">
     <section>
-      <h2>AG Wintergarten</h2>
+      <div class="site-footer__brand">
+        <img src={withBase('/images/brand/ag-wintergarten-rain-logo.svg')} alt="" width="42" height="42" />
+        <h2>AG Wintergarten</h2>
+      </div>
       <p>
         Reparatur, Abdichtung, Schadensprüfung und Sanierung bestehender Wintergärten,
         Kaltwintergärten, Warmwintergärten und Terrassenüberdachungen in {businessDetails.serviceArea}.

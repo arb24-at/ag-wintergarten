@@ -1,5 +1,5 @@
 ---
-version: 1.14
+version: 1.15
 created: 2026-04-25
 updated: 2026-05-27
 ---
@@ -121,3 +121,10 @@ The active visual direction is a compact classic trade-service website rather th
 
 Consequence:
 Older design notes in `α┇docs/` are historical context, not hard blockers. Update the docs after visual implementation when the site direction changes materially.
+
+## 2026-05-27 — Introduce Whitelist Section System
+
+Content and layout now develop together through a practical whitelist of allowed section families, variants, and layouts. The first implementation lives in `ω┇site/src/lib/section-whitelist.ts` and is applied by the Markdown section renderer.
+
+Consequence:
+Public Markdown remains semantic, but new page copy should be written for approved website sections rather than as article prose that is styled afterwards. New section families or variants should be added deliberately and documented before becoming the normal pattern.
