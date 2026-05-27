@@ -1,7 +1,7 @@
 ---
 import type { SitePage } from '../lib/site-pages';
 import { getPageLabel } from '../lib/site-pages';
-import { contactChannels } from '../lib/contact';
+import { businessDetails, contactChannels } from '../lib/contact';
 import { withBase } from '../lib/urls';
 
 interface Props {
@@ -17,8 +17,9 @@ const { pages } = Astro.props;
       <h2>AG Wintergarten</h2>
       <p>
         Reparatur, Abdichtung, Schadensprüfung und Sanierung bestehender Wintergärten,
-        Kaltwintergärten, Warmwintergärten und Terrassenüberdachungen in Berlin und Brandenburg.
+        Kaltwintergärten, Warmwintergärten und Terrassenüberdachungen in {businessDetails.serviceArea}.
       </p>
+      <p class="site-footer__address">{businessDetails.address}</p>
     </section>
     <nav class="footer-nav" aria-label="Footer Navigation">
       <h3>Seiten</h3>

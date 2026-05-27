@@ -1,7 +1,7 @@
 ---
-version: 1.13
+version: 1.14
 created: 2026-04-25
-updated: 2026-05-10
+updated: 2026-05-27
 ---
 
 # Decision Log
@@ -114,3 +114,10 @@ Public pages are now planned through approved page recipes and a whitelist of fu
 
 Consequence:
 Agents must identify page type, choose the approved recipe, select approved sections, choose allowed variants, and update the page brief before major public page edits. Public Markdown remains semantic; Astro maps the known section structure into website blocks. New production section types must be documented in the guidance system before they are used on live pages or in renderer mappings.
+
+## 2026-05-27 — Use Classic Compact Trade Website Direction
+
+The active visual direction is a compact classic trade-service website rather than a document-like technical layout. The site may use a two-row header, strong rectangular panels, local placeholder contact details, generated placeholder photos, tighter section spacing, and a stronger footer/contact area while keeping public Markdown semantic.
+
+Consequence:
+Older design notes in `α┇docs/` are historical context, not hard blockers. Update the docs after visual implementation when the site direction changes materially.

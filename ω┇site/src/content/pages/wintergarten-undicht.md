@@ -2,8 +2,8 @@
 title: "Wintergarten undicht"
 description: "Wintergarten undicht? Leckageprüfung, Abdichtung und Reparatur für Dach, Anschlüsse, Dichtungen und Entwässerung."
 hero_title: "Wintergarten undicht? Leckage prüfen und abdichten lassen"
-hero_image: "/images/hero/wintergarten-holz-glas-hero.jpeg"
-hero_image_alt: "Wintergarten aus Holz und Glas an einem Wohnhaus"
+hero_image: "/images/generated/conservatory-exterior-placeholder.png"
+hero_image_alt: "Bestehender Wintergarten mit Glasdach an einem Wohnhaus nach Regen"
 slug: "wintergarten-undicht"
 url: "/wintergarten-undicht/"
 type: "content-page"
@@ -30,8 +30,8 @@ has_editorial_section: false
 has_columns: false
 client_brief: "β┇workbench/03┇content-intake-and-page-briefs.md"
 created: 2026-04-25
-updated: 2026-05-26
-version: 1.18
+updated: 2026-05-27
+version: 1.19
 ---
 
 # Wintergarten undicht? Leckage prüfen und abdichten lassen
@@ -67,7 +67,7 @@ Typische Leckagebereiche sind:
 - Türen, Fenster und Schiebeelemente, wenn sie mit der Undichtigkeit zusammenhängen
 - alte Dichtmassen, Reparaturspuren oder provisorische Abdichtungen
 
-![Stilisierte Detailansicht von Glasprofilen und Anschlusslinien](/images/placeholders/wintergarten-detail.svg)
+![Dachanschluss eines bestehenden Wintergartens mit Glasdach nach Regen](/images/generated/roof-wall-connection-placeholder.png)
 
 Wichtig ist nicht nur, was innen nass ist. Entscheidend ist, welcher Bereich den Wassereintritt auslöst oder verstärkt.
 
@@ -100,7 +100,7 @@ Typische Dachhinweise sind:
 - Probleme vor allem bei Windregen
 - sichtbare Spuren an Dichtungen, Leisten, Stegplatten oder früherer Abdichtung
 
-![Stilisierte Serviceansicht eines Wintergartendachs und seiner Anschlussbereiche](/images/placeholders/wintergarten-service.svg)
+![Profil-, Dichtungs- und Glasdetail eines bestehenden Wintergartens](/images/generated/profile-seal-detail-placeholder.png)
 
 Wenn Dach, Anschluss und Entwässerung zusammen geprüft werden, lässt sich die Reparatur sauberer eingrenzen als durch eine schnelle Abdichtung der sichtbaren Stelle.
 

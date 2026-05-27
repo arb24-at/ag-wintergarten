@@ -1,6 +1,6 @@
 ---
 import type { SitePage } from '../lib/site-pages';
-import { contactChannels } from '../lib/contact';
+import { businessDetails, contactChannels } from '../lib/contact';
 import { getPageLabel } from '../lib/site-pages';
 import { withBase } from '../lib/urls';
 
@@ -11,34 +11,40 @@ interface Props {
 
 const { pages, currentUrl } = Astro.props;
 const phoneChannel = contactChannels.find((channel) => channel.label === 'Telefon' && channel.href);
+const emailChannel = contactChannels.find((channel) => channel.label === 'E-Mail' && channel.href);
 ---
 
 <header class="site-header">
-  <div class="site-header__inner container">
-    <a class="brand" href={withBase('/')}>
-      <strong>AG Wintergarten</strong>
-      <span>Reparatur, Abdichtung und Sanierung bestehender Wintergärten</span>
-    </a>
-    <nav class="site-nav" aria-label="Hauptnavigation">
-      {
-        pages.map((page) => (
-          <a
-            class="site-nav__link"
-            href={withBase(page.data.url)}
-            aria-current={page.data.url === currentUrl ? 'page' : undefined}
-          >
-            {getPageLabel(page)}
-          </a>
-        ))
-      }
-      {
-        phoneChannel?.href && (
-          <a class="site-nav__phone" href={phoneChannel.href} aria-label={`Telefonisch anfragen: ${phoneChannel.note}`}>
-            {phoneChannel.note}
-          </a>
-        )
-      }
-      <a class="site-nav__cta" href="#kontakt">Anfrage</a>
-    </nav>
+  <div class="site-header__top">
+    <div class="site-header__top-inner container" aria-label="Kontakt und Einsatzgebiet">
+      <div class="site-header__contacts">
+        {phoneChannel?.href && <a href={phoneChannel.href}>Telefon: {phoneChannel.note}</a>}
+        {emailChannel?.href && <a href={emailChannel.href}>E-Mail: {emailChannel.note}</a>}
+        <span>{businessDetails.serviceArea}</span>
+      </div>
+      <p>{businessDetails.serviceMessage}</p>
+    </div>
+  </div>
+  <div class="site-header__bar">
+    <div class="site-header__inner container">
+      <a class="brand" href={withBase('/')}>
+        <strong>AG Wintergarten</strong>
+        <span>Reparatur und Abdichtung</span>
+      </a>
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        {
+          pages.map((page) => (
+            <a
+              class="site-nav__link"
+              href={withBase(page.data.url)}
+              aria-current={page.data.url === currentUrl ? 'page' : undefined}
+            >
+              {getPageLabel(page)}
+            </a>
+          ))
+        }
+        <a class="site-nav__cta" href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
   </div>
 </header>

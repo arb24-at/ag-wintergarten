@@ -14,10 +14,10 @@ const heroAlt = page.data.hero_image_alt ?? 'Stilisierte Darstellung eines Winte
 const isProblemPage = page.data.page_type.includes('problem');
 const eyebrow = isHome ? 'Reparatur und Sanierung' : isProblemPage ? 'Wassereintritt prüfen' : 'Wintergarten Reparatur';
 const quickFacts = isHome
-  ? ['Bestehende Wintergärten', 'Reparatur statt Produktkatalog', 'Berlin und Brandenburg']
+  ? ['Bestandsanlagen', 'Abdichtung und Reparatur', 'Berlin und Brandenburg']
   : isProblemPage
-    ? ['Eintrittsweg klären', 'Dach, Anschluss, Dichtung', 'Fotos sicher vorbereiten']
-    : ['Dichtungen und Verglasung', 'Profile und Entwässerung', 'Sanierung einordnen'];
+    ? ['Dach und Anschluss', 'Dichtungen und Profile', 'Sichere Fotos reichen']
+    : ['Dichtungen und Verglasung', 'Profile und Entwässerung', 'Sanierung prüfen'];
 const secondaryAction = isHome
   ? { href: '/wintergarten-undicht/', label: 'Wassereintritt einordnen' }
   : isProblemPage
@@ -41,7 +41,7 @@ const secondaryAction = isHome
         <a class="hero__cta" href="#kontakt">Zum Anfragebereich</a>
         <a class="hero__cta hero__cta--secondary" href={withBase(secondaryAction.href)}>{secondaryAction.label}</a>
       </div>
-      <p class="page-hero__note">Details unten sammeln, Kontaktdaten nach Freigabe ergänzen.</p>
+      <p class="page-hero__note">Standort, Schadensbild und sichere Fotos reichen für den ersten Schritt.</p>
     </div>
   </div>
 </section>

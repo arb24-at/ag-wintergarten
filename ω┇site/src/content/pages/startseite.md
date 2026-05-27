@@ -2,8 +2,8 @@
 title: "Wintergarten Reparatur und Sanierung in Berlin"
 description: "Reparatur, Abdichtung und Schadensprüfung für bestehende Wintergärten in Berlin und Brandenburg."
 hero_title: "Wintergarten Reparatur in Berlin und Brandenburg"
-hero_image: "/images/hero/wintergarten-holz-glas-hero.jpeg"
-hero_image_alt: "Wintergarten aus Holz und Glas an einem Wohnhaus"
+hero_image: "/images/generated/conservatory-exterior-placeholder.png"
+hero_image_alt: "Bestehender Wintergarten mit Glasdach an einem Wohnhaus nach Regen"
 slug: "startseite"
 url: "/"
 type: "content-page"
@@ -30,8 +30,8 @@ has_editorial_section: false
 has_columns: false
 client_brief: "β┇workbench/03┇content-intake-and-page-briefs.md"
 created: 2026-05-01
-updated: 2026-05-12
-version: 1.10
+updated: 2026-05-27
+version: 1.11
 ---
 
 # Wintergarten Reparatur und Sanierung in Berlin und Brandenburg
@@ -70,7 +70,7 @@ Geprüft oder eingeordnet werden können unter anderem:
 - Sanierungsbedarf an bestehenden Wintergärten und verwandten Glasstrukturen.
 - Neue Fundamente, wenn sie zum bestehenden Projektzusammenhang gehören.
 
-![Stilisierte Serviceansicht eines bestehenden Wintergartens](/images/placeholders/wintergarten-service.svg)
+![Dachanschluss eines bestehenden Wintergartens mit Glasdach nach Regen](/images/generated/roof-wall-connection-placeholder.png)
 
 ## Häufige Gründe für eine Anfrage
 
@@ -103,7 +103,7 @@ Bitte nennen oder senden Sie, soweit vorhanden:
 - Art und ungefähres Alter der Anlage, falls bekannt.
 - Frühere Abdichtungen, Reparaturversuche oder sichtbare alte Dichtmassen.
 
-![Stilisierte Detailansicht von Profilen, Dichtungen und Entwässerung](/images/placeholders/wintergarten-detail.svg)
+![Profil-, Dichtungs- und Glasdetail eines bestehenden Wintergartens](/images/generated/profile-seal-detail-placeholder.png)
 
 Fotos aus sicherer Position reichen für den ersten Schritt. Riskante Aufnahmen auf Dachflächen sollten vermieden werden.
 

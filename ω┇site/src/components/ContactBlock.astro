@@ -1,5 +1,5 @@
 ---
-import { contactChannels } from '../lib/contact';
+import { businessDetails, contactChannels } from '../lib/contact';
 
 interface Props {
   heading?: string;
@@ -13,8 +13,8 @@ const { heading = 'Kontaktwege', variant } = Astro.props;
 <section class:list={['contact-block', variant === 'plain' && 'contact-block--plain']} id="kontaktwege" aria-label={heading}>
   <h2>{heading}</h2>
   <p>
-    Öffentliche Kontaktdaten sind noch nicht hinterlegt. Die bestätigten Kontaktwege werden deshalb
-    vorerst nur informativ angezeigt.
+    Die Kontaktdaten sind als Platzhalter angelegt und werden vor Veröffentlichung durch die
+    bestätigten Unternehmensdaten ersetzt. Einsatzgebiet: {businessDetails.serviceArea}.
   </p>
   <div class="contact-channels">
     {

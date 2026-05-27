@@ -2,8 +2,8 @@
 title: "Wintergarten Reparatur Berlin"
 description: "Reparatur, Abdichtung und Schadensprüfung für bestehende Wintergärten in Berlin und Brandenburg."
 hero_title: "Wintergarten Reparatur in Berlin"
-hero_image: "/images/hero/wintergarten-holz-glas-hero.jpeg"
-hero_image_alt: "Wintergarten aus Holz und Glas an einem Wohnhaus"
+hero_image: "/images/generated/conservatory-exterior-placeholder.png"
+hero_image_alt: "Bestehender Wintergarten mit Glasdach an einem Wohnhaus nach Regen"
 slug: "wintergarten-reparatur-berlin"
 url: "/wintergarten-reparatur-berlin/"
 type: "content-page"
@@ -28,8 +28,8 @@ has_editorial_section: false
 has_columns: false
 client_brief: "β┇workbench/03┇content-intake-and-page-briefs.md"
 created: 2026-04-25
-updated: 2026-05-12
-version: 1.18
+updated: 2026-05-27
+version: 1.19
 ---
 
 # Wintergarten Reparatur Berlin
@@ -69,7 +69,7 @@ Häufige Reparaturfälle sind:
 - Türen, Fenster oder Schiebeelemente mit schlechter Dichtung oder Bewegung,
 - sichtbarer Sanierungsbedarf an mehreren Bauteilen.
 
-![Stilisierte Ansicht eines bestehenden Wintergartens als Reparaturthema](/images/placeholders/wintergarten-service.svg)
+![Profil-, Dichtungs- und Glasdetail eines bestehenden Wintergartens](/images/generated/profile-seal-detail-placeholder.png)
 
 Wenn vor allem Wassereintritt im Vordergrund steht, hilft zusätzlich die Seite [Wintergarten undicht](/wintergarten-undicht/). Diese Reparaturseite bleibt breiter und bündelt Schäden, Bauteile und Instandsetzung an bestehenden Anlagen.
 
@@ -88,7 +88,7 @@ Relevante Arbeitsbereiche sind:
 - Sanierungsbedarf an bestehenden Anlagen abstimmen.
 - Neue Fundamente im passenden Zusammenhang prüfen.
 
-![Stilisierte Detailansicht von Glasprofilen und Anschlussbereichen](/images/placeholders/wintergarten-detail.svg)
+![Dachanschluss eines bestehenden Wintergartens mit Glasdach nach Regen](/images/generated/roof-wall-connection-placeholder.png)
 
 Eine einzelne sichtbare Stelle reicht selten als vollständiger Befund. Wenn zum Beispiel eine Dichtung beschädigt ist, können auch Profilzustand, Verglasung, Anschlussbereich oder Schließverhalten beteiligt sein.
 
