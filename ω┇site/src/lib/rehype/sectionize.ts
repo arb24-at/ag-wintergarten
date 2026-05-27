@@ -270,6 +270,12 @@ const approvedSections: Record<string, Record<string, SectionDefinition>> = {
     },
   },
   leak: {
+    'experten-hinzuziehen': {
+      type: 'enquiry-prep',
+      variant: 'early-cta',
+      layout: 'compact-explainer',
+      actionLabel: 'Leckage-Anfrage stellen',
+    },
     'passt-diese-seite-zu-ihrem-problem': {
       type: 'fit-check',
       variant: 'diagnostic-cards',
@@ -284,6 +290,16 @@ const approvedSections: Record<string, Record<string, SectionDefinition>> = {
       type: 'causes-affected-zones',
       variant: 'media-left',
       layout: 'checkerboard-media-left',
+    },
+    'dach-anschluss-dichtung-oder-entwasserung': {
+      type: 'causes-affected-zones',
+      variant: 'media-left',
+      layout: 'checkerboard-media-left',
+    },
+    'abdichtung-und-reparatur-am-wintergarten': {
+      type: 'service-scope',
+      variant: 'diagnostic-cards',
+      layout: 'diagnostic-grid',
     },
     'wenn-das-wintergartendach-undicht-wirkt': {
       type: 'split-text-image-explainer',

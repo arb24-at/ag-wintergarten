@@ -2,8 +2,8 @@
 title: "Wintergarten Reparatur und Sanierung in Berlin"
 description: "Reparatur, Abdichtung und Schadensprüfung für bestehende Wintergärten in Berlin und Brandenburg."
 hero_title: "Wintergarten Reparatur in Berlin und Brandenburg"
-hero_image: "/images/placeholders/wintergarten-hero.svg"
-hero_image_alt: "Stilisierte Ansicht eines Wintergartens an einem Wohnhaus"
+hero_image: "/images/hero/wintergarten-holz-glas-hero.jpeg"
+hero_image_alt: "Wintergarten aus Holz und Glas an einem Wohnhaus"
 slug: "startseite"
 url: "/"
 type: "content-page"
@@ -30,8 +30,8 @@ has_editorial_section: false
 has_columns: false
 client_brief: "β┇workbench/03┇content-intake-and-page-briefs.md"
 created: 2026-05-01
-updated: 2026-05-10
-version: 1.09
+updated: 2026-05-12
+version: 1.10
 ---
 
 # Wintergarten Reparatur und Sanierung in Berlin und Brandenburg

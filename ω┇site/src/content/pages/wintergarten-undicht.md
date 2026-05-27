@@ -1,15 +1,15 @@
 ---
 title: "Wintergarten undicht"
-description: "Wintergarten undicht? Wassereintritt, Dach, Anschlüsse, Dichtungen und Entwässerung geordnet vorbereiten."
-hero_title: "Wintergarten undicht? Wassereintritt richtig einordnen"
-hero_image: "/images/placeholders/wintergarten-service.svg"
-hero_image_alt: "Stilisierte Serviceansicht eines Wintergartens"
+description: "Wintergarten undicht? Leckageprüfung, Abdichtung und Reparatur für Dach, Anschlüsse, Dichtungen und Entwässerung."
+hero_title: "Wintergarten undicht? Leckage prüfen und abdichten lassen"
+hero_image: "/images/hero/wintergarten-holz-glas-hero.jpeg"
+hero_image_alt: "Wintergarten aus Holz und Glas an einem Wohnhaus"
 slug: "wintergarten-undicht"
 url: "/wintergarten-undicht/"
 type: "content-page"
 page_type: "problem/service page"
 status: "local_preview"
-content_status: "block_recipe_transition"
+content_status: "service_copy_refresh"
 seo_status: "needs_review"
 client_review_status: "questions_open"
 priority: "P1"
@@ -30,90 +30,91 @@ has_editorial_section: false
 has_columns: false
 client_brief: "β┇workbench/03┇content-intake-and-page-briefs.md"
 created: 2026-04-25
-updated: 2026-05-10
-version: 1.14
+updated: 2026-05-26
+version: 1.18
 ---
 
-# Wintergarten undicht? Wassereintritt richtig einordnen
+# Wintergarten undicht? Leckage prüfen und abdichten lassen
 
-Wenn nach Regen Wasser im Wintergarten sichtbar wird, sollte nicht zuerst nur die sichtbare Stelle abgedichtet werden. Sinnvoller ist es, den möglichen Eintrittsweg einzugrenzen: Dach, Anschluss, Profil, Dichtung, Verglasung, Stegplatten oder Entwässerung.
+Wenn nach Regen Wasser in den Wintergarten läuft, ist eine schnelle Schicht Silikon selten die beste Antwort. Ein Dach kann an einer Stelle tropfen, obwohl Wasser weiter oben über Anschluss, Profil, Dichtung, Verglasung, Stegplatten oder Entwässerung in die Konstruktion gelangt.
 
-Die nasse Stelle innen liegt oft nicht direkt unter der Ursache. Wasser kann über Profile, Übergänge und Anschlussbereiche weiterlaufen und erst später austreten. Deshalb hilft eine geordnete Schadensbeschreibung mehr als eine schnelle Vermutung.
+AG Wintergarten übernimmt Leckageprüfung, Abdichtung und Reparatur an bestehenden Wintergärten, Kaltwintergärten, Warmwintergärten und Terrassenüberdachungen in Berlin und Brandenburg. Nach der Schadensprüfung lässt sich abstimmen, ob eine gezielte Abdichtung reicht oder ob Dichtungen, Profile, Anschlüsse, Glasbereiche, Stegplatten oder Entwässerung mit repariert werden sollten.
 
-## Passt diese Seite zu Ihrem Problem?
+## Vom Wassereintritt zur passenden Reparatur
 
-Diese Seite passt besonders dann, wenn Feuchtigkeit oder Tropfen mit Regen, Wind oder dem Dachbereich zusammenhängen.
+Ein undichter Wintergarten ist selten nur ein kosmetisches Problem. Feuchtigkeit am Dach, am Wandanschluss oder an den Profilen kann auf gealterte Dichtungen, offene Übergänge, verschobene Platten, gestörte Entwässerung oder frühere Abdichtungen zurückgehen.
 
-Typische Hinweise sind:
+Statt den sichtbaren Tropfpunkt isoliert zu behandeln, wird der betroffene Bereich im Zusammenhang geprüft. Daraus ergeben sich meist drei Richtungen: gezielte Abdichtung, Reparatur einzelner Bauteile oder ein weitergehender Sanierungsumfang, wenn mehrere Bereiche zusammenhängen.
 
-- Wasser ist nach Regen im Wintergarten sichtbar.
-- Das Wintergartendach tropft an einer bestimmten Stelle.
-- Feuchtigkeit zeigt sich an Profilen, Glasrändern oder am Wandanschluss.
-- Wasser tritt nur bei stärkerem Regen oder bestimmter Windrichtung auf.
-- Dichtungen wirken hart, verschoben oder sichtbar gealtert.
-- Rinnen, Abläufe oder Profilöffnungen wirken verschmutzt oder überfordert.
-- Eine frühere Abdichtung hält nicht mehr zuverlässig.
+Stehen neben dem Wassereintritt auch beschädigte Bauteile, schwergängige Türen, Verglasung, Stegplatten oder allgemeiner Sanierungsbedarf im Vordergrund, passt zusätzlich die Seite [Wintergarten Reparatur Berlin](/wintergarten-reparatur-berlin/).
 
-Wenn zusätzlich beschädigte Bauteile, Stegplatten, Verglasung, Türen oder allgemeiner Sanierungsbedarf im Vordergrund stehen, kann auch [Wintergarten Reparatur Berlin](/wintergarten-reparatur-berlin/) die passende Seite sein.
+## Experten hinzuziehen
 
-## Was Sie zuerst beobachten sollten
+Wenn Wasser bereits sichtbar eintritt, lohnt sich eine fachliche Prüfung, bevor die nächste provisorische Abdichtung gesetzt wird. AG Wintergarten prüft bestehende Wintergärten in Berlin und Brandenburg und stimmt danach ab, welche Reparatur zum Aufbau passt.
 
-Für die erste Einordnung helfen konkrete Beobachtungen mehr als allgemeine Beschreibungen.
+Für eine Anfrage reichen zunächst der Standort und eine kurze Beschreibung, wo Wasser sichtbar wird. Wenn Bilder vorhanden sind, helfen eine Innenaufnahme der betroffenen Stelle und eine Gesamtansicht des Wintergartens.
 
-Hilfreich ist vor allem:
+## Dach, Anschluss, Dichtung oder Entwässerung?
 
-- Tritt Wasser nur nach Regen auf oder auch ohne Regen?
-- Ist Wind aus einer bestimmten Richtung beteiligt?
-- Wird die Stelle sofort nass oder erst später?
-- Tropft es von oben, läuft es am Profil entlang oder sammelt es sich am Boden?
-- Gibt es sichtbare Spuren an Dichtungen, Glasrändern, Platten oder Anschlüssen?
-- Wurde an der Stelle schon einmal mit Dichtmasse oder Silikon nachgebessert?
+Bei Wassereintritt zählt der Zusammenhang zwischen Dach, Anschluss, Profilen, Dichtungen, Verglasung und Entwässerung. AG Wintergarten prüft die auffällige Zone und die angrenzenden Bauteile, damit die Reparatur nicht an der falschen Stelle ansetzt.
 
-Diese Angaben ersetzen keine Prüfung vor Ort, machen eine Anfrage aber deutlich genauer.
+Typische Leckagebereiche sind:
 
-## Wo Wasser häufig eintreten kann
-
-Bei einem Wintergarten kommen viele Übergänge zusammen. Gerade dort entstehen häufig Leckagen oder unklare Feuchtigkeitsbilder.
-
-Wichtige Prüfbereiche sind:
-
-- Dachanschluss und Wandanschluss zum Haus
-- Übergänge zwischen Glas, Scheiben, Stegplatten und Profilen
-- Dichtungen an Dach, Türen, Fenstern und Schiebeelementen
-- Abschlussprofile, Abdeckleisten und Übergangsprofile
+- Dachanschlüsse und Wandanschlüsse zum Haus
+- Dichtungen, Profile, Abdeckleisten und Übergänge
+- Glasränder, Verglasung, Stegplatten und Doppelstegplatten
 - Rinnen, Abläufe, Entwässerungswege und Profilkammern
-- frühere Abdichtungen oder provisorische Reparaturstellen
+- Türen, Fenster und Schiebeelemente, wenn sie mit der Undichtigkeit zusammenhängen
+- alte Dichtmassen, Reparaturspuren oder provisorische Abdichtungen
 
 ![Stilisierte Detailansicht von Glasprofilen und Anschlusslinien](/images/placeholders/wintergarten-detail.svg)
 
-Eine sichtbare nasse Stelle kann also mehrere mögliche Ursachen haben. Vor einer neuen Abdichtung sollte geklärt werden, ob Wasser über Dichtung, Profil, Anschluss, Verglasung oder Entwässerung eintritt.
+Wichtig ist nicht nur, was innen nass ist. Entscheidend ist, welcher Bereich den Wassereintritt auslöst oder verstärkt.
+
+## Abdichtung und Reparatur am Wintergarten
+
+Nach der Leckageprüfung kann die passende Arbeit abgestimmt werden. Eine Abdichtung kann richtig sein, aber sie ist nicht automatisch die ganze Lösung.
+
+Mögliche Arbeiten sind:
+
+- gezielte Abdichtung an Anschluss, Profil oder Übergang
+- Dichtungen prüfen, richten oder erneuern
+- Profile, Abdeckleisten oder Anschlussbereiche instand setzen
+- Glas, Verglasung, Stegplatten oder Doppelstegplatten bewerten
+- Entwässerung, Rinnen, Abläufe und Profilwasserwege prüfen
+- angrenzende Türen, Fenster oder Schiebeelemente einbeziehen
+
+So wird aus dem sichtbaren Wasserschaden ein konkreter Reparaturumfang statt einer pauschalen Nachbesserung.
 
 ## Wenn das Wintergartendach undicht wirkt
 
-Bei einem undichten Wintergartendach wandert Wasser oft entlang von Platten, Glasflächen, Profilen oder Abdeckungen. Innen tropft es dann an einer anderen Stelle, als man es außen vermuten würde.
+Ein undichtes Wintergartendach wirkt oft eindeutig: innen tropft es, am Boden sammelt sich Wasser, am Profil bleibt eine feuchte Spur. Die eigentliche Eintrittsstelle kann trotzdem weiter oben oder seitlich liegen.
 
-Mögliche Ursachen sind zum Beispiel:
+Bei Dachleckagen werden deshalb nicht nur Tropfstelle und Dichtmasse betrachtet. Relevant sind auch Dachkante, Hausanschluss, Plattenstöße, Glasübergänge, Abschlussleisten, Rinnen und Abläufe.
 
-- gealterte oder beschädigte Dichtungen
-- undichte Übergänge an Glas oder Stegplatten
-- gelöste Abschlussleisten oder Profile
-- Probleme an Dachkante oder Hausanschluss
-- gestörter Wasserablauf über Rinnen oder Abläufe
+Typische Dachhinweise sind:
+
+- Tropfen an derselben Stelle nach Regen
+- Feuchtigkeit entlang von Sparren, Profilen oder Glasrändern
+- nasse Bereiche am Dachanschluss oder Wandanschluss
+- Probleme vor allem bei Windregen
+- sichtbare Spuren an Dichtungen, Leisten, Stegplatten oder früherer Abdichtung
 
 ![Stilisierte Serviceansicht eines Wintergartendachs und seiner Anschlussbereiche](/images/placeholders/wintergarten-service.svg)
 
-Hilfreich für die Anfrage sind eine Innenaufnahme der Tropfstelle, eine Gesamtansicht des Wintergartens und ein sicher erreichbarer Blick auf Dachkante, Anschlussbereich oder Profilverlauf. Riskante Dachfotos sind nicht nötig.
+Wenn Dach, Anschluss und Entwässerung zusammen geprüft werden, lässt sich die Reparatur sauberer eingrenzen als durch eine schnelle Abdichtung der sichtbaren Stelle.
 
 ## Regenwasser oder Kondenswasser?
 
-Nicht jede Feuchtigkeit ist automatisch eindringendes Regenwasser. Kondenswasser kann an kalten Glas- oder Profilflächen entstehen und ähnlich aussehen.
+Nicht jede Feuchtigkeit im Wintergarten ist eindringendes Regenwasser. Kondenswasser kann an kalten Glas- oder Profilflächen ähnlich aussehen, wird aber anders behandelt.
 
 Eher für Regenwasser sprechen:
 
 - Feuchtigkeit nach Regen
-- Tropfen bei Wind
-- wiederkehrende nasse Stellen an Anschlussbereichen
-- Wasserläufe entlang von Profilen
+- wiederkehrende Tropfen bei Wind
+- nasse Anschlussbereiche
+- Wasserläufe an Profilen oder Glasrändern
+- frühere Abdichtungen, die nicht mehr halten
 
 Eher für Kondenswasser sprechen:
 
@@ -121,98 +122,56 @@ Eher für Kondenswasser sprechen:
 - stärkere Abhängigkeit von Temperatur und Nutzung
 - keine klare Verbindung zu Regen oder Wind
 
-Die Unterscheidung ist wichtig, weil daraus unterschiedliche nächste Schritte folgen.
+Für die Reparatur macht dieser Unterschied viel aus. Bei Regenwasser stehen Abdichtung, Anschluss, Dichtung, Profil oder Entwässerung im Vordergrund. Bei Kondenswasser muss zuerst klar sein, ob überhaupt eine Leckage vorliegt.
 
-## Was vor einer Abdichtung geklärt werden sollte
+## Ablauf der Leckage-Anfrage
 
-Eine Abdichtung sollte nicht nur die sichtbare nasse Stelle verdecken. Wenn der eigentliche Eintrittsweg unklar bleibt, kann Wasser weiter in der Konstruktion laufen oder an anderer Stelle wieder auftauchen.
+### 1. Kontakt aufnehmen
 
-Vor einer Empfehlung sollte möglichst klarer werden:
+Beschreiben Sie kurz, wo Wasser sichtbar wird und ob Regen, Starkregen oder Wind eine Rolle spielt.
 
-- Wo ist der erste sichtbare Nasspunkt?
-- Welche Bauteile liegen darüber oder seitlich davon?
-- Sind Dichtungen, Profile, Glasränder oder Platten sichtbar beschädigt?
-- Kann Wasser über Rinnen, Abläufe und Profile sauber ablaufen?
-- Gibt es alte Dichtmassen, Reparaturspuren oder problematische Übergänge?
-- Passt das Feuchtigkeitsbild eher zu Regenwasser, Kondenswasser oder beidem?
+### 2. Standort und Schadensbild ergänzen
 
-Danach kann besprochen werden, ob eher Abdichtung, Dichtungsarbeit, Reparatur einzelner Bauteile oder eine weitergehende Instandsetzung sinnvoll ist.
-
-## Nützliche Angaben für die Anfrage
-
-Eine gute Anfrage muss nicht lang sein. Wichtig ist, dass das Feuchtigkeitsbild nachvollziehbar wird.
-
-Hilfreich sind:
-
-- Standort in Berlin, Brandenburg oder einer nahegelegenen Stadt
-- kurze Beschreibung, wo Wasser sichtbar wird
-- Hinweis, ob Regen, stärkerer Regen oder Wind eine Rolle spielen
-- Fotos der nassen Stelle von innen
-- eine Gesamtansicht des Wintergartens
-- sichere Detailbilder von Dachkante, Anschlussbereich, Profil, Dichtung oder Entwässerung
-- Hinweis auf frühere Abdichtungen oder Reparaturversuche
-- ungefähres Alter und Art des Wintergartens, soweit bekannt
-
-Innenaufnahmen, Gesamtansicht und sichere Detailfotos sind meist hilfreicher als riskante Aufnahmen auf dem Dach.
-
-## So läuft eine Leckage-Anfrage ab
-
-### 1. Problem kurz beschreiben
-
-Beschreiben Sie, wo Feuchtigkeit sichtbar wird, seit wann das Problem besteht und bei welchem Wetter es auftritt.
-
-### 2. Fotos und Standort ergänzen
-
-Fotos der betroffenen Stelle, eine Gesamtansicht und der Standort helfen bei der ersten Einordnung und bei der Prüfung des Einsatzbereichs.
+Der Standort in Berlin, Brandenburg oder Umgebung, eine Gesamtansicht und Fotos der betroffenen Stelle helfen bei der ersten Einordnung.
 
 ### 3. Schadensprüfung abstimmen
 
-Je nach Befund können Dach, Dichtungen, Profile, Anschlüsse, Verglasung, Stegplatten, Entwässerung und relevante bewegliche Elemente geprüft werden.
+Bei Bedarf werden Dach, Anschluss, Dichtungen, Profile, Verglasung, Stegplatten, Entwässerung und relevante bewegliche Elemente gemeinsam betrachtet.
 
-### 4. Passende Arbeit besprechen
+### 4. Reparatur und Angebot besprechen
 
-Nach der Prüfung kann abgestimmt werden, ob Abdichtung, Dichtungsarbeit, Reparatur einzelner Bauteile oder eine weitergehende Instandsetzung sinnvoll ist.
+Nach der Prüfung kann ein Reparatur- oder Sanierungsumfang abgestimmt werden, der zur Ursache und zum Zustand des Wintergartens passt.
 
 ## Einsatzbereich Berlin und Brandenburg
 
-Anfragen sind für bestehende Wintergärten und verwandte Glasstrukturen in Berlin, Brandenburg und nahegelegenen Städten innerhalb von ungefähr einer Stunde Fahrzeit vorgesehen.
+Die Seite richtet sich an private Kundinnen und Kunden mit bestehenden Wintergärten, Kaltwintergärten, Warmwintergärten und Terrassenüberdachungen in Berlin, Brandenburg und nahegelegenen Städten innerhalb von ungefähr einer Stunde Fahrzeit.
 
 Bitte nennen Sie den Standort möglichst genau, damit geprüft werden kann, ob die Anfrage im Einsatzbereich liegt.
 
 ## Häufige Fragen
 
-### Kann ein undichter Wintergarten einfach abgedichtet werden?
+### Reicht eine neue Abdichtung?
 
-Manchmal ist eine gezielte Abdichtung passend. Vorher sollte aber geklärt werden, ob Wasser über Dichtung, Profil, Glasrand, Dachanschluss, Wandanschluss oder Entwässerung eintritt.
+Manchmal ja. Wenn aber Dichtungen, Profile, Glasränder, Anschlussbereiche oder Entwässerung mit betroffen sind, sollte nicht nur die Tropfstelle abgedichtet werden.
 
 ### Warum tropft das Wintergartendach innen, obwohl außen nichts auffällt?
 
-Wasser kann innerhalb von Profilen, entlang von Platten oder über Anschlussbereiche wandern. Die innere Tropfstelle kann deshalb versetzt zur eigentlichen Eintrittsstelle liegen.
+Wasser kann entlang von Platten, Glasflächen, Profilen oder Anschlussbereichen weiterlaufen. Die innere Tropfstelle liegt deshalb nicht immer direkt unter der Eintrittsstelle.
 
-### Ist Feuchtigkeit immer ein Zeichen für eine Undichtigkeit?
+### Was ist, wenn es Kondenswasser ist?
 
-Nein. Kondenswasser kann ebenfalls Feuchtigkeitsspuren verursachen. Wichtig ist, ob die Feuchtigkeit nach Regen, bei Wind, dauerhaft oder eher bei Temperaturunterschieden auftritt.
-
-### Welche Fotos sind sinnvoll?
-
-Sinnvoll sind Fotos der sichtbaren Feuchtigkeit von innen, eine Gesamtansicht des Wintergartens und sichere Detailbilder von Anschlussbereich, Dachkante, Profil, Dichtung oder Entwässerung.
+Dann braucht es keine Leckage-Reparatur an der falschen Stelle. Entscheidend ist, ob die Feuchtigkeit zu Regen und Wind passt oder eher zu Temperatur, Nutzung und kalten Oberflächen.
 
 ### Gehören Dichtungen, Stegplatten und Entwässerung dazu?
 
-Dichtungen, Stegplatten, Doppelstegplatten, Profile, Rinnen, Abläufe und Entwässerungswege können bei einer Leckage-Prüfung relevant sein. Was konkret nötig ist, hängt vom Aufbau und vom Befund ab.
+Dichtungen, Stegplatten, Doppelstegplatten, Profile, Rinnen, Abläufe und Entwässerungswege können bei Wassereintritt relevant sein und gehören zum bestätigten Serviceumfang.
 
-### Welche Kontaktwege sind vorgesehen?
+### Arbeiten Sie auch außerhalb von Berlin?
 
-Vorgesehen sind Telefon, Kontaktformular und WhatsApp. Öffentliche Kontaktdetails und eine bevorzugte Reihenfolge sind noch nicht hinterlegt.
+Anfragen aus Brandenburg und nahegelegenen Städten innerhalb von ungefähr einer Stunde Fahrzeit sind vorgesehen. Ob der Standort passt, wird anhand der Anfrage geprüft.
 
-## Anfrage vorbereiten
+## Anfrage stellen
 
-Wenn Ihr Wintergarten undicht ist, nutzen Sie den Kontaktbereich unten. Hilfreich sind:
+Wenn Ihr Wintergarten nach Regen tropft, Wasser am Anschluss sichtbar wird oder Dichtungen, Profile, Glasbereiche, Stegplatten oder Entwässerung undicht wirken, nutzen Sie den Kontaktbereich unten.
 
-- sichtbarer Nasspunkt
-- Wetterverhalten
-- Fotos aus sicherer Position
-- Standort
-- Hinweise auf frühere Abdichtungen oder Reparaturen
-
-So lässt sich die Anfrage deutlich besser einordnen.
+Eine kurze Beschreibung und der Standort reichen für den ersten Schritt. Danach kann abgestimmt werden, ob eine Leckageprüfung, Abdichtung, Dichtungsarbeit oder Reparatur am Wintergarten sinnvoll ist.

@@ -106,7 +106,7 @@ const routingPages = isHome ? getRoutingPages(pages, page.data.url) : [];
       }
 
       .site-header {
-        position: relative;
+        position: sticky;
         top: 0;
         z-index: 10;
         border-bottom: 1px solid var(--line);
@@ -152,6 +152,7 @@ const routingPages = isHome ? getRoutingPages(pages, page.data.url) : [];
 
       .site-nav__link,
       .site-nav__cta,
+      .site-nav__phone,
       .hero__cta,
       .button-link {
         min-height: 34px;
@@ -181,6 +182,18 @@ const routingPages = isHome ? getRoutingPages(pages, page.data.url) : [];
         border-color: var(--accent-soft);
         background: var(--accent-pale);
         color: var(--accent);
+      }
+
+      .site-nav__phone {
+        border: 1px solid var(--accent);
+        background: #ffffff;
+        color: var(--accent);
+      }
+
+      .site-nav__phone:hover {
+        border-color: var(--accent-strong);
+        background: var(--accent-pale);
+        color: var(--accent-strong);
       }
 
       .site-nav__cta,

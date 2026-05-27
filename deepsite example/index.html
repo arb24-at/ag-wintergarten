@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AG Wintergarten – Reparatur, Abdichtung & Sanierung in Berlin und Brandenburg</title>
+  <meta name="description" content="Reparatur und Abdichtung bestehender Wintergärten, Glasdächer und Terrassenüberdachungen in Berlin und Brandenburg. Leckageprüfung vor Ort.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="script.js" defer></script>
+</head>
+<body class="bg-white text-[#1f2937] antialiased">
+
+  <!-- 1. Top Contact Bar -->
+  <div class="bg-[#13202f] text-white text-xs md:text-sm border-b border-[#1e293b]">
+    <div class="container mx-auto px-4 py-2.5 flex flex-col sm:flex-row justify-between items-center gap-1">
+      <div class="flex items-center gap-4">
+        <span class="flex items-center gap-1.5">
+          <i data-lucide="phone" class="w-3.5 h-3.5"></i>
+          <span class="font-semibold tracking-wide">030 / 123 456 78</span>
+        </span>
+        <span class="hidden md:flex items-center gap-1.5 text-gray-300">
+          <i data-lucide="map-pin" class="w-3.5 h-3.5"></i>
+          Berlin & Brandenburg
+        </span>
+      </div>
+      <div class="text-[#c5a059] font-medium uppercase tracking-wider text-[11px] md:text-xs">
+        Reparatur und Abdichtung in Berlin und Brandenburg
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Main Header -->
+  <header id="main-header" class="bg-[#0f172a] text-white sticky top-0 z-50 transition-shadow duration-300">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="#hero" class="text-2xl font-bold tracking-tight" style="font-family: 'Merriweather', serif;">
+        AG Wintergarten
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-8 text-[13px] font-semibold uppercase tracking-widest">
+        <a href="#hero" class="hover:text-[#c5a059] transition-colors">Startseite</a>
+        <a href="#leistungen" class="hover:text-[#c5a059] transition-colors">Reparatur</a>
+        <a href="#symptome" class="hover:text-[#c5a059] transition-colors">Undichtes Dach</a>
+        <a href="#abdichtung" class="hover:text-[#c5a059] transition-colors">Abdichtung</a>
+        <a href="#kontakt" class="bg-[#c5a059] text-[#0f172a] px-4 py-2 hover:bg-[#b08d4b] transition-colors">Kontakt</a>
+      </nav>
+
+      <!-- Mobile Toggle -->
+      <button id="mobile-menu-btn" class="md:hidden flex items-center justify-center w-10 h-10" aria-label="Menü öffnen">
+        <i data-lucide="menu" id="icon-menu" class="w-7 h-7"></i>
+        <i data-lucide="x" id="icon-close" class="w-7 h-7 hidden"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-[#13202f] border-t border-gray-800">
+      <nav class="flex flex-col p-4 space-y-3 text-sm font-medium uppercase tracking-wide">
+        <a href="#hero" class="block py-2 border-b border-gray-800 hover:text-[#c5a059]">Startseite</a>
+        <a href="#leistungen" class="block py-2 border-b border-gray-800 hover:text-[#c5a059]">Reparatur</a>
+        <a href="#symptome" class="block py-2 border-b border-gray-800 hover:text-[#c5a059]">Undichtes Dach</a>
+        <a href="#abdichtung" class="block py-2 border-b border-gray-800 hover:text-[#c5a059]">Abdichtung</a>
+        <a href="#kontakt" class="block py-2 text-[#c5a059]">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 3. Hero Section -->
+  <section id="hero" class="relative min-h-[520px] md:min-h-[600px] flex items-center">
+    <img 
+      src="http://static.photos/outdoor/1200x630/42" 
+      alt="Wintergarten und Terrassenüberdachung im Außenbereich" 
+      class="absolute inset-0 w-full h-full object-cover"
+    >
+    <div class="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-transparent"></div>
+    
+    <div class="container relative z-10 mx-auto px-4 py-12">
+      <div class="bg-white/95 md:bg-white p-8 md:p-10 lg:p-14 max-w-2xl shadow-2xl border-l-[6px] border-[#c5a059]">
+        <h1 class="text-3xl md:text-4xl lg:text-[2.75rem] leading-tight text-[#0f172a]" style="font-family: 'Merriweather', serif;">
+          Wintergarten Reparatur in Berlin und Brandenburg
+        </h1>
+        <p class="mt-5 text-gray-600 text-base md:text-lg leading-relaxed">
+          Abdichtung, Leckageprüfung und Sanierung bestehender Wintergärten, Glasdächer und Terrassenüberdachungen.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="#kontakt" class="btn-primary">Anfrage stellen</a>
+          <a href="#symptome" class="btn-secondary">Undichtigkeit prüfen</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Service Overview -->
+  <section id="leistungen" class="py-16 md:py-20 border-t border-gray-200 bg-[#f8f9fa]">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mb-12">
+        <h2 class="text-2xl md:text-3xl text-[#0f172a]" style="font-family: 'Merriweather', serif;">Unsere Einsatzschwerpunkte</h2>
+        <p class="mt-3 text-gray-600">Praxisnah, ortskundig und auf Bestandsgebäude spezialisiert – für private Hauseigentümer in der Region.</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Box 1 -->
+        <div class="bg-white p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 flex items-center justify-center bg-[#f3f4f6] mb-4 text-[#375e7d]">
+            <i data-lucide="droplets" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-[#0f172a] mb-2" style="font-family: 'Merriweather', serif;">Wintergarten undicht</h3>
+          <p class="text-sm text-gray-600 leading-relaxed mb-4">
+            Leckagen an Wintergärten, Glasdächern und Stegplatten lassen sich mit gezielter Reparatur und professioneller Abdichtung dauerhaft beheben.
+          </p>
+          <a href="#symptome" class="inline-flex items-center text-[#375e7d] font-bold uppercase text-xs tracking-wide hover:underline">
+            Symptome prüfen
+          </a>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="bg-white p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 flex items-center justify-center bg-[#f3f4f6] mb-4 text-[#375e7d]">
+            <i data-lucide="wrench" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-[#0f172a] mb-2" style="font-family: 'Merriweather', serif;">Wintergarten Reparatur</h3>
+          <p class="text-sm text-gray-600 leading-relaxed mb-4">
+            Reparatur von beschädigten Profilen, Dachanschlüssen, Stegplatten und Verglasungen bestehender Konstruktionen.
+          </p>
+          <a href="#ablauf" class="inline-flex items-center text-[#375e7d] font-bold uppercase text-xs tracking-wide hover:underline">
+            Ablauf ansehen
+          </a>
+        </div>
+
+        <!-- Box 3 -->
+        <div class="bg-white p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 flex items-center justify-center bg-[#f3f4f6] mb-4 text-[#375e7d]">
+            <i data-lucide="shield" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-[#0f172a] mb-2" style="font-family: 'Merriweather', serif;">Dachanschluss und Abdichtung</h3>
+          <p class="text-sm text-gray-600 leading-relaxed mb-4">
+            Fachgerechte Abdichtung von Dachanschlüssen, Wandübergängen und kritischen Übergangsstellen am bestehenden Aufbau.
+          </p>
+          <a href="#abdichtung" class="inline-flex items-center text-[#375e7d] font-bold uppercase text-xs tracking-wide hover:underline">
+            Details lesen
+          </a>
+        </div>
+
+        <!-- Box 4 -->
+        <div class="bg-white p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 flex items-center justify-center bg-[#f3f4f6] mb-4 text-[#375e7d]">
+            <i data-lucide="layout-grid" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-[#0f172a] mb-2" style="font-family: 'Merriweather', serif;">Dichtungen, Profile und Verglasung</h3>
+          <p class="text-sm text-gray-600 leading-relaxed mb-4">
+            Erneuerung poröser Dichtungen, Austausch beschädigter Profile und Reparatur von Glas- und Stegplattenteilen.
+          </p>
+          <a href="#kontakt" class="inline-flex items-center text-[#375e7d] font-bold uppercase text-xs tracking-wide hover:underline">
+            Kontakt aufnehmen
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Problem / Diagnosis Section -->
+  <section id="symptome" class="py-16 md:py-20 border-t border-gray-200 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mb-10">
+        <h2 class="text-2xl md:text-3xl text-[#0f172a]" style="font-family: 'Merriweather', serif;">Typische Schadensbilder</h2>
+        <p class="mt-3 text-gray-600">Beobachten Sie diese Anzeichen an Ihrem Wintergarten, Glasdach oder Ihrer Terrassenüberdachung?</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="flex items-start gap-3 p-4 bg-[#f8f9fa] border border-gray-200">
+          <i data-lucide="check-square" class="w-5 h-5 text-[#375e7d] mt-0.5 shrink-0"></i>
+          <span class="text-[#1f2937] text-sm font-medium">Wasser tritt nach Regen schlagartig oder tropfend ein</span>
+        </div>
+        <div class="flex items-start gap-3 p-4 bg-[#f8f9fa] border border-gray-200">
+          <i data-lucide="check-square" class="w-5 h-5 text-[#375e7d] mt-0.5 shrink-0"></i>
+          <span class="text-[#1f2937] text-sm font-medium">Silikon- und Gummidichtungen sind porös, brüchig oder lose</span>
+        </div>
+        <div class="flex items-start gap-3 p-4 bg-[#f8f9fa] border border-gray-200">
+          <i data-lucide="check-square" class="w-5 h-5 text-[#375e7d] mt-0.5 shrink-0"></i>
+          <span class="text-[#1f2937] text-sm font-medium">Der Dachanschluss zur Hauswand wirkt undicht oder verzogen</span>
+        </div>
+        <div class="flex items-start gap-3 p-4 bg-[#f8f9fa] border border-gray-200">
+          <i data-lucide="check-square" class="w-5 h-5 text-[#375e7d] mt-0.5 shrink-0"></i>
+          <span class="text-[#1f2937] text-sm font-medium">Regenrinne oder Entwässerung läuft über oder ist verstopft</span>
+        </div>
+        <div class="flex items-start gap-3 p-4 bg-[#f8f9fa] border border-gray-200">
+          <i data-lucide="check-square" class="w-5 h-5 text-[#375e7d] mt-0.5 shrink-0"></i>
+          <span class="text-[#1f2937] text-sm font-medium">Glas, Stegplatten oder Profile sind sichtbar beschädigt</span>
+        </div>
+        <div class="flex items-start gap-3 p-4 bg-[#f8f9fa] border border-gray-200">
+          <i data-lucide="check-square" class="w-5 h-5 text-[#375e7d] mt-0.5 shrink-0"></i>
+          <span class="text-[#1f2937] text-sm font-medium">Kondenswasser oder Feuchtigkeit sammelt sich in der Konstruktion</span>
+        </div>
+      </div>
+
+      <div class="mt-10">
+        <a href="#kontakt" class="btn-primary inline-flex items-center gap-2">
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          Jetzt unverbindlich anfragen
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Image and Text Section -->
+  <section id="abdichtung" class="py-16 md:py-20 border-t border-gray-200 bg-[#f8f9fa]">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+        <div class="border-[6px] border-white shadow-lg bg-white">
+          <img 
+            src="http://static.photos/construction/1024x576/33" 
+            alt="Dachanschluss und Konstruktionsdetail Nahaufnahme" 
+            class="w-full h-auto block"
+          >
+        </div>
+        <div>
+          <h2 class="text-2xl md:text-3xl text-[#0f172a] leading-snug" style="font-family: 'Merriweather', serif;">
+            Der sichtbare Wassereintritt ist nicht immer die wahre Ursache
+          </h2>
+          <div class="w-12 h-1 bg-[#c5a059] mt-4 mb-6"></div>
+          <p class="text-gray-600 leading-relaxed mb-4">
+            Wasser findet seinen eigenen Weg. Was an einer Stelle austritt, kann mehrere Meter vom eigentlichen Schaden entfernt sein. Bei der Prüfung betrachten wir daher das Gesamtbild:
+          </p>
+          <ul class="space-y-3 text-sm text-gray-700">
+            <li class="flex items-start gap-2">
+              <i data-lucide="chevron-right" class="w-4 h-4 text-[#c5a059] mt-0.5 shrink-0"></i>
+              <span>Dachaufbau und Eindeckung</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="chevron-right" class="w-4 h-4 text-[#c5a059] mt-0.5 shrink-0"></i>
+              <span>Wandanschluss und Flächenabdichtung</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="chevron-right" class="w-4 h-4 text-[#c5a059] mt-0.5 shrink-0"></i>
+              <span>Glas, Stegplatten und eingebaute Profile</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="chevron-right" class="w-4 h-4 text-[#c5a059] mt-0.5 shrink-0"></i>
+              <span>Dichtungen, Fugen und Übergänge</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="chevron-right" class="w-4 h-4 text-[#c5a059] mt-0.5 shrink-0"></i>
+              <span>Ableitung und Entwässerung</span>
+            </li>
+          </ul>
+          <p class="mt-6 text-gray-600 text-sm leading-relaxed">
+            Nur so lässt sich gezielt abdichten, statt nur Symptome zu beseitigen. Wir prüfen vor Ort und planen die Sanierung schrittweise.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Process Section -->
+  <section id="ablauf" class="py-16 md:py-20 border-t border-gray-700 bg-[#1e293b] text-white">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mb-12">
+        <h2 class="text-2xl md:text-3xl text-white" style="font-family: 'Merriweather', serif;">So läuft die Einsatzplanung</h2>
+        <p class="mt-3 text-gray-400">Von der ersten Kontaktaufnahme bis zur geplanten Sanierung – übersichtlich und pragmatisch.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border border-gray-700">
+        <!-- Step 1 -->
+        <div class="p-6 md:p-8 border-b md:border-b lg:border-b-0 lg:border-r border-gray-700 relative">
+          <div class="absolute top-0 left-6 -translate-y-1/2 w-10 h-10 bg-[#c5a059] text-[#0f172a] flex items-center justify-center font-bold text-lg border-2 border-[#1e293b]" style="font-family: 'Merriweather', serif;">
+            1
+          </div>
+          <h3 class="text-lg font-bold text-white mt-4 mb-2" style="font-family: 'Merriweather', serif;">Schaden beschreiben</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            Sie beschreiben das Problem und die Lage kurz schriftlich oder telefonisch.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="p-6 md:p-8 border-b md:border-b lg:border-b-0 lg:border-r border-gray-700 relative">
+          <div class="absolute top-0 left-6 -translate-y-1/2 w-10 h-10 bg-[#c5a059] text-[#0f172a] flex items-center justify-center font-bold text-lg border-2 border-[#1e293b]" style="font-family: 'Merriweather', serif;">
+            2
+          </div>
+          <h3 class="text-lg font-bold text-white mt-4 mb-2" style="font-family: 'Merriweather', serif;">Fotos und Standort senden</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            Sichere Fotos vom Schaden und die Adresse helfen bei der ersten Einschätzung.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="p-6 md:p-8 border-b md:border-b-0 md:border-r lg:border-b-0 lg:border-r border-gray-700 relative">
+          <div class="absolute top-0 left-6 -translate-y-1/2 w-10 h-10 bg-[#c5a059] text-[#0f172a] flex items-center justify-center font-bold text-lg border-2 border-[#1e293b]" style="font-family: 'Merriweather', serif;">
+            3
+          </div>
+          <h3 class="text-lg font-bold text-white mt-4 mb-2" style="font-family: 'Merriweather', serif;">Prüfung abstimmen</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            Wir vereinbaren einen Termin vor Ort, um Dach, Anschlüsse, Profile und Entwässerung zu untersuchen.
+          </p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="p-6 md:p-8 relative">
+          <div class="absolute top-0 left-6 -translate-y-1/2 w-10 h-10 bg-[#c5a059] text-[#0f172a] flex items-center justify-center font-bold text-lg border-2 border-[#1e293b]" style="font-family: 'Merriweather', serif;">
+            4
+          </div>
+          <h3 class="text-lg font-bold text-white mt-4 mb-2" style="font-family: 'Merriweather', serif;">Reparatur oder Abdichtung planen</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            Sie erhalten eine übersichtliche Empfehlung für die fachgerechte Sanierung vor Ort.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Service Area Section -->
+  <section id="gebiet" class="py-16 md:py-20 border-t border-gray-200 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <div class="inline-flex items-center justify-center w-14 h-14 bg-[#f3f4f6] mb-6">
+        <i data-lucide="map-pin" class="w-7 h-7 text-[#c5a059]"></i>
+      </div>
+      <h2 class="text-2xl md:text-3xl text-[#0f172a]" style="font-family: 'Merriweather', serif;">Berlin, Brandenburg und Umgebung</h2>
+      <div class="w-12 h-1 bg-[#c5a059] mx-auto mt-4 mb-6"></div>
+      <p class="max-w-2xl mx-auto text-gray-600 leading-relaxed">
+        Wir prüfen und sanieren bestehende Wintergärten, Terrassenüberdachungen und Glasdächer im Großraum Berlin und in ganz Brandenburg. Anfragen eignen sich für private Hauseigentümer mit bestehenden Konstruktionen, die abdichten oder reparieren möchten.
+      </p>
+    </div>
+  </section>
+
+  <!-- 9. FAQ Section -->
+  <section id="faq" class="py-16 md:py-20 border-t border-gray-200 bg-[#f8f9fa]">
+    <div class="container mx-auto px-4 max-w-3xl">
+      <h2 class="text-2xl md:text-3xl text-[#0f172a] text-center mb-10" style="font-family: 'Merriweather', serif;">Häufig gestellte Fragen zur Wintergarten-Reparatur</h2>
+      
+      <div class="space-y-3">
+        <!-- FAQ Item 1 -->
+        <details class="bg-white border border-gray-200 group">
+          <summary class="p-4 md:p-5 cursor-pointer list-none flex justify-between items-center font-semibold text-[#0f172a] text-sm md:text-base select-none">
+            <span>Was sollte ich tun, wenn mein Wintergarten undicht ist?</span>
+            <div class="relative w-5 h-5 shrink-0 ml-4">
+              <i data-lucide="plus" class="w-5 h-5 text-[#375e7d] faq-icon-closed"></i>
+              <i data-lucide="minus" class="w-5 h-5 text-[#375e7d] faq-icon-open"></i>
+            </div>
+          </summary>
+          <div class="px-4 md:px-5 pb-5 pt-0 text-gray-600 text-sm leading-relaxed border-t border-gray-100">
+            <p class="pt-4">Notieren Sie zunächst, wann und wo Wasser eintritt – direkt nach Regen, bei Schneeschmelze oder dauerhaft? Prüfen Sie von sicherer Position aus sichtbare Stellen wie Dachanschlüsse, Rinnen und Dichtungen. Klare Beobachtungen und Fotos aus sicherer Entfernung helfen uns bei der ersten Einschätzung.</p>
+          </div>
+        </details>
+
+        <!-- FAQ Item 2 -->
+        <details class="bg-white border border-gray-200 group">
+          <summary class="p-4 md:p-5 cursor-pointer list-none flex justify-between items-center font-semibold text-[#0f172a] text-sm md:text-base select-none">
+            <span>Kann ich eine Leckage selbst abdichten?</span>
+            <div class="relative w-5 h-5 shrink-0 ml-4">
+              <i data-lucide="plus" class="w-5 h-5 text-[#375e7d] faq-icon-closed"></i>
+              <i data-lucide="minus" class="w-5 h-5 text-[#375e7d] faq-icon-open"></i>
+            </div>
+          </summary>
+          <div class="px-4 md:px-5 pb-5 pt-0 text-gray-600 text-sm leading-relaxed border-t border-gray-100">
+            <p class="pt-4">Kleinere Rissbildungen am Silikon können vorübergehend punktuell verbessert werden. Für die dauerhafte Abdichtung von Dachanschlüssen, Profilen und der Entwässerung ist jedoch eine fachliche Prüfung vor Ort sinnvoll, um Folgeschäden zu vermeiden.</p>
+          </div>
+        </details>
+
+        <!-- FAQ Item 3 -->
+        <details class="bg-white border border-gray-200 group">
+          <summary class="p-4 md:p-5 cursor-pointer list-none flex justify-between items-center font-semibold text-[#0f172a] text-sm md:text-base select-none">
+            <span>Welche Fotos soll ich vorbereiten?</span>
+            <div class="relative w-5 h-5 shrink-0 ml-4">
+              <i data-lucide="plus" class="w-5 h-5 text-[#375e7d] faq-icon-closed"></i>
+              <i data-lucide="minus" class="w-5 h-5 text-[#375e7d] faq-icon-open"></i>
+            </div>
+          </summary>
+          <div class="px-4 md:px-5 pb-5 pt-0 text-gray-600 text-sm leading-relaxed border-t border-gray-100">
+            <p class="pt-4">Hilfreich sind übersichtliche Bilder vom Dachanschluss, den Stegplatten oder Gläsern von innen und außen, der Entwässerung sowie der Stelle, an der Wasser austritt. Bitte nur fotografieren, wenn der Zugang sicher ist.</p>
+          </div>
+        </details>
+
+        <!-- FAQ Item 4 -->
+        <details class="bg-white border border-gray-200 group">
+          <summary class="p-4 md:p-5 cursor-pointer list-none flex justify-between items-center font-semibold text-[#0f172a] text-sm md:text-base select-none">
+            <span>Wie lange dauert eine Reparatur vor Ort?</span>
+            <div class="relative w-5 h-5 shrink-0 ml-4">
+              <i data-lucide="plus" class="w-5 h-5 text-[#375e7d] faq-icon-closed"></i>
+              <i data-lucide="minus" class="w-5 h-5 text-[#375e7d] faq-icon-open"></i>
+            </div>
+          </summary>
+          <div class="px-4 md:px-5 pb-5 pt-0 text-gray-600 text-sm leading-relaxed border-t border-gray-100">
+            <p class="pt-4">Das hängt vom Befund ab. Nach der Prüfung besprechen wir das weitere Vorgehen und planen die Sanierung gezielt. Pauschale Zeitaussagen wären an dieser Stelle nicht seriös.</p>
+          </div>
+        </details>
+
+        <!-- FAQ Item 5 -->
+        <details class="bg-white border border-gray-200 group">
+          <summary class="p-4 md:p-5 cursor-pointer list-none flex justify-between items-center font-semibold text-[#0f172a] text-sm md:text-base select-none">
+            <span>Für welche Bauarten ist die Prüfung geeignet?</span>
+            <div class="relative w-5 h-5 shrink-0 ml-4">
+              <i data-lucide="plus" class="w-5 h-5 text-[#375e7d] faq-icon-closed"></i>
+              <i data-lucide="minus" class="w-5 h-5 text-[#375e7d] faq-icon-open"></i>
+            </div>
+          </summary>
+          <div class="px-4 md:px-5 pb-5 pt-0 text-gray-600 text-sm leading-relaxed border-t border-gray-100">
+            <p class="pt-4">Für bestehende Wintergärten, Terrassen- und Balkonüberdachungen, freistehende Glasdächer sowie Kalt- und Heizwintergärten mit Stegplatten oder Verglasung.</p>
+          </div>
+        </details>
+
+        <!-- FAQ Item 6 -->
+        <details class="bg-white border border-gray-200 group">
+          <summary class="p-4 md:p-5 cursor-pointer list-none flex justify-between items-center font-semibold text-[#0f172a] text-sm md:text-base select-none">
+            <span>In welchem Gebiet sind Sie unterwegs?</span>
+            <div class="relative w-5 h-5 shrink-0 ml-4">
+              <i data-lucide="plus" class="w-5 h-5 text-[#375e7d] faq-icon-closed"></i>
+              <i data-lucide="minus" class="w-5 h-5 text-[#375e7d] faq-icon-open"></i>
+            </div>
+          </summary>
+          <div class="px-4 md:px-5 pb-5 pt-0 text-gray-600 text-sm leading-relaxed border-t border-gray-100">
+            <p class="pt-4">Wir führen Prüfungen und Reparaturen in Berlin, Potsdam und dem gesamten Land Brandenburg durch. Anfragen aus dem Umland sind ebenfalls willkommen.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. Final Contact Section -->
+  <section id="kontakt" class="py-16 md:py-20 border-t border-gray-200 bg-white">
+    <div class="container mx-auto px-4 max-w-3xl">
+      <div class="bg-[#f3f4f6] border-t-[5px] border-[#c5a059] p-6 md:p-10 lg:p-12 shadow-xl">
+        <h2 class="text-2xl md:text-3xl text-[#0f172a]" style="font-family: 'Merriweather', serif;">
+          Wintergarten undicht oder beschädigt?
+        </h2>
+        <p class="mt-3 text-gray-600 leading-relaxed">
+          Beschreiben Sie kurz das Problem, nennen Sie den Standort und bereiten Sie sichere Fotos vor. Wir melden uns zeitnah zurück.
+        </p>
+
+        <form class="mt-8 space-y-5" onsubmit="return false;">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div>
+              <label for="name" class="block text-sm font-bold text-[#0f172a] mb-1">Name</label>
+              <input type="text" id="name" name="name" class="w-full p-3 border border-gray-300 bg-white text-[#0f172a]" placeholder="Ihr Name" required>
+            </div>
+            <div>
+              <label for="kontakt" class="block text-sm font-bold text-[#0f172a] mb-1">Telefon oder E-Mail</label>
+              <input type="text" id="kontakt" name="kontakt" class="w-full p-3 border border-gray-300 bg-white text-[#0f172a]" placeholder="Ihre Telefonnummer oder E-Mail" required>
+            </div>
+          </div>
+
+          <div>
+            <label for="standort" class="block text-sm font-bold text-[#0f172a] mb-1">Standort</label>
+            <input type="text" id="standort" name="standort" class="w-full p-3 border border-gray-300 bg-white text-[#0f172a]" placeholder="Stadtteil oder Ort" required>
+          </div>
+
+          <div>
+            <label for="problem" class="block text-sm font-bold text-[#0f172a] mb-1">Problembeschreibung</label>
+            <textarea id="problem" name="problem" rows="4" class="w-full p-3 border border-gray-300 bg-white text-[#0f172a]" placeholder="Wann tritt Wasser ein? Wo sind die sichtbaren Stellen?"></textarea>
+          </div>
+
+          <div>
+            <label for="praferenz" class="block text-sm font-bold text-[#0f172a] mb-1">Bevorzugte Kontaktaufnahme</label>
+            <select id="praferenz" name="praferenz" class="w-full p-3 border border-gray-300 bg-white text-[#0f172a]">
+              <option>Telefon</option>
+              <option>E-Mail</option>
+              <option>Telefon oder E-Mail</option>
+            </select>
+          </div>
+
+          <div class="pt-2">
+            <button type="button" id="form-submit-btn" class="w-full md:w-auto btn-primary flex items-center justify-center gap-2">
+              <i data-lucide="send" class="w-4 h-4"></i>
+              Anfrage vorbereiten
+            </button>
+            <p class="text-xs text-gray-500 mt-3">Dies ist eine Kontaktanfrage. Die Übermittlung erfolgt unverschlüsselt als Demo.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. Footer -->
+  <footer class="bg-[#0f172a] text-white border-t border-gray-800">
+    <div class="container mx-auto px-4 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <!-- Brand -->
+        <div>
+          <h3 class="text-xl font-bold mb-4" style="font-family: 'Merriweather', serif;">AG Wintergarten</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            Reparatur und Abdichtung bestehender Wintergärten, Glasdächer und Terrassenüberdachungen in Berlin und Brandenburg.
+          </p>
+        </div>
+
+        <!-- Leistungen -->
+        <div>
+          <h4 class="font-bold uppercase text-xs tracking-widest text-[#c5a059] mb-4">Leistungen</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><a href="#leistungen" class="hover:text-white transition-colors">Wintergarten Reparatur</a></li>
+            <li><a href="#symptome" class="hover:text-white transition-colors">Leckage Lokalisierung</a></li>
+            <li><a href="#abdichtung" class="hover:text-white transition-colors">Dachanschluss & Abdichtung</a></li>
+            <li><a href="#leistungen" class="hover:text-white transition-colors">Profile & Dichtungen</a></li>
+          </ul>
+        </div>
+
+        <!-- Kontakt -->
+        <div>
+          <h4 class="font-bold uppercase text-xs tracking-widest text-[#c5a059] mb-4">Kontakt</h4>
+          <ul class="space-y-3 text-sm text-gray-400">
+            <li class="flex items-center gap-2">
+              <i data-lucide="phone" class="w-4 h-4 text-gray-500"></i>
+              030 / 123 456 78
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="mail" class="w-4 h-4 text-gray-500"></i>
+              info@ag-wintergarten.de
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="map-pin" class="w-4 h-4 text-gray-500 mt-0.5"></i>
+              <span>Einsatzgebiet Berlin / Brandenburg</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Rechtliches -->
+        <div>
+          <h4 class="font-bold uppercase text-xs tracking-widest text-[#c5a059] mb-4">Rechtliches</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><a href="#" class="hover:text-white transition-colors">Impressum</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Datenschutz</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-800 mt-10 pt-6 text-center text-xs text-gray-500">
+        © <span id="year"></span> AG Wintergarten. Alle Rechte vorbehalten.
+      </div>
+    </div>
+  </footer>
+
+<script src="https://deepsite.hf.co/deepsite-badge.js"></script>
+</body>
+</html>
