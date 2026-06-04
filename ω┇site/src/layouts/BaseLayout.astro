@@ -2272,10 +2272,13 @@ const routingPages = isHome ? getRoutingPages(pages, page.data.url) : [];
       }
 
       .brand__mark {
+        box-sizing: border-box;
         width: 44px;
         height: 44px;
         border: 1px solid rgba(255, 255, 255, 0.18);
         background: var(--accent-deep);
+        object-fit: contain;
+        padding: 2px;
       }
 
       .brand__text {
@@ -2292,9 +2295,13 @@ const routingPages = isHome ? getRoutingPages(pages, page.data.url) : [];
       }
 
       .site-footer__brand img {
+        box-sizing: border-box;
         width: 42px;
         height: 42px;
         border: 1px solid rgba(255, 255, 255, 0.18);
+        background: var(--accent-deep);
+        object-fit: contain;
+        padding: 2px;
       }
 
       .site-footer__brand h2 {

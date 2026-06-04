@@ -160,6 +160,14 @@ function pageKind(tree: HastNode) {
     return 'leak';
   }
 
+  if (heading.includes('wintergarten-dichtungen-erneuern')) {
+    return 'seals';
+  }
+
+  if (heading.includes('wintergarten-abdichten')) {
+    return 'sealing';
+  }
+
   if (heading === 'wintergarten-reparatur-berlin') {
     return 'repair';
   }
@@ -256,6 +264,109 @@ const approvedSections: Record<string, Record<string, SectionDefinition>> = {
       layout: 'compact-explainer',
     },
     'ablauf-der-reparaturanfrage': {
+      type: 'process-steps',
+      variant: 'dark-band',
+      layout: 'process',
+    },
+    'einsatzbereich-berlin-und-brandenburg': {
+      type: 'service-area',
+      variant: 'compact',
+      layout: 'compact-explainer',
+    },
+    'haufige-fragen': {
+      type: 'faq',
+      variant: 'static-rows',
+      layout: 'faq',
+    },
+    'anfrage-stellen': {
+      type: 'enquiry-form-block',
+      variant: 'request',
+      layout: 'request',
+      actionLabel: 'Zum Kontaktbereich',
+    },
+  },
+  seals: {
+    'direkt-dichtungsanfrage-stellen': {
+      type: 'early-contact',
+      variant: 'quick-check',
+      layout: 'compact-explainer',
+      actionLabel: 'Dichtungen anfragen',
+    },
+    'wann-dichtungen-erneuern-sinnvoll-ist': {
+      type: 'fit-check',
+      variant: 'diagnostic-cards',
+      layout: 'diagnostic-grid',
+    },
+    'dichtungen-profile-und-glasrander-prufen': {
+      type: 'service-scope',
+      variant: 'media-left',
+      layout: 'checkerboard-media-left',
+    },
+    'zugluft-wasser-am-rand-und-bewegliche-elemente': {
+      type: 'diagnostic-card-grid',
+      variant: 'standard',
+      layout: 'diagnostic-grid',
+    },
+    'was-vor-dem-austausch-geklart-wird': {
+      type: 'compact-explainer',
+      variant: 'inspection-boundary',
+      layout: 'compact-explainer',
+    },
+    'ablauf-der-dichtungsanfrage': {
+      type: 'process-steps',
+      variant: 'dark-band',
+      layout: 'process',
+    },
+    'einsatzbereich-berlin-und-brandenburg': {
+      type: 'service-area',
+      variant: 'compact',
+      layout: 'compact-explainer',
+    },
+    'haufige-fragen': {
+      type: 'faq',
+      variant: 'static-rows',
+      layout: 'faq',
+    },
+    'anfrage-stellen': {
+      type: 'enquiry-form-block',
+      variant: 'request',
+      layout: 'request',
+      actionLabel: 'Zum Kontaktbereich',
+    },
+  },
+  sealing: {
+    'direkt-abdichtungsanfrage-stellen': {
+      type: 'early-contact',
+      variant: 'quick-check',
+      layout: 'compact-explainer',
+      actionLabel: 'Abdichtung anfragen',
+    },
+    'wann-abdichten-die-richtige-leistung-ist': {
+      type: 'fit-check',
+      variant: 'diagnostic-cards',
+      layout: 'diagnostic-grid',
+    },
+    'abdichtung-an-dach-anschluss-und-profilen': {
+      type: 'service-scope',
+      variant: 'media-left',
+      layout: 'checkerboard-media-left',
+    },
+    'abgrenzung-zur-leckageprufung': {
+      type: 'compact-explainer',
+      variant: 'clarification',
+      layout: 'compact-explainer',
+    },
+    'typische-abdichtungsbereiche': {
+      type: 'diagnostic-card-grid',
+      variant: 'standard',
+      layout: 'diagnostic-grid',
+    },
+    'was-vor-dem-abdichten-gepruft-wird': {
+      type: 'compact-explainer',
+      variant: 'inspection-boundary',
+      layout: 'compact-explainer',
+    },
+    'ablauf-der-abdichtungsanfrage': {
       type: 'process-steps',
       variant: 'dark-band',
       layout: 'process',

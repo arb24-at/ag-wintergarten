@@ -2,22 +2,36 @@ import type { CollectionEntry } from 'astro:content';
 
 export type SitePage = CollectionEntry<'sitePages'>;
 
-const pageOrder = ['/', '/wintergarten-reparatur-berlin/', '/wintergarten-undicht/'];
+const pageOrder = [
+  '/',
+  '/wintergarten-reparatur-berlin/',
+  '/wintergarten-dichtungen-erneuern/',
+  '/wintergarten-abdichten/',
+  '/wintergarten-undicht/',
+];
 
 const pageLabels: Record<string, string> = {
   '/': 'Startseite',
   '/wintergarten-reparatur-berlin/': 'Reparatur',
+  '/wintergarten-dichtungen-erneuern/': 'Dichtungen',
+  '/wintergarten-abdichten/': 'Abdichten',
   '/wintergarten-undicht/': 'Undicht',
 };
 
 const cardTitles: Record<string, string> = {
   '/wintergarten-reparatur-berlin/': 'Reparatur, Bauteile und Sanierung',
+  '/wintergarten-dichtungen-erneuern/': 'Dichtungen und Dichtprofile erneuern',
+  '/wintergarten-abdichten/': 'Abdichtung an Anschluss und Profilen',
   '/wintergarten-undicht/': 'Wassereintritt und undichtes Dach',
 };
 
 const cardSummaries: Record<string, string> = {
   '/wintergarten-reparatur-berlin/':
     'Für bestehende Anlagen mit beschädigten Dichtungen, Verglasung, Stegplatten, Anschlüssen, Entwässerung oder Sanierungsbedarf.',
+  '/wintergarten-dichtungen-erneuern/':
+    'Für spröde, verschobene oder undichte Dichtungen, Zugluft, Wasser am Glasrand und auffällige Dichtprofile.',
+  '/wintergarten-abdichten/':
+    'Für konkrete Abdichtungsarbeiten an Dachanschluss, Wandanschluss, Profilen, Glasrändern und Übergängen.',
   '/wintergarten-undicht/':
     'Für Wasser nach Regen, tropfende Dachbereiche, unklare Eintrittsstellen, Abdichtung und Ursachenprüfung.',
 };
