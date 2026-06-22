@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "wintergarten sanieren",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Transactional",
+    "cluster": "Repair & renovation",
+    "suggested_page": "/wintergarten-sanierung/",
+    "page_type": "Service page",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wintergarten renovieren",
+    "avg_monthly_searches": 500,
+    "competition": "High",
+    "intent": "Transactional",
+    "cluster": "Repair & renovation",
+    "suggested_page": "/wintergarten-sanierung/",
+    "page_type": "Service page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten reparatur",
+    "avg_monthly_searches": 500,
+    "competition": "Medium",
+    "intent": "Transactional",
+    "cluster": "Repair & water damage",
+    "suggested_page": "/wintergarten-reparatur-berlin/",
+    "page_type": "Service page",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wintergarten reparatur berlin",
+    "avg_monthly_searches": 50,
+    "competition": "Medium",
+    "intent": "Local transactional",
+    "cluster": "Repair & water damage",
+    "suggested_page": "/wintergarten-reparatur-berlin/",
+    "page_type": "Local service page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten undicht",
+    "avg_monthly_searches": 500,
+    "competition": "Medium",
+    "intent": "Problem solving",
+    "cluster": "Leak & water damage",
+    "suggested_page": "/wintergarten-undicht/",
+    "page_type": "Problem/service page",
+    "primary_keyword": true
+  },
+  {
+    "keyword": "wintergarten dach undicht",
+    "avg_monthly_searches": 500,
+    "competition": "Medium",
+    "intent": "Problem solving",
+    "cluster": "Leak & water damage",
+    "suggested_page": "/wintergarten-undicht/",
+    "page_type": "Problem/service page",
+    "primary_keyword": false
+  },
+  {
+    "keyword": "wintergarten abdichten",
+    "avg_monthly_searches": 500,
+    "competition": "Medium",
+    "intent": "Problem solving",
+    "cluster": "Leak & water damage",
+    "suggested_page": "/wintergarten-undicht/",
+    "page_type": "Problem/service page",
+    "primary_keyword": false
+  }
+]
